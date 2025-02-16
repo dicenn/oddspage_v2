@@ -6,6 +6,7 @@ import { OddsTableRow } from './OddsTableRow';
 
 const OddsTable = () => {
   const { bets, loading, error } = useOddsData();
+  const priceUpdates = useOddsStream(bets);
 
   if (loading) return <LoadingSpinner />;
   if (error) return <ErrorDisplay message={error} />;

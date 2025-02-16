@@ -1,7 +1,7 @@
 import { ALL_SPORTSBOOKS } from '../constants/sportsbooks';
 import { formatPrice } from '../utils/formatting';
 
-export const OddsTableRow = ({ bet }) => (
+export const OddsTableRow = ({ bet, priceUpdates }) => (
   <tr className="hover:bg-gray-50 transition-colors">
     <td className="py-2 px-4 text-sm">
       {bet.Home_Team} vs {bet.Away_Team}
@@ -24,7 +24,20 @@ export const OddsTableRow = ({ bet }) => (
     </td>
     {ALL_SPORTSBOOKS.map(book => (
       <td key={book} className="py-2 px-4 text-center font-mono text-sm">
-        {formatPrice(bet.currentPrices[book])}
+        <div>{formatPrice(bet.currentPrices[book])}</div>
+        {priceUpdates[book] && (
+          <div 
+            className={`mt-1 p-1 rounded ${
+              priceUpdates[book] > (bet.currentPrices[book] || 0)
+                ? 'bg-green-100 text-green-800' 
+                : priceUpdates[book] < (bet.currentPrices[book] || 0)
+                  ? 'bg-red-100 text-red-800'
+                  : 'bg-gray-100 text-gray-800'
+            }`}
+          >
+            {formatPrice(priceUpdates[book])}
+          </div>
+        )}
       </td>
     ))}
     <td className="py-2 px-4 text-right font-mono text-sm">

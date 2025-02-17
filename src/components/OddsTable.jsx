@@ -1,145 +1,29 @@
-import React, { useState } from 'react';
-import {
-  useReactTable,
-  getCoreRowModel,
-  getSortedRowModel,
-  getFilteredRowModel,
-  flexRender
-} from '@tanstack/react-table';
-import { Search, ArrowUpDown, Activity } from 'lucide-react';
-import { formatPrice } from '../utils/formatting';
-import { ALL_SPORTSBOOKS } from '../constants/sportsbooks';
-import { Card, CardHeader, CardTitle, CardContent } from "./ui/card";
-import { Input } from "./ui/input";
+// src/components/OddsTable.jsx
+import React, { useMemo } from 'react';
+import { flexRender } from '@tanstack/react-table';
+import { Card, CardContent } from "./ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "./ui/table";
-import { Badge } from "./ui/badge";
+import { TableHeader as CustomTableHeader } from './table/TableHeader';
+import { useTableData } from './table/useTableData';
+import { createColumns } from './table/columns';
 
 const OddsTable = ({ 
   bets = [], 
   priceUpdates = {}, 
   streamStatus = 'disconnected' 
 }) => {
-  const [sorting, setSorting] = useState([]);
-  const [globalFilter, setGlobalFilter] = useState('');
+  const columns = useMemo(() => createColumns(priceUpdates), [priceUpdates]);
+  const {
+    table,
+    filterOptions,
+    selectedDates,
+    selectedMatchups,
+    selectedLeagues,
+    setSelectedDates,
+    setSelectedMatchups,
+    setSelectedLeagues,
+  } = useTableData(bets, columns);
 
-  // Here's where the new columns definition goes - replace the entire columns useMemo with this:
-  const columns = React.useMemo(() => [
-    {
-      header: 'Match Info',
-      accessorFn: row => `${row.Home_Team} vs ${row.Away_Team}`,
-      cell: ({ row }) => {
-        const sport = row.original.Sport?.toLowerCase();
-        const sportEmoji = {
-          soccer: '⚽️',
-          basketball: '🏀',
-          football: '🏈',
-          baseball: '⚾️',
-          hockey: '🏒',
-          tennis: '🎾',
-        }[sport] || '🎮';
-
-        const matchDate = new Date(row.original.Match_Date);
-        const formattedDate = matchDate.toLocaleDateString('en-US', {
-          month: 'short',
-          day: 'numeric',
-          year: 'numeric'
-        });
-
-        const matchup = `${row.original.Home_Team} vs ${row.original.Away_Team}`;
-
-        return (
-          <div className="space-y-1 min-w-[300px]">
-            <div className="flex items-center gap-2 text-sm text-muted-foreground truncate">
-              <span>{sportEmoji}</span>
-              <span>{formattedDate}</span>
-            </div>
-            <div className="font-medium truncate">
-              {matchup}
-            </div>
-            <div className="text-sm text-muted-foreground truncate">
-              {row.original.League}
-            </div>
-          </div>
-        );
-      },
-    },
-    {
-      header: 'Market/Selection',
-      accessorFn: row => `${row.Market} ${row.Selection}`,
-      cell: ({ row }) => (
-        <div className="space-y-1 min-w-[200px]">
-          <div className="text-sm text-muted-foreground truncate">
-            {row.original.Market}
-          </div>
-          <div className="font-medium truncate">
-            {row.original.Selection}
-          </div>
-        </div>
-      ),
-    },
-    {
-      header: 'Grade',
-      accessorKey: 'Grade',
-      cell: ({ getValue }) => (
-        <div className="flex justify-center">
-          <Badge variant="secondary" className="font-medium">
-            {getValue()}
-          </Badge>
-        </div>
-      ),
-    },
-    ...ALL_SPORTSBOOKS.map(book => ({
-      header: book,
-      accessorFn: row => row.currentPrices?.[book],
-      cell: ({ row, getValue }) => {
-        const originalPrice = getValue();
-        const betUpdates = priceUpdates[row.original.game_id] || {};
-        const update = betUpdates[`${row.original.Market}-${row.original.Selection}-${book}`];
-        
-        return (
-          <div className="text-center font-mono">
-            <div className={update ? 'text-muted-foreground' : ''}>
-              {formatPrice(originalPrice)}
-            </div>
-            {update && (
-              <Badge 
-                variant={update > originalPrice ? 'success' : update < originalPrice ? 'destructive' : 'secondary'}
-                className="mt-1 animate-fade-in"
-              >
-                {formatPrice(update)}
-              </Badge>
-            )}
-          </div>
-        );
-      },
-    })),
-    {
-      header: 'Limit',
-      accessorKey: 'Pinn_Limit',
-      cell: ({ getValue }) => (
-        <div className="text-right font-mono text-muted-foreground">
-          {getValue() || '-'}
-        </div>
-      ),
-    },
-  ], [priceUpdates]);
-
-  const table = useReactTable({
-    data: bets,
-    columns,
-    state: {
-      sorting,
-      globalFilter,
-    },
-    onSortingChange: setSorting,
-    onGlobalFilterChange: setGlobalFilter,
-    getSortedRowModel: getSortedRowModel(),
-    getFilteredRowModel: getFilteredRowModel(),
-    getCoreRowModel: getCoreRowModel(),
-  });
-
-  // Rest of the component stays the same...
-  
   if (!bets.length) {
     return (
       <Card className="mx-auto max-w-7xl">
@@ -153,36 +37,16 @@ const OddsTable = ({
   return (
     <div className="p-6 space-y-6 max-w-[95vw] mx-auto">
       <Card>
-        <CardHeader className="pb-4">
-          <div className="flex justify-between items-center">
-            <div className="flex items-center gap-4">
-              <CardTitle className="text-2xl">Live Bets</CardTitle>
-              <Badge 
-                variant={
-                  streamStatus === 'connected' 
-                    ? 'success' 
-                    : streamStatus === 'error'
-                      ? 'destructive'
-                      : 'secondary'
-                }
-                className="flex items-center gap-1"
-              >
-                <Activity className="h-3 w-3" />
-                {streamStatus}
-              </Badge>
-            </div>
-            <div className="relative w-64">
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-              <Input
-                type="text"
-                value={globalFilter}
-                onChange={e => setGlobalFilter(e.target.value)}
-                placeholder="Search bets..."
-                className="pl-9"
-              />
-            </div>
-          </div>
-        </CardHeader>
+        <CustomTableHeader 
+          streamStatus={streamStatus}
+          filterOptions={filterOptions}
+          selectedDates={selectedDates}
+          selectedMatchups={selectedMatchups}
+          selectedLeagues={selectedLeagues}
+          setSelectedDates={setSelectedDates}
+          setSelectedMatchups={setSelectedMatchups}
+          setSelectedLeagues={setSelectedLeagues}
+        />
         <CardContent className="p-0">
           <div className="rounded-md border">
             <Table>

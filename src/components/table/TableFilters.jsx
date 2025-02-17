@@ -1,4 +1,3 @@
-// src/components/table/TableFilters.jsx
 import React from 'react';
 import { MultiSelect } from '../MultiSelect';
 
@@ -12,27 +11,30 @@ export const TableFilters = ({
   setSelectedLeagues 
 }) => {
   return (
-    <div className="flex items-center gap-4">
+    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 w-full">
       <MultiSelect
         options={filterOptions.dates}
         selected={selectedDates}
         onChange={setSelectedDates}
         placeholder="Date Filter"
-        className="w-[200px]"
+        className="w-full sm:w-[200px]"
+        type="dates"
       />
       <MultiSelect
         options={filterOptions.matchups}
         selected={selectedMatchups}
         onChange={setSelectedMatchups}
         placeholder="Matchup Filter"
-        className="w-[200px]"
+        className="w-full sm:w-[200px]"
+        type="matchups"
       />
       <MultiSelect
         options={filterOptions.leagues}
         selected={selectedLeagues}
         onChange={setSelectedLeagues}
         placeholder="League Filter"
-        className="w-[200px]"
+        className="w-full sm:w-[200px]"
+        type="leagues"
       />
     </div>
   );

@@ -1,43 +1,60 @@
+// hooks/useOddsStream.js
 import { useState, useEffect } from 'react';
 import { createOddsStream } from '../services/oddsApi';
 
 export const useOddsStream = (bets) => {
-  const [priceUpdates, setPriceUpdates] = useState({});  // gameId -> { sportsbook -> price }
-  
+  const [streamStatus, setStreamStatus] = useState('disconnected');
+  const [priceUpdates, setPriceUpdates] = useState({}); // gameId -> { market+selection -> price }
+
   useEffect(() => {
     if (!bets.length) return;
 
-    // Get unique leagues from bets
+    // Get unique leagues
     const leagues = [...new Set(bets.map(bet => bet.League))];
+    console.log('Setting up stream for leagues:', leagues);
+
     const stream = createOddsStream(leagues);
 
-    stream.onmessage = (event) => {
-      console.log('Stream update received:', event);
+    stream.onopen = () => {
+      console.log('Stream connected');
+      setStreamStatus('connected');
     };
 
     stream.addEventListener('odds', (event) => {
       const data = JSON.parse(event.data);
-      console.log('Odds update:', data);
+      console.log('Received odds update:', data);
 
-      // Process updates and find matching bets
+      // Create a key that matches our bet structure
       data.data.forEach(update => {
-        setPriceUpdates(prev => ({
-          ...prev,
-          [update.game_id]: {
-            ...(prev[update.game_id] || {}),
-            [update.sportsbook]: update.price
-          }
-        }));
+        // Look for matching bet
+        const matchingBet = bets.find(bet => 
+          bet.game_id === update.fixture_id &&
+          bet.Market === update.market &&
+          bet.Selection === update.name
+        );
+
+        if (matchingBet) {
+          setPriceUpdates(prev => ({
+            ...prev,
+            [matchingBet.game_id]: {
+              ...prev[matchingBet.game_id],
+              [`${update.market}-${update.name}`]: update.price
+            }
+          }));
+        }
       });
     });
 
     stream.onerror = (error) => {
       console.error('Stream error:', error);
-      stream.close();
+      setStreamStatus('error');
     };
 
-    return () => stream.close();
+    return () => {
+      stream.close();
+      setStreamStatus('disconnected');
+    };
   }, [bets]);
 
-  return priceUpdates;
+  return { priceUpdates, streamStatus };
 };

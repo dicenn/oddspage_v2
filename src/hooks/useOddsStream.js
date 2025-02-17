@@ -1,10 +1,9 @@
-// hooks/useOddsStream.js
 import { useState, useEffect } from 'react';
 import { createOddsStream } from '../services/oddsApi';
 
 export const useOddsStream = (bets) => {
   const [streamStatus, setStreamStatus] = useState('disconnected');
-  const [priceUpdates, setPriceUpdates] = useState({}); // gameId -> { market+selection -> price }
+  const [priceUpdates, setPriceUpdates] = useState({});
 
   useEffect(() => {
     if (!bets.length) return;
@@ -24,7 +23,6 @@ export const useOddsStream = (bets) => {
       const data = JSON.parse(event.data);
       console.log('Received odds update:', data);
 
-      // Create a key that matches our bet structure
       data.data.forEach(update => {
         // Look for matching bet
         const matchingBet = bets.find(bet => 
@@ -37,8 +35,8 @@ export const useOddsStream = (bets) => {
           setPriceUpdates(prev => ({
             ...prev,
             [matchingBet.game_id]: {
-              ...prev[matchingBet.game_id],
-              [`${update.market}-${update.name}`]: update.price
+              ...(prev[matchingBet.game_id] || {}),
+              [`${update.market}-${update.name}-${update.sportsbook}`]: update.price
             }
           }));
         }

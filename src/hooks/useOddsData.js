@@ -3,11 +3,15 @@ import Papa from 'papaparse';
 import _ from 'lodash';
 import { SPORTSBOOK_BATCHES } from '../constants/sportsbooks';
 import { fetchOddsForBatch } from '../services/oddsApi';
+import { useOddsStream } from './useOddsStream';
 
 export const useOddsData = () => {
   const [bets, setBets] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+
+  // Add streaming data
+  const { priceUpdates, streamStatus } = useOddsStream(bets);
 
   useEffect(() => {
     const loadData = async () => {
@@ -75,5 +79,5 @@ export const useOddsData = () => {
     loadData();
   }, []);
 
-  return { bets, loading, error };
+  return { bets, loading, error, priceUpdates, streamStatus };
 };

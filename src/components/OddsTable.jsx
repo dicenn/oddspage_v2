@@ -22,33 +22,59 @@ const OddsTable = ({
   const [sorting, setSorting] = useState([]);
   const [globalFilter, setGlobalFilter] = useState('');
 
+  // Here's where the new columns definition goes - replace the entire columns useMemo with this:
   const columns = React.useMemo(() => [
     {
-      header: 'Match',
+      header: 'Match Info',
       accessorFn: row => `${row.Home_Team} vs ${row.Away_Team}`,
-      cell: ({ getValue }) => (
-        <div className="font-medium">{getValue()}</div>
-      ),
+      cell: ({ row }) => {
+        const sport = row.original.Sport?.toLowerCase();
+        const sportEmoji = {
+          soccer: '⚽️',
+          basketball: '🏀',
+          football: '🏈',
+          baseball: '⚾️',
+          hockey: '🏒',
+          tennis: '🎾',
+        }[sport] || '🎮';
+
+        const matchDate = new Date(row.original.Match_Date);
+        const formattedDate = matchDate.toLocaleDateString('en-US', {
+          month: 'short',
+          day: 'numeric',
+          year: 'numeric'
+        });
+
+        const matchup = `${row.original.Home_Team} vs ${row.original.Away_Team}`;
+
+        return (
+          <div className="space-y-1 min-w-[300px]">
+            <div className="flex items-center gap-2 text-sm text-muted-foreground truncate">
+              <span>{sportEmoji}</span>
+              <span>{formattedDate}</span>
+            </div>
+            <div className="font-medium truncate">
+              {matchup}
+            </div>
+            <div className="text-sm text-muted-foreground truncate">
+              {row.original.League}
+            </div>
+          </div>
+        );
+      },
     },
     {
-      header: 'League',
-      accessorKey: 'League',
-      cell: ({ getValue }) => (
-        <div className="text-muted-foreground">{getValue()}</div>
-      ),
-    },
-    {
-      header: 'Market',
-      accessorKey: 'Market',
-      cell: ({ getValue }) => (
-        <div className="whitespace-nowrap">{getValue()}</div>
-      ),
-    },
-    {
-      header: 'Selection',
-      accessorKey: 'Selection',
-      cell: ({ getValue }) => (
-        <div className="whitespace-nowrap">{getValue()}</div>
+      header: 'Market/Selection',
+      accessorFn: row => `${row.Market} ${row.Selection}`,
+      cell: ({ row }) => (
+        <div className="space-y-1 min-w-[200px]">
+          <div className="text-sm text-muted-foreground truncate">
+            {row.original.Market}
+          </div>
+          <div className="font-medium truncate">
+            {row.original.Selection}
+          </div>
+        </div>
       ),
     },
     {
@@ -112,6 +138,8 @@ const OddsTable = ({
     getCoreRowModel: getCoreRowModel(),
   });
 
+  // Rest of the component stays the same...
+  
   if (!bets.length) {
     return (
       <Card className="mx-auto max-w-7xl">

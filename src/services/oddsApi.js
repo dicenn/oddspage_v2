@@ -1,3 +1,6 @@
+// services/oddsApi.js
+import { SPORTSBOOK_BATCHES } from '../constants/sportsbooks';
+
 export const fetchOddsForBatch = async (gameIds, sportsbooks) => {
     const params = new URLSearchParams({
       key: 'd39909fa-3f0d-481f-8791-93d4434f8605'
@@ -21,4 +24,21 @@ export const fetchOddsForBatch = async (gameIds, sportsbooks) => {
     }
   
     return response.json();
-  };
+};
+
+export const createOddsStream = (leagues) => {
+    const params = new URLSearchParams({
+      key: 'd39909fa-3f0d-481f-8791-93d4434f8605'
+    });
+
+    // Add all sportsbooks
+    SPORTSBOOK_BATCHES.forEach(batch => {
+      batch.forEach(book => params.append('sportsbook', book));
+    });
+  
+    leagues.forEach(league => params.append('league', league));
+  
+    return new EventSource(
+      `https://api.opticodds.com/api/v3/stream/soccer/odds?${params}`
+    );
+};

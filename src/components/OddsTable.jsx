@@ -4,20 +4,26 @@ import { LoadingSpinner } from './LoadingSpinner';
 import { ErrorDisplay } from './ErrorDisplay';
 import { OddsTableHeader } from './OddsTableHeader';
 import { OddsTableRow } from './OddsTableRow';
+import { SPORTSBOOK_BATCHES } from '../constants/sportsbooks';
 
+// In OddsTable.jsx - replace the createOddsStream function
 const createOddsStream = (leagues) => {
-  const params = new URLSearchParams({
-    key: 'd39909fa-3f0d-481f-8791-93d4434f8605',
-    sportsbook: 'Pinnacle'  // Start with just Pinnacle for testing
-  });
+    const params = new URLSearchParams({
+        key: 'd39909fa-3f0d-481f-8791-93d4434f8605'
+    });
 
-  leagues.forEach(league => params.append('league', league));
+    // Add all sportsbooks
+    SPORTSBOOK_BATCHES.forEach(batch => {
+        batch.forEach(book => params.append('sportsbook', book));
+    });
 
-  return new EventSource(
-    `https://api.opticodds.com/api/v3/stream/soccer/odds?${params}`
-  );
+    leagues.forEach(league => params.append('league', league));
+
+    return new EventSource(
+        `https://api.opticodds.com/api/v3/stream/soccer/odds?${params}`
+    );
 };
-
+  
 const OddsTable = () => {
   const { bets, loading, error } = useOddsData();
   const [priceUpdates, setPriceUpdates] = useState({});

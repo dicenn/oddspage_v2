@@ -1,8 +1,8 @@
+// OddsTableRow.jsx
 import { ALL_SPORTSBOOKS } from '../constants/sportsbooks';
 import { formatPrice } from '../utils/formatting';
 
 export const OddsTableRow = ({ bet, priceUpdates }) => {
-  // Get updates for this specific bet
   const betUpdates = priceUpdates[bet.game_id] || {};
   
   return (
@@ -26,27 +26,37 @@ export const OddsTableRow = ({ bet, priceUpdates }) => {
           </span>
         </span>
       </td>
-      {ALL_SPORTSBOOKS.map(book => (
-        <td key={book} className="py-2 px-4 text-center font-mono text-sm">
-          {/* Original price */}
-          <div>
-            {formatPrice(bet.currentPrices?.[book])}
-          </div>
-          
-          {/* Updated price if exists */}
-          {betUpdates[`${bet.Market}-${bet.Selection}-${book}`] && (
-            <div className={`mt-1 p-1 rounded ${
-              betUpdates[`${bet.Market}-${bet.Selection}-${book}`] > (bet.currentPrices?.[book] || 0)
-                ? 'bg-green-100 text-green-800' 
-                : betUpdates[`${bet.Market}-${bet.Selection}-${book}`] < (bet.currentPrices?.[book] || 0)
-                  ? 'bg-red-100 text-red-800'
-                  : 'bg-gray-100 text-gray-800'
-            }`}>
-              {formatPrice(betUpdates[`${bet.Market}-${bet.Selection}-${book}`])}
+      {ALL_SPORTSBOOKS.map(book => {
+        // Get the update for this cell if it exists
+        const update = betUpdates[`${bet.Market}-${bet.Selection}-${book}`];
+        const originalPrice = bet.currentPrices?.[book];
+        
+        return (
+          <td key={book} className="py-2 px-4 text-center font-mono text-sm relative">
+            {/* Original price */}
+            <div className={update ? 'opacity-50' : ''}>
+              {formatPrice(originalPrice)}
             </div>
-          )}
-        </td>
-      ))}
+            
+            {/* Updated price */}
+            {update && (
+              <div 
+                className={`
+                  mt-1 p-1 rounded animate-pulse
+                  ${update > originalPrice 
+                    ? 'bg-green-100 text-green-800 font-bold' 
+                    : update < originalPrice
+                      ? 'bg-red-100 text-red-800 font-bold'
+                      : 'bg-gray-100 text-gray-800'
+                  }
+                `}
+              >
+                {formatPrice(update)}
+              </div>
+            )}
+          </td>
+        );
+      })}
       <td className="py-2 px-4 text-right font-mono text-sm">
         {bet.Pinn_Limit || '-'}
       </td>

@@ -16,29 +16,6 @@ const FrozenTable = ({
 }) => {
   const [isScrolled, setIsScrolled] = useState(false);
 
-  if (!table.getRowModel().rows?.length) {
-    return (
-      <Card className="mx-auto w-full">
-        <CardContent className="p-6 text-center">
-          <div className="text-lg font-semibold mb-2">No bets available</div>
-          <p className="text-muted-foreground mb-4">
-            No bets match the current filter criteria. Please adjust your filters or reset them to see available bets.
-          </p>
-          <button
-            className="px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90"
-            onClick={() => {
-              setSelectedDates(filterOptions.dates);
-              setSelectedMatchups(filterOptions.matchups);
-              setSelectedLeagues(filterOptions.leagues);
-            }}
-          >
-            Reset Filters
-          </button>
-        </CardContent>
-      </Card>
-    );
-  }
-
   // Dynamic column widths based on screen size and scroll state
   const getColumnWidth = (index) => {
     if (index === 0) return { 
@@ -65,6 +42,8 @@ const FrozenTable = ({
   const handleScroll = (e) => {
     setIsScrolled(e.target.scrollLeft > 20);
   };
+
+  const showEmptyState = !table.getRowModel().rows?.length;
 
   return (
     <div className="w-full h-screen flex flex-col">
@@ -131,43 +110,57 @@ const FrozenTable = ({
                     ))}
                   </thead>
                   <tbody>
-                    {table.getRowModel().rows.map(row => (
-                      <tr
-                        key={row.id}
-                        className="border-b last:border-b-0 hover:bg-gray-100 group"
-                      >
-                        {row.getVisibleCells().map((cell, index) => {
-                          const columnWidth = getColumnWidth(index);
-                          const leftPos = getLeftPosition(index);
-                          return (
-                            <td
-                              key={cell.id}
-                              className={`
-                                p-2 sm:p-4 align-middle
-                                text-[10px] sm:text-sm
-                                ${index < 2 ? 'sticky left-0 bg-card z-10 group-hover:bg-gray-100' : ''}
-                                ${index === 1 ? 'border-r border-border' : ''}
-                                truncate transition-all duration-200
-                              `}
-                              style={{
-                                left: typeof leftPos === 'string' ? leftPos : 
-                                      `clamp(${leftPos.mobile}, 20vw, ${leftPos.desktop})`,
-                                width: `clamp(${columnWidth.mobile}, 20vw, ${columnWidth.desktop})`,
-                                minWidth: columnWidth.mobile,
-                                maxWidth: columnWidth.desktop
-                              }}
-                            >
-                              <div className="truncate">
-                                {flexRender(
-                                  cell.column.columnDef.cell,
-                                  cell.getContext()
-                                )}
-                              </div>
-                            </td>
-                          );
-                        })}
+                    {showEmptyState ? (
+                      <tr>
+                        <td 
+                          colSpan={table.getAllColumns().length}
+                          className="text-center p-8"
+                        >
+                          <div className="text-lg font-semibold mb-2">No matches found</div>
+                          <p className="text-muted-foreground">
+                            Try adjusting your filters to see more results
+                          </p>
+                        </td>
                       </tr>
-                    ))}
+                    ) : (
+                      table.getRowModel().rows.map(row => (
+                        <tr
+                          key={row.id}
+                          className="border-b last:border-b-0 hover:bg-gray-100 group"
+                        >
+                          {row.getVisibleCells().map((cell, index) => {
+                            const columnWidth = getColumnWidth(index);
+                            const leftPos = getLeftPosition(index);
+                            return (
+                              <td
+                                key={cell.id}
+                                className={`
+                                  p-2 sm:p-4 align-middle
+                                  text-[10px] sm:text-sm
+                                  ${index < 2 ? 'sticky left-0 bg-card z-10 group-hover:bg-gray-100' : ''}
+                                  ${index === 1 ? 'border-r border-border' : ''}
+                                  truncate transition-all duration-200
+                                `}
+                                style={{
+                                  left: typeof leftPos === 'string' ? leftPos : 
+                                        `clamp(${leftPos.mobile}, 20vw, ${leftPos.desktop})`,
+                                  width: `clamp(${columnWidth.mobile}, 20vw, ${columnWidth.desktop})`,
+                                  minWidth: columnWidth.mobile,
+                                  maxWidth: columnWidth.desktop
+                                }}
+                              >
+                                <div className="truncate">
+                                  {flexRender(
+                                    cell.column.columnDef.cell,
+                                    cell.getContext()
+                                  )}
+                                </div>
+                              </td>
+                            );
+                          })}
+                        </tr>
+                      ))
+                    )}
                   </tbody>
                 </table>
               </div>

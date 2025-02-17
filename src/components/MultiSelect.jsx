@@ -9,7 +9,7 @@ export function MultiSelect({
   onChange,
   placeholder = "Filter",
   className = "",
-  type = "default" // Can be "dates", "matchups", or "leagues"
+  type = "default"
 }) {
   const [open, setOpen] = React.useState(false);
   const [searchQuery, setSearchQuery] = useState('');
@@ -30,12 +30,27 @@ export function MultiSelect({
   };
 
   const toggleAll = () => {
-    onChange(selected.length === options.length ? [] : options);
+    // Instead of checking length, check if arrays have same elements
+    const isAllSelected = options.length === selected.length && 
+      options.every(option => selected.includes(option));
+    onChange(isAllSelected ? [] : [...options]);
   };
 
   // Get display text based on selection and type
   const getDisplayText = () => {
-    if (selected.length === 0) return placeholder;
+    if (selected.length === 0) {
+      switch (type) {
+        case "dates":
+          return "No dates selected";
+        case "matchups":
+          return "No matches selected";
+        case "leagues":
+          return "No leagues selected";
+        default:
+          return "None selected";
+      }
+    }
+    
     if (selected.length === options.length) {
       switch (type) {
         case "dates":
@@ -49,7 +64,6 @@ export function MultiSelect({
       }
     }
     
-    // Handle singular/plural cases
     switch (type) {
       case "dates":
         return `${selected.length} ${selected.length === 1 ? 'date' : 'dates'} selected`;
@@ -113,7 +127,7 @@ export function MultiSelect({
                   selected.length === options.length ? "opacity-100" : "opacity-0"
                 }`}
               />
-              <span>Select All</span>
+              <span>{selected.length === options.length ? "Deselect All" : "Select All"}</span>
             </div>
             <div className="max-h-[200px] overflow-y-auto">
               {filteredOptions.map((option) => (

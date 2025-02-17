@@ -59,11 +59,18 @@ export const createColumns = (priceUpdates) => [
   ...ALL_SPORTSBOOKS.map(book => ({
     id: book,
     header: () => (
-      <img 
-        src={`/images/${book.toLowerCase()}.png`} 
-        alt={book} 
-        className="h-6 w-auto mx-auto"
-      />
+      <div className="w-full h-full flex items-center justify-center py-2">
+        <div className="w-full h-full min-h-[32px] flex items-center justify-center">
+          <img 
+            src={`/images/${book.toLowerCase()}.png`} 
+            alt={book}
+            className="w-full h-full object-contain min-h-[24px]"
+            style={{
+              maxHeight: '32px'
+            }}
+          />
+        </div>
+      </div>
     ),
     accessorFn: row => row.currentPrices?.[book],
     cell: ({ row, getValue }) => {

@@ -19,8 +19,21 @@ const FrozenTable = ({
   if (!table.getRowModel().rows?.length) {
     return (
       <Card className="mx-auto w-full">
-        <CardContent className="p-6 text-center text-muted-foreground">
-          No bets available
+        <CardContent className="p-6 text-center">
+          <div className="text-lg font-semibold mb-2">No bets available</div>
+          <p className="text-muted-foreground mb-4">
+            No bets match the current filter criteria. Please adjust your filters or reset them to see available bets.
+          </p>
+          <button
+            className="px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90"
+            onClick={() => {
+              setSelectedDates(filterOptions.dates);
+              setSelectedMatchups(filterOptions.matchups);
+              setSelectedLeagues(filterOptions.leagues);
+            }}
+          >
+            Reset Filters
+          </button>
         </CardContent>
       </Card>
     );

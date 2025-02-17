@@ -57,3 +57,24 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Fixed width for sportsbook columns */
+th:nth-child(n+3),
+td:nth-child(n+3) {
+  width: 120px;
+  min-width: 120px;
+  max-width: 120px;
+}
+
+/* White border between sportsbook columns */
+th:nth-child(n+3),
+td:nth-child(n+3) {
+  border-left: 2px solid white;
+}
+
+/* Maintain aspect ratio of sportsbook logos */
+th:nth-child(n+3) img {
+  width: auto;
+  height: 24px;
+  object-fit: contain;
+}

@@ -1,4 +1,3 @@
-// src/components/table/columns.js
 import { formatPrice } from '../../utils/formatting';
 import { Badge } from '../ui/badge';
 import { ALL_SPORTSBOOKS } from '../../constants/sportsbooks';
@@ -6,7 +5,7 @@ import { ALL_SPORTSBOOKS } from '../../constants/sportsbooks';
 export const createColumns = (priceUpdates) => [
   {
     header: 'Match Info',
-    accessorFn: row => `${row.Home_Team} vs ${row.Away_Team}`,
+    accessorKey: 'matchInfo',
     cell: ({ row }) => {
       const sport = row.original.Sport?.toLowerCase();
       const sportEmoji = {
@@ -45,7 +44,7 @@ export const createColumns = (priceUpdates) => [
   },
   {
     header: 'Market/Selection',
-    accessorFn: row => `${row.Market} ${row.Selection}`,
+    accessorKey: 'marketSelection',
     cell: ({ row }) => (
       <div className="space-y-1 min-w-[200px]">
         <div className="text-sm text-muted-foreground truncate">
@@ -58,7 +57,14 @@ export const createColumns = (priceUpdates) => [
     ),
   },
   ...ALL_SPORTSBOOKS.map(book => ({
-    header: book,
+    id: book,
+    header: () => (
+      <img 
+        src={`/images/${book.toLowerCase()}.png`} 
+        alt={book} 
+        className="h-6 w-auto mx-auto"
+      />
+    ),
     accessorFn: row => row.currentPrices?.[book],
     cell: ({ row, getValue }) => {
       const originalPrice = getValue();

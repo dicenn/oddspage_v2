@@ -1,6 +1,5 @@
-// src/components/table/TableHeader.jsx
 import React from 'react';
-import { Activity } from 'lucide-react';
+import { BiPulse } from 'react-icons/bi';
 import { CardHeader, CardTitle } from "../ui/card";
 import { Badge } from "../ui/badge";
 import { TableFilters } from './TableFilters';
@@ -31,7 +30,7 @@ export const TableHeader = ({
               }
               className="flex items-center gap-1"
             >
-              <Activity className="h-3 w-3" />
+              <BiPulse className="h-3 w-3" />
               {streamStatus}
             </Badge>
           </div>

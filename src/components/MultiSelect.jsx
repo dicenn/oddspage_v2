@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Check, ChevronsUpDown, Search } from 'lucide-react';
+import { BiCheck, BiChevronDown, BiSearch } from 'react-icons/bi';
 import { Card } from './ui/card';
 import { Input } from './ui/input';
 
@@ -98,14 +98,14 @@ export function MultiSelect({
           <span className={selected.length === 0 ? "text-muted-foreground" : ""}>
             {getDisplayText()}
           </span>
-          <ChevronsUpDown className="h-4 w-4 opacity-50" />
+          <BiChevronDown className="h-4 w-4 opacity-50" />
         </div>
       </div>
       {open && (
         <Card className="absolute w-full z-50 mt-1 rounded-md border bg-card shadow-md">
           <div className="p-2 space-y-2">
             <div className="flex items-center px-2 gap-2 border rounded-md">
-              <Search className="h-4 w-4 text-muted-foreground" />
+              <BiSearch className="h-4 w-4 text-muted-foreground" />
               <Input
                 type="text"
                 value={searchQuery}
@@ -122,7 +122,7 @@ export function MultiSelect({
                 toggleAll();
               }}
             >
-              <Check
+              <BiCheck
                 className={`mr-2 h-4 w-4 ${
                   selected.length === options.length ? "opacity-100" : "opacity-0"
                 }`}
@@ -139,7 +139,7 @@ export function MultiSelect({
                     toggleOption(option);
                   }}
                 >
-                  <Check
+                  <BiCheck
                     className={`mr-2 h-4 w-4 ${
                       selected.includes(option) ? "opacity-100" : "opacity-0"
                     }`}

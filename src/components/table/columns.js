@@ -61,14 +61,12 @@ export const createColumns = (priceUpdates) => [
     header: () => (
       <div className="w-full h-full flex items-center justify-center py-2">
         <div className="w-full h-full min-h-[32px] flex items-center justify-center">
-          <img 
-            src={`/images/${book.toLowerCase()}.png`} 
-            alt={book}
-            className="w-full h-full object-contain min-h-[24px]"
-            style={{
-              maxHeight: '32px'
-            }}
-          />
+            <img 
+                src={`/images/${book}.png`} // Instead of book.toLowerCase()
+                alt={book}
+                className="w-full h-full object-contain min-h-[24px]"
+                style={{ maxHeight: '32px' }}
+            />
         </div>
       </div>
     ),

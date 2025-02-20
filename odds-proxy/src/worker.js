@@ -1,11 +1,23 @@
 export default {
   async fetch(request, env, ctx) {
+    // Handle CORS preflight requests
+    if (request.method === "OPTIONS") {
+      return new Response(null, {
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "GET, OPTIONS",
+          "Access-Control-Allow-Headers": "Content-Type",
+          "Access-Control-Max-Age": "86400",
+        },
+      });
+    }
+
     // Parse the URL and get the pathname
     const url = new URL(request.url);
     const path = url.pathname;
     const searchParams = url.searchParams;
 
-    // Construct the target URL
+    // Construct the target URL (ensure HTTPS)
     let targetUrl = 'https://api.opticodds.com/api/v3';
     
     // Add the path (everything after /api/)
@@ -56,6 +68,7 @@ export default {
         'Content-Type': 'application/json',
         'Access-Control-Allow-Methods': 'GET, OPTIONS',
         'Access-Control-Allow-Headers': 'Content-Type',
+        'Strict-Transport-Security': 'max-age=31536000; includeSubDomains',
       },
     });
   },

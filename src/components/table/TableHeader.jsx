@@ -1,5 +1,5 @@
 import React from 'react';
-import { BiPulse } from 'react-icons/bi';
+import { Activity } from 'lucide-react';
 import { CardHeader, CardTitle } from "../ui/card";
 import { Badge } from "../ui/badge";
 import { TableFilters } from './TableFilters';
@@ -30,7 +30,7 @@ export const TableHeader = ({
               }
               className="flex items-center gap-1"
             >
-              <BiPulse className="h-3 w-3" />
+              <Activity className="h-3 w-3" />
               {streamStatus}
             </Badge>
           </div>

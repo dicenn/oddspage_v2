@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BiCheck, BiChevronDown, BiSearch } from 'react-icons/bi';
+import { Check, ChevronsUpDown, Search } from 'lucide-react';
 import { Card } from './ui/card';
 import { Input } from './ui/input';
 
@@ -30,10 +30,7 @@ export function MultiSelect({
   };
 
   const toggleAll = () => {
-    // Instead of checking length, check if arrays have same elements
-    const isAllSelected = options.length === selected.length && 
-      options.every(option => selected.includes(option));
-    onChange(isAllSelected ? [] : [...options]);
+    onChange(selected.length === options.length ? [] : [...options]);
   };
 
   // Get display text based on selection and type
@@ -98,14 +95,14 @@ export function MultiSelect({
           <span className={selected.length === 0 ? "text-muted-foreground" : ""}>
             {getDisplayText()}
           </span>
-          <BiChevronDown className="h-4 w-4 opacity-50" />
+          <ChevronsUpDown className="h-4 w-4 opacity-50" />
         </div>
       </div>
       {open && (
         <Card className="absolute w-full z-50 mt-1 rounded-md border bg-card shadow-md">
           <div className="p-2 space-y-2">
             <div className="flex items-center px-2 gap-2 border rounded-md">
-              <BiSearch className="h-4 w-4 text-muted-foreground" />
+              <Search className="h-4 w-4 text-muted-foreground" />
               <Input
                 type="text"
                 value={searchQuery}
@@ -122,7 +119,7 @@ export function MultiSelect({
                 toggleAll();
               }}
             >
-              <BiCheck
+              <Check
                 className={`mr-2 h-4 w-4 ${
                   selected.length === options.length ? "opacity-100" : "opacity-0"
                 }`}
@@ -139,7 +136,7 @@ export function MultiSelect({
                     toggleOption(option);
                   }}
                 >
-                  <BiCheck
+                  <Check
                     className={`mr-2 h-4 w-4 ${
                       selected.includes(option) ? "opacity-100" : "opacity-0"
                     }`}

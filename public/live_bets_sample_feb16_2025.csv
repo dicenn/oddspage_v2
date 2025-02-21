@@ -1,12 +1,4 @@
 ﻿Grade,Selection_Date,Match_Date,Sport,League,Home_Team,Away_Team,Market,Selection,Pinnacle,Betfair Exchange,Betrivers,FanDuel,Draftkings,Caesars,BetMGM,Betonline,bet105,Hard Rock,ESPN BET,Fanatics,Bet365,Bovada,Betano,Pinn_Limit,game_id
-A,2/17/25,2/23/25,Brazil,Carioca,Vasco da Gama,Botafogo RJ,1x2,Botafogo,,,163,,,,,,,,,,,,,,
-A,2/17/25,2/23/25,Brazil,Carioca,Vasco da Gama,Botafogo RJ,DNB,Botafogo,,,-117,,,,,,,,,,,,,,
-A,2/17/25,2/23/25,Brazil,Carioca,Vasco da Gama,Botafogo RJ,DC,Botafogo,,,-235,,,,,,,,,,,,,,
-A,2/17/25,2/23/25,Brazil,Carioca,Vasco da Gama,Botafogo RJ,1H 1x2,Botafogo,,,230,,,,,,,,,,,,,,
-A,2/17/25,2/23/25,Brazil,Carioca,Vasco da Gama,Botafogo RJ,1H DNB,Botafogo,,,-124,,,,,,,,,,,,,,
-A,2/17/25,2/22/25,Paraguay,Liga,Atl Temberary,Libertad Asuncion,1x2,Libertad Asuncion,-162,,-150,,,,-135,,,,,,,,,,
-A,2/17/25,2/22/25,Paraguay,Liga,Atl Temberary,Libertad Asuncion,DNB,Libertad Asuncion,-409,,,,,,,,,,,,,,,,
-A,2/17/25,2/22/25,Paraguay,Liga,Atl Temberary,Libertad Asuncion,1H 1x2,Libertad Asuncion,135,,,,,,,,,,,,,,,,
 Delta-1,2/18/25,2/22/25,Soccer,Azerbaijan - Premier League,Araz Naxcivan PFK,S@bail FK,Asian Handicap,S@bail FK +0.25,,,,,,,,,,,,,,180,,,202502218F934D25
 Delta-1,2/18/25,2/22/25,Soccer,Azerbaijan - Premier League,Araz Naxcivan PFK,S@bail FK,Double Chance,S@bail FK Or Draw,,,128,115,,,,,,,,,100,,125,,202502218F934D25
 Delta-1,2/18/25,2/22/25,Soccer,Azerbaijan - Premier League,Araz Naxcivan PFK,S@bail FK,Goal Spread,S@bail FK +0.5,,,,,,,,,,,,,,123,,,202502218F934D25
@@ -120,23 +112,23 @@ Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti T
 Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Asian Handicap,Kecskeméti TE +1.25,-169,,-167,,,,,,,,,,-160,-165,-175,$400 ,202502227DD3D630
 Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Goal Spread,Kecskeméti TE +1.5,-212,,,,-225,,-200,,,,,,,-210,-222,$400 ,202502227DD3D630
 Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Asian Handicap,Kecskeméti TE +1.5,,,-210,,,,,,,,,,-200,,,,202502227DD3D630
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Moneyline,Coleraine FC,386,,350,430,360,400,380,,,,,,450,390,409,$400 ,2.02502E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Goal Spread,Coleraine FC -0.5,,,,,320,,,,,,,,,,,,2.02502E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC -0.5,,,,,,,,,,,,,450,,,,2.02502E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Draw No Bet,Coleraine FC,281,,265,,230,280,280,,,,,,333,270,265,,2.02502E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Goal Spread,Coleraine FC +0,280,,285,,,,,,,,,,,,,$400 ,2.02502E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +0,,,,,,,,,,,,,310,,,,2.02502E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +0.25,181,,,,,,,,,,,,185,171,,$400 ,2.02502E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Double Chance,Coleraine FC or Draw,131,,123,130,125,128,125,,,,,,115,,135,,2.02502E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Goal Spread,Coleraine FC +0.5,132,,,,120,127,,,,,,,,120,129,$400 ,2.02502E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +0.5,,,,,,,,,,,,,130,,,,2.02502E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +0.75,105,,-103,,-105,,,,,,,,105,100,104,$400 ,2.02502E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Goal Spread,Coleraine FC +1,-137,,-141,,,,,,,,,,,-135,-128,$400 ,2.02502E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +1,,,,,-145,,,,,,,,-129,,,,2.02502E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +1.25,-184,,-177,,,,,,,,,,-167,-180,-166,$400 ,2.02502E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Goal Spread,Coleraine FC +1.5,-235,,-225,,-235,,,,,,,,,,-212,$400 ,2.02502E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +1.5,,,,,,,,,,,,,-211,,,,2.02502E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +1.75,-332,,,,,,,,,,,,-286,,,$400 ,2.02502E+15
+Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Moneyline,Coleraine FC,386,,350,430,360,400,380,,,,,,450,390,409,$400 ,2.03E+15
+Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Goal Spread,Coleraine FC -0.5,,,,,320,,,,,,,,,,,,2.03E+15
+Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC -0.5,,,,,,,,,,,,,450,,,,2.03E+15
+Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Draw No Bet,Coleraine FC,281,,265,,230,280,280,,,,,,333,270,265,,2.03E+15
+Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Goal Spread,Coleraine FC +0,280,,285,,,,,,,,,,,,,$400 ,2.03E+15
+Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +0,,,,,,,,,,,,,310,,,,2.03E+15
+Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +0.25,181,,,,,,,,,,,,185,171,,$400 ,2.03E+15
+Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Double Chance,Coleraine FC or Draw,131,,123,130,125,128,125,,,,,,115,,135,,2.03E+15
+Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Goal Spread,Coleraine FC +0.5,132,,,,120,127,,,,,,,,120,129,$400 ,2.03E+15
+Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +0.5,,,,,,,,,,,,,130,,,,2.03E+15
+Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +0.75,105,,-103,,-105,,,,,,,,105,100,104,$400 ,2.03E+15
+Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Goal Spread,Coleraine FC +1,-137,,-141,,,,,,,,,,,-135,-128,$400 ,2.03E+15
+Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +1,,,,,-145,,,,,,,,-129,,,,2.03E+15
+Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +1.25,-184,,-177,,,,,,,,,,-167,-180,-166,$400 ,2.03E+15
+Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Goal Spread,Coleraine FC +1.5,-235,,-225,,-235,,,,,,,,,,-212,$400 ,2.03E+15
+Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +1.5,,,,,,,,,,,,,-211,,,,2.03E+15
+Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +1.75,-332,,,,,,,,,,,,-286,,,$400 ,2.03E+15
 A,2/18/25,2/22/25,Soccer,Turkey - 1. Lig,Şanlıurfa Spor Kulübü,Kocaelispor Kulübü,Moneyline,Kocaelispor Kulübü,-123,-126,,-115,,,-130,,,,,,-133,-120,-125,$400 ,202502228EA44B1E
 A,2/18/25,2/22/25,Soccer,Turkey - 1. Lig,Şanlıurfa Spor Kulübü,Kocaelispor Kulübü,Goal Spread,Kocaelispor Kulübü -0.5,-122,-126,,,,,,,,,,,,-118,-128,$400 ,202502228EA44B1E
 A,2/18/25,2/22/25,Soccer,Turkey - 1. Lig,Şanlıurfa Spor Kulübü,Kocaelispor Kulübü,Asian Handicap,Kocaelispor Kulübü -0.5,,,,,,,,,,,,,-129,,,,202502228EA44B1E
@@ -147,20 +139,6 @@ A,2/18/25,2/22/25,Soccer,Turkey - 1. Lig,Şanlıurfa Spor Kulübü,Kocaelispor K
 A,2/18/25,2/22/25,Soccer,Turkey - 1. Lig,Şanlıurfa Spor Kulübü,Kocaelispor Kulübü,1st Half Moneyline,Kocaelispor Kulübü,142,122,,160,,,140,,,,,,150,160,135,$100 ,202502228EA44B1E
 A,2/18/25,2/22/25,Soccer,Turkey - 1. Lig,Şanlıurfa Spor Kulübü,Kocaelispor Kulübü,1st Half Goal Spread,Kocaelispor Kulübü -0.5,141,,,,,,,,,,,,,150,135,$100 ,202502228EA44B1E
 A,2/18/25,2/22/25,Soccer,Turkey - 1. Lig,Şanlıurfa Spor Kulübü,Kocaelispor Kulübü,1st Half Asian Handicap,Kocaelispor Kulübü -0.5,,,,,,,,,,,,,142,,,,202502228EA44B1E
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Kyoto Sanga FC,Urawa Red Diamonds,Total Goals,Over 2.5,-102,,-106,-118,-110,-120,-110,-115,-102,-105,,,-105,-105,-107,$600 ,2025022293DE5DFF
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Kyoto Sanga FC,Urawa Red Diamonds,Asian Total Goals,Over 2.5,,,-106,,-115,,,,,,,,-103,,-105,,2025022293DE5DFF
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Kyoto Sanga FC,Urawa Red Diamonds,Total Goals,Over 2.75,,,,,,,,,,,,,,,,,2025022293DE5DFF
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Kyoto Sanga FC,Urawa Red Diamonds,Asian Total Goals,Over 2.75,124,,120,,115,,,,123,,,,120,120,120,$600 ,2025022293DE5DFF
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Kyoto Sanga FC,Urawa Red Diamonds,Total Goals,Over 3.5,236,,255,205,225,230,220,,234,210,,,240,230,220,$600 ,2025022293DE5DFF
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Kyoto Sanga FC,Urawa Red Diamonds,Asian Total Goals,Over 3.5,,,240,,,,,,,,,,230,,,,2025022293DE5DFF
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Kyoto Sanga FC,Urawa Red Diamonds,Total Goals,Over 1.5,-333,,-360,,-360,-340,-325,,-339,-350,,,-350,-330,-322,$600 ,2025022293DE5DFF
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Kyoto Sanga FC,Urawa Red Diamonds,Asian Total Goals,Over 1.5,,,,,,,,,,,,,-333,,,,2025022293DE5DFF
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Kyoto Sanga FC,Urawa Red Diamonds,1st Half Total Goals,Over 1.25,,,,,,,,,,,,,142,,,,2025022293DE5DFF
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Kyoto Sanga FC,Urawa Red Diamonds,1st Half Asian Total Goals,Over 1.25,147,,133,,140,,,,146,,,,,138,147,$200 ,2025022293DE5DFF
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Kyoto Sanga FC,Urawa Red Diamonds,1st Half Total Goals,Over 0.5,-245,,-278,,-255,,-250,,-249,-260,,,-235,-227,-222,$200 ,2025022293DE5DFF
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Kyoto Sanga FC,Urawa Red Diamonds,1st Half Asian Total Goals,Over 0.5,-253,,,,,,,,,,,,,,-212,,2025022293DE5DFF
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Kyoto Sanga FC,Urawa Red Diamonds,1st Half Total Goals,Over 1.5,200,,170,,185,,180,,199,170,,,200,185,190,$200 ,2025022293DE5DFF
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Kyoto Sanga FC,Urawa Red Diamonds,1st Half Total Goals,Over 1,-107,,,,,,,-110,-107,,,,,-115,,$200 ,2025022293DE5DFF
 A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Real Sporting de Gijón,UD Almería,Total Goals,Over 2.5,117,,110,118,110,125,115,,116,115,,,110,118,114,$600 ,2025022293ED8E63
 A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Real Sporting de Gijón,UD Almería,Asian Total Goals,Over 2.5,,,112,,110,,,,,,,,110,,118,,2025022293ED8E63
 A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Real Sporting de Gijón,UD Almería,Total Goals,Over 2.25,,,,,,,,,,,,,,,,,2025022293ED8E63
@@ -204,23 +182,6 @@ Delta-35,2/17/25,2/22/25,Soccer,Scotland - League One,Stenhousemuir,Arbroath FC,
 Delta-35,2/17/25,2/22/25,Soccer,Scotland - League One,Stenhousemuir,Arbroath FC,Double Chance,Arbroath FC or Draw,,,,,-285,,,,,,,,-250,,-250,,20250222A64CFD00
 Delta-35,2/17/25,2/22/25,Soccer,Scotland - League One,Stenhousemuir,Arbroath FC,Goal Spread,Arbroath FC +0.5,-262,,,,-275,,,,,,,,,,,$150 ,20250222A64CFD00
 Delta-35,2/17/25,2/22/25,Soccer,Scotland - League One,Stenhousemuir,Arbroath FC,Asian Handicap,Arbroath FC +0.5,,,,,,,,,,,,,-250,,,,20250222A64CFD00
-A,2/18/25,2/22/25,Soccer,Ukraine - Premier League,FC Rukh Vynnyky,LNZ Cherkasy FC,Moneyline,LNZ Cherkasy FC,-149,-129,,,,,,-130,,,,,,-140,,$300 ,20250222AC4FB294
-A,2/18/25,2/22/25,Soccer,Ukraine - Premier League,FC Rukh Vynnyky,LNZ Cherkasy FC,Goal Spread,LNZ Cherkasy FC -0.5,-151,-129,,,,,,,,,,,,-140,,$300 ,20250222AC4FB294
-A,2/18/25,2/22/25,Soccer,Ukraine - Premier League,FC Rukh Vynnyky,LNZ Cherkasy FC,Asian Handicap,LNZ Cherkasy FC -0.5,,,,,,,,,,,,,,,,,20250222AC4FB294
-A,2/18/25,2/22/25,Soccer,Ukraine - Premier League,FC Rukh Vynnyky,LNZ Cherkasy FC,Draw No Bet,LNZ Cherkasy FC,-323,,,,,,,,,,,,,-310,,,20250222AC4FB294
-A,2/18/25,2/22/25,Soccer,Ukraine - Premier League,FC Rukh Vynnyky,LNZ Cherkasy FC,Goal Spread,LNZ Cherkasy FC +0,-324,-294,,,,,,,,,,,,,,$300 ,20250222AC4FB294
-A,2/18/25,2/22/25,Soccer,Ukraine - Premier League,FC Rukh Vynnyky,LNZ Cherkasy FC,Asian Handicap,LNZ Cherkasy FC +0,,,,,,,,,,,,,,,,,20250222AC4FB294
-A,2/18/25,2/22/25,Soccer,Ukraine - Premier League,FC Rukh Vynnyky,LNZ Cherkasy FC,Double Chance,LNZ Cherkasy FC or Draw,-457,,,,,,,,,,,,,,,,20250222AC4FB294
-A,2/18/25,2/22/25,Soccer,Ukraine - Premier League,FC Rukh Vynnyky,LNZ Cherkasy FC,Goal Spread,LNZ Cherkasy FC +0.5,,-434,,,,,,,,,,,,,,,20250222AC4FB294
-A,2/18/25,2/22/25,Soccer,Ukraine - Premier League,FC Rukh Vynnyky,LNZ Cherkasy FC,Asian Handicap,LNZ Cherkasy FC +0.5,,,,,,,,,,,,,,,,,20250222AC4FB294
-A,2/18/25,2/22/25,Soccer,Ukraine - Premier League,FC Rukh Vynnyky,LNZ Cherkasy FC,1st Half Moneyline,LNZ Cherkasy FC,142,116,,,,,,,,,,,,150,,$100 ,20250222AC4FB294
-A,2/18/25,2/22/25,Soccer,Ukraine - Premier League,FC Rukh Vynnyky,LNZ Cherkasy FC,1st Half Goal Spread,LNZ Cherkasy FC -0.5,139,,,,,,,,,,,,,152,,$100 ,20250222AC4FB294
-A,2/18/25,2/22/25,Soccer,Ukraine - Premier League,FC Rukh Vynnyky,LNZ Cherkasy FC,1st Half Asian Handicap,LNZ Cherkasy FC -0.5,,,,,,,,,,,,,,,,,20250222AC4FB294
-A,2/18/25,2/22/25,Soccer,Ukraine - Premier League,FC Rukh Vynnyky,LNZ Cherkasy FC,1st Half Goal Spread,LNZ Cherkasy FC +0,-298,,,,,,,,,,,,,-260,,$100 ,20250222AC4FB294
-A,2/18/25,2/22/25,Soccer,Ukraine - Premier League,FC Rukh Vynnyky,LNZ Cherkasy FC,1st Half Asian Handicap,LNZ Cherkasy FC +0,,,,,,,,,,,,,,,,,20250222AC4FB294
-A,2/18/25,2/22/25,Soccer,Ukraine - Premier League,FC Rukh Vynnyky,LNZ Cherkasy FC,2nd Half Moneyline,LNZ Cherkasy FC,,,,,,,,,,,,,,,,,20250222AC4FB294
-A,2/18/25,2/22/25,Soccer,Ukraine - Premier League,FC Rukh Vynnyky,LNZ Cherkasy FC,2nd Half Draw No Bet,LNZ Cherkasy FC,,,,,,,,,,,,,,,,,20250222AC4FB294
-A,2/18/25,2/22/25,Soccer,Ukraine - Premier League,FC Rukh Vynnyky,LNZ Cherkasy FC,First Team To Score,LNZ Cherkasy FC,,,,,,,,,,,,,,,,,20250222AC4FB294
 Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Goal Spread,CA Güemes -1,580,,,,,,,,,,,,,,,$400 ,20250222B05061AD
 Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Asian Handicap,CA Güemes -1,,,,,,,,,,,,,,,,,20250222B05061AD
 Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Asian Handicap,CA Güemes -0.75,315,,,,,,,,,,,,,,,$400 ,20250222B05061AD
@@ -236,20 +197,6 @@ Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Gü
 Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Goal Spread,CA Güemes +0.5,-259,,,,-255,-220,,,,,,,,-240,,$400 ,20250222B05061AD
 Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Asian Handicap,CA Güemes +0.5,,,,,,,,,,,,,,,,,20250222B05061AD
 Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Asian Handicap,CA Güemes +0.75,-401,,,,,,,,,,,,,,,$400 ,20250222B05061AD
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Shimizu S-Pulse,Albirex Niigata,Total Goals,Under 2.25,,,,,,,,,,,,,,,,,20250222B44C6C1B
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Shimizu S-Pulse,Albirex Niigata,Asian Total Goals,Under 2.25,-101,,-105,,,,,,-102,,,,-105,-108,-102,$600 ,20250222B44C6C1B
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Shimizu S-Pulse,Albirex Niigata,Total Goals,Under 2.5,-134,,-139,-132,,-180,-145,,-136,-145,,,-143,-143,-138,$600 ,20250222B44C6C1B
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Shimizu S-Pulse,Albirex Niigata,Asian Total Goals,Under 2.5,,,-137,,,,,,,,,,-148,,-133,,20250222B44C6C1B
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Shimizu S-Pulse,Albirex Niigata,Total Goals,Under 1.5,220,,235,215,,175,195,,218,195,,,225,210,210,$600 ,20250222B44C6C1B
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Shimizu S-Pulse,Albirex Niigata,Asian Total Goals,Under 1.5,,,,,,,,,,,,,210,,215,,20250222B44C6C1B
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Shimizu S-Pulse,Albirex Niigata,Total Goals,Under 2,142,,,,,,,,141,,,,,134,,$600 ,20250222B44C6C1B
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Shimizu S-Pulse,Albirex Niigata,Asian Total Goals,Under 2,,,,,,,,,,,,,130,,140,,20250222B44C6C1B
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Shimizu S-Pulse,Albirex Niigata,1st Half Total Goals,Under 0.5,180,,155,,,,160,,179,160,,,162,163,175,$200 ,20250222B44C6C1B
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Shimizu S-Pulse,Albirex Niigata,1st Half Asian Total Goals,Under 0.5,177,,,,,,,,,,,,,,177,,20250222B44C6C1B
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Shimizu S-Pulse,Albirex Niigata,1st Half Total Goals,Under 0.75,,,,,,,,,,,,,115,,,,20250222B44C6C1B
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Shimizu S-Pulse,Albirex Niigata,1st Half Asian Total Goals,Under 0.75,130,,115,,,,,,129,,,,,122,135,$200 ,20250222B44C6C1B
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Shimizu S-Pulse,Albirex Niigata,1st Half Total Goals,Under 1.5,-280,,-335,,,,-275,,-285,-300,,,-300,-265,-238,$200 ,20250222B44C6C1B
-Israel,2/18/25,2/22/25,Soccer,Japan - J1 League,Shimizu S-Pulse,Albirex Niigata,1st Half Total Goals,Under 1,-127,,,,,,,,-128,,,,,-128,,$200 ,20250222B44C6C1B
 A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Burgos CF,Real Oviedo,Moneyline,Real Oviedo,188,,170,180,175,175,165,168,187,165,,,170,175,187,"$1,200 ",20250222C03C7D67
 A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Burgos CF,Real Oviedo,Goal Spread,Real Oviedo -0.5,185,,,,160,170,160,,184,165,,,,183,181,"$1,200 ",20250222C03C7D67
 A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Burgos CF,Real Oviedo,Asian Handicap,Real Oviedo -0.5,,,165,,,,,,,,,,167,,,,20250222C03C7D67

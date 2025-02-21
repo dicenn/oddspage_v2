@@ -59,14 +59,13 @@ export const createColumns = (priceUpdates) => [
   ...ALL_SPORTSBOOKS.map(book => ({
     id: book,
     header: () => (
-      <div className="w-full h-full flex items-center justify-center py-2">
-        <div className="w-full h-full min-h-[32px] flex items-center justify-center">
-            <img 
-                src={`/images/${book}.png`} // Instead of book.toLowerCase()
-                alt={book}
-                className="w-full h-full object-contain min-h-[24px]"
-                style={{ maxHeight: '32px' }}
-            />
+      <div className="w-full h-full flex items-center justify-center p-2">
+        <div className="w-full h-[40px] relative flex items-center justify-center">
+          <img 
+            src={`/images/${book}.png`}
+            alt={book}
+            className="absolute inset-0 w-full h-full object-contain"
+          />
         </div>
       </div>
     ),

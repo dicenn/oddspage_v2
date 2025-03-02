@@ -1,6 +1,6 @@
 import { formatPrice } from '../../utils/formatting';
 import { Badge } from '../ui/badge';
-import { ALL_SPORTSBOOKS } from '../../constants/sportsbooks';
+import { ALL_SPORTSBOOKS, getDisplayName } from '../../constants/sportsbooks';
 
 export const createColumns = (priceUpdates) => [
   {
@@ -56,42 +56,46 @@ export const createColumns = (priceUpdates) => [
       </div>
     ),
   },
-  ...ALL_SPORTSBOOKS.map(book => ({
-    id: book,
-    header: () => (
-      <div className="w-full h-full flex items-center justify-center p-2">
-        <div className="w-full h-[40px] relative flex items-center justify-center">
-          <img 
-            src={`/images/${book}.png`}
-            alt={book}
-            className="absolute inset-0 w-full h-full object-contain"
-          />
-        </div>
-      </div>
-    ),
-    accessorFn: row => row.currentPrices?.[book],
-    cell: ({ row, getValue }) => {
-      const originalPrice = getValue();
-      const betUpdates = priceUpdates[row.original.game_id] || {};
-      const update = betUpdates[`${row.original.Market}-${row.original.Selection}-${book}`];
-      
-      return (
-        <div className="text-center font-mono">
-          <div className={update ? 'text-muted-foreground' : ''}>
-            {formatPrice(originalPrice)}
+  ...ALL_SPORTSBOOKS.map(book => {
+    const displayName = getDisplayName(book);
+    
+    return {
+      id: book,
+      header: () => (
+        <div className="w-full h-full flex items-center justify-center p-2">
+          <div className="w-full h-[40px] relative flex items-center justify-center">
+            <img 
+              src={`/images/${displayName}.png`}
+              alt={displayName}
+              className="absolute inset-0 w-full h-full object-contain"
+            />
           </div>
-          {update && (
-            <Badge 
-              variant={update > originalPrice ? 'success' : update < originalPrice ? 'destructive' : 'secondary'}
-              className="mt-1 animate-fade-in"
-            >
-              {formatPrice(update)}
-            </Badge>
-          )}
         </div>
-      );
-    },
-  })),
+      ),
+      accessorFn: row => row.currentPrices?.[book],
+      cell: ({ row, getValue }) => {
+        const originalPrice = getValue();
+        const betUpdates = priceUpdates[row.original.game_id] || {};
+        const update = betUpdates[`${row.original.Market}-${row.original.Selection}-${book}`];
+        
+        return (
+          <div className="text-center font-mono">
+            <div className={update ? 'text-muted-foreground' : ''}>
+              {formatPrice(originalPrice)}
+            </div>
+            {update && (
+              <Badge 
+                variant={update > originalPrice ? 'success' : update < originalPrice ? 'destructive' : 'secondary'}
+                className="mt-1 animate-fade-in"
+              >
+                {formatPrice(update)}
+              </Badge>
+            )}
+          </div>
+        );
+      },
+    };
+  }),
   {
     header: 'Limit',
     accessorKey: 'Pinn_Limit',

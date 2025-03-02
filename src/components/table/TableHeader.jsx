@@ -12,8 +12,12 @@ export const TableHeader = ({
   selectedLeagues,
   setSelectedDates,
   setSelectedMatchups,
-  setSelectedLeagues
+  setSelectedLeagues,
+  showOnlyKeyBooks,
+  setShowOnlyKeyBooks
 }) => {
+  console.log("TableHeader - setShowOnlyKeyBooks:", typeof setShowOnlyKeyBooks);
+  
   return (
     <CardHeader className="pb-4">
       <div className="flex flex-col space-y-4">
@@ -43,6 +47,8 @@ export const TableHeader = ({
           setSelectedDates={setSelectedDates}
           setSelectedMatchups={setSelectedMatchups}
           setSelectedLeagues={setSelectedLeagues}
+          showOnlyKeyBooks={showOnlyKeyBooks}
+          setShowOnlyKeyBooks={setShowOnlyKeyBooks}
         />
       </div>
     </CardHeader>

@@ -12,8 +12,13 @@ const FrozenTable = ({
   setSelectedDates,
   setSelectedMatchups,
   setSelectedLeagues,
-  streamStatus
+  streamStatus,
+  loading = false,
+  showOnlyKeyBooks,
+  setShowOnlyKeyBooks
 }) => {
+  console.log("FrozenTable - setShowOnlyKeyBooks:", typeof setShowOnlyKeyBooks);
+  
   const [isScrolled, setIsScrolled] = useState(false);
 
   // Dynamic column widths based on screen size and scroll state
@@ -43,11 +48,13 @@ const FrozenTable = ({
     setIsScrolled(e.target.scrollLeft > 20);
   };
 
-  const showEmptyState = !table.getRowModel().rows?.length;
+  // Calculate showEmptyState based on loading and row count
+  const hasRows = table.getRowModel().rows?.length > 0;
+  const showEmptyState = !loading && !hasRows;
+  const showLoadingEmptyState = loading && !hasRows;
 
   return (
     <div className="w-full h-screen flex flex-col">
-      {/* Filters section - always at top */}
       <div className="w-full flex-none">
         <Card className="w-full mb-4">
           <CustomTableHeader 
@@ -59,6 +66,8 @@ const FrozenTable = ({
             setSelectedDates={setSelectedDates}
             setSelectedMatchups={setSelectedMatchups}
             setSelectedLeagues={setSelectedLeagues}
+            showOnlyKeyBooks={showOnlyKeyBooks}
+            setShowOnlyKeyBooks={setShowOnlyKeyBooks}
           />
         </Card>
       </div>
@@ -110,7 +119,7 @@ const FrozenTable = ({
                     ))}
                   </thead>
                   <tbody>
-                    {showEmptyState ? (
+                    {showEmptyState && (
                       <tr>
                         <td 
                           colSpan={table.getAllColumns().length}
@@ -122,45 +131,59 @@ const FrozenTable = ({
                           </p>
                         </td>
                       </tr>
-                    ) : (
-                      table.getRowModel().rows.map(row => (
-                        <tr
-                          key={row.id}
-                          className="border-b last:border-b-0 hover:bg-gray-100 group"
-                        >
-                          {row.getVisibleCells().map((cell, index) => {
-                            const columnWidth = getColumnWidth(index);
-                            const leftPos = getLeftPosition(index);
-                            return (
-                              <td
-                                key={cell.id}
-                                className={`
-                                  p-2 sm:p-4 align-middle
-                                  text-[10px] sm:text-sm
-                                  ${index < 2 ? 'sticky left-0 bg-card z-10 group-hover:bg-gray-100' : ''}
-                                  ${index === 1 ? 'border-r border-border' : ''}
-                                  truncate transition-all duration-200
-                                `}
-                                style={{
-                                  left: typeof leftPos === 'string' ? leftPos : 
-                                        `clamp(${leftPos.mobile}, 20vw, ${leftPos.desktop})`,
-                                  width: `clamp(${columnWidth.mobile}, 20vw, ${columnWidth.desktop})`,
-                                  minWidth: columnWidth.mobile,
-                                  maxWidth: columnWidth.desktop
-                                }}
-                              >
-                                <div className="truncate">
-                                  {flexRender(
-                                    cell.column.columnDef.cell,
-                                    cell.getContext()
-                                  )}
-                                </div>
-                              </td>
-                            );
-                          })}
-                        </tr>
-                      ))
                     )}
+                    
+                    {showLoadingEmptyState && (
+                      <tr>
+                        <td 
+                          colSpan={table.getAllColumns().length}
+                          className="text-center p-8"
+                        >
+                          <div className="text-lg font-semibold mb-2">Loading matches...</div>
+                          <p className="text-muted-foreground">
+                            Odds data will appear shortly
+                          </p>
+                        </td>
+                      </tr>
+                    )}
+                    
+                    {hasRows && table.getRowModel().rows.map(row => (
+                      <tr
+                        key={row.id}
+                        className="border-b last:border-b-0 hover:bg-gray-100 group"
+                      >
+                        {row.getVisibleCells().map((cell, index) => {
+                          const columnWidth = getColumnWidth(index);
+                          const leftPos = getLeftPosition(index);
+                          return (
+                            <td
+                              key={cell.id}
+                              className={`
+                                p-2 sm:p-4 align-middle
+                                text-[10px] sm:text-sm
+                                ${index < 2 ? 'sticky left-0 bg-card z-10 group-hover:bg-gray-100' : ''}
+                                ${index === 1 ? 'border-r border-border' : ''}
+                                truncate transition-all duration-200
+                              `}
+                              style={{
+                                left: typeof leftPos === 'string' ? leftPos : 
+                                      `clamp(${leftPos.mobile}, 20vw, ${leftPos.desktop})`,
+                                width: `clamp(${columnWidth.mobile}, 20vw, ${columnWidth.desktop})`,
+                                minWidth: columnWidth.mobile,
+                                maxWidth: columnWidth.desktop
+                              }}
+                            >
+                              <div className="truncate">
+                                {flexRender(
+                                  cell.column.columnDef.cell,
+                                  cell.getContext()
+                                )}
+                              </div>
+                            </td>
+                          );
+                        })}
+                      </tr>
+                    ))}
                   </tbody>
                 </table>
               </div>

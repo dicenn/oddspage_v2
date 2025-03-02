@@ -1,5 +1,5 @@
 // OddsTableRow.jsx
-import { ALL_SPORTSBOOKS } from '../constants/sportsbooks';
+import { ALL_SPORTSBOOKS, getDisplayName } from '../constants/sportsbooks';
 import { formatPrice } from '../utils/formatting';
 
 export const OddsTableRow = ({ bet, priceUpdates }) => {
@@ -27,6 +27,9 @@ export const OddsTableRow = ({ bet, priceUpdates }) => {
         </span>
       </td>
       {ALL_SPORTSBOOKS.map(book => {
+        // Get the display name for the sportsbook
+        const displayName = getDisplayName(book);
+        
         // Get the update for this cell if it exists
         const update = betUpdates[`${bet.Market}-${bet.Selection}-${book}`];
         const originalPrice = bet.currentPrices?.[book];

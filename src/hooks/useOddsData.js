@@ -11,7 +11,7 @@ export const useOddsData = () => {
   const [error, setError] = useState(null);
 
   // Add streaming data
-  const { priceUpdates, streamStatus } = useOddsStream(bets);
+  const { priceUpdates, streamStatus, invalidLeagues } = useOddsStream(bets);
 
   useEffect(() => {
     const loadData = async () => {
@@ -23,7 +23,7 @@ export const useOddsData = () => {
           header: true,
           skipEmptyLines: true,
           dynamicTyping: true,
-          // Add this transform function to convert spaces to underscores in column headers
+          // Convert spaces to underscores in column headers
           transformHeader: header => header.replace(/\s+/g, '_'),
           complete: async (results) => {
             const allRows = results.data;
@@ -101,5 +101,5 @@ export const useOddsData = () => {
     loadData();
   }, []);
 
-  return { bets, loading, error, priceUpdates, streamStatus };
+  return { bets, loading, error, priceUpdates, streamStatus, invalidLeagues };
 };

@@ -45,16 +45,30 @@ export const createColumns = (priceUpdates) => [
   {
     header: 'Market/Selection',
     accessorKey: 'marketSelection',
-    cell: ({ row }) => (
-      <div className="space-y-1 min-w-[200px]">
-        <div className="text-sm text-muted-foreground truncate">
-          {row.original.Market}
+    cell: ({ row }) => {
+      // Find the minimum price across all sportsbooks
+      const prices = Object.values(row.original.currentPrices || {}).filter(price => 
+        price !== undefined && price !== null
+      );
+      
+      const minPrice = prices.length > 0 ? Math.min(...prices) : null;
+      
+      return (
+        <div className="space-y-1 min-w-[200px]">
+          <div className="text-sm text-muted-foreground truncate">
+            {row.original.Market}
+          </div>
+          <div className="font-medium truncate">
+            {row.original.Selection}
+          </div>
+          {minPrice !== null && (
+            <div className="text-xs font-medium text-green-600 truncate">
+              Min: {formatPrice(minPrice)}
+            </div>
+          )}
         </div>
-        <div className="font-medium truncate">
-          {row.original.Selection}
-        </div>
-      </div>
-    ),
+      );
+    },
   },
   ...ALL_SPORTSBOOKS.map(book => {
     const displayName = getDisplayName(book);
@@ -96,13 +110,5 @@ export const createColumns = (priceUpdates) => [
       },
     };
   }),
-  {
-    header: 'Limit',
-    accessorKey: 'Pinn_Limit',
-    cell: ({ getValue }) => (
-      <div className="text-right font-mono text-muted-foreground">
-        {getValue() || '-'}
-      </div>
-    ),
-  },
+  // Limit column removed
 ];

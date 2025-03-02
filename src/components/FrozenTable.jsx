@@ -23,29 +23,46 @@ const FrozenTable = ({
 
   // Dynamic column widths based on screen size and scroll state
   const getColumnWidth = (index) => {
+    // First column (Match Info)
     if (index === 0) return { 
       mobile: isScrolled ? '100px' : '140px', 
       desktop: '300px' 
     };
+    // Second column (Market/Selection)
     if (index === 1) return { 
       mobile: isScrolled ? '80px' : '120px', 
       desktop: '300px' 
     };
+    // Other columns
     return { mobile: '100px', desktop: '120px' };
   };
 
   // Calculate left position for frozen columns
   const getLeftPosition = (index) => {
     if (index === 0) return '0';
-    if (index === 1) return { 
-      mobile: isScrolled ? '100px' : '140px', 
-      desktop: '300px' 
-    };
+    if (index === 1) {
+      // The left position of second column depends on first column's width
+      const firstColWidth = isScrolled ? '100px' : '140px';
+      return { 
+        mobile: firstColWidth, 
+        desktop: '300px' 
+      };
+    }
     return 'auto';
   };
 
   const handleScroll = (e) => {
-    setIsScrolled(e.target.scrollLeft > 20);
+    // More sensitive scroll detection to ensure the transition happens quickly
+    setIsScrolled(e.target.scrollLeft > 10);
+    
+    // Force a re-render for the transition to apply immediately
+    setTimeout(() => {
+      const container = e.target;
+      if (container) {
+        const event = new Event('resize');
+        window.dispatchEvent(event);
+      }
+    }, 10);
   };
 
   // Calculate showEmptyState based on loading and row count
@@ -96,7 +113,7 @@ const FrozenTable = ({
                                 ${index < 2 ? 'sticky left-0 z-10' : ''}
                                 ${index === 1 ? 'border-r border-border' : ''}
                                 ${index < 2 ? 'bg-muted' : 'bg-muted'}
-                                truncate transition-all duration-200
+                                truncate transition-all duration-300
                               `}
                               style={{
                                 left: typeof leftPos === 'string' ? leftPos : 
@@ -163,7 +180,7 @@ const FrozenTable = ({
                                 text-[10px] sm:text-sm
                                 ${index < 2 ? 'sticky left-0 bg-card z-10 group-hover:bg-gray-100' : ''}
                                 ${index === 1 ? 'border-r border-border' : ''}
-                                truncate transition-all duration-200
+                                truncate transition-all duration-300
                               `}
                               style={{
                                 left: typeof leftPos === 'string' ? leftPos : 

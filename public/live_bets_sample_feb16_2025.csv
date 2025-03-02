@@ -1,581 +1,143 @@
-﻿Grade,Selection_Date,Match_Date,Sport,League,Home_Team,Away_Team,Market,Selection,Pinnacle,Betfair Exchange,Betrivers,FanDuel,Draftkings,Caesars,BetMGM,Betonline,bet105,Hard Rock,ESPN BET,Fanatics,Bet365,Bovada,Betano,Pinn_Limit,game_id
-Delta-1,2/18/25,2/22/25,Soccer,Azerbaijan - Premier League,Araz Naxcivan PFK,S@bail FK,Asian Handicap,S@bail FK +0.25,,,,,,,,,,,,,,180,,,202502218F934D25
-Delta-1,2/18/25,2/22/25,Soccer,Azerbaijan - Premier League,Araz Naxcivan PFK,S@bail FK,Double Chance,S@bail FK Or Draw,,,128,115,,,,,,,,,100,,125,,202502218F934D25
-Delta-1,2/18/25,2/22/25,Soccer,Azerbaijan - Premier League,Araz Naxcivan PFK,S@bail FK,Goal Spread,S@bail FK +0.5,,,,,,,,,,,,,,123,,,202502218F934D25
-Delta-1,2/18/25,2/22/25,Soccer,Azerbaijan - Premier League,Araz Naxcivan PFK,S@bail FK,Asian Handicap,S@bail FK +0.5,,,,,,,,,,,,,,,,,202502218F934D25
-Delta-1,2/18/25,2/22/25,Soccer,Azerbaijan - Premier League,Araz Naxcivan PFK,S@bail FK,Asian Handicap,S@bail FK +0.75,,,,,,,,,,,,,-111,-102,-105,,202502218F934D25
-Delta-1,2/18/25,2/22/25,Soccer,Azerbaijan - Premier League,Araz Naxcivan PFK,S@bail FK,Goal Spread,S@bail FK +1,,,,,,,,,,,,,,-140,,,202502218F934D25
-Delta-1,2/18/25,2/22/25,Soccer,Azerbaijan - Premier League,Araz Naxcivan PFK,S@bail FK,Asian Handicap,S@bail FK +1,,,,,,,,,,,,,,,,,202502218F934D25
-Delta-1,2/18/25,2/22/25,Soccer,Azerbaijan - Premier League,Araz Naxcivan PFK,S@bail FK,Asian Handicap,S@bail FK +1.25,,,,,,,,,,,,,,-190,,,202502218F934D25
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,Club Agropecuario Argentino,AA Estudiantes de Río Cuarto,Goal Spread,none available,,,,,,,,,,,,,,,,,20250222504BBFDF
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,Club Agropecuario Argentino,AA Estudiantes de Río Cuarto,Asian Handicap,AA Estudiantes de Río Cuarto -1,,,,,,,,,,,,,,,,,20250222504BBFDF
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,Club Agropecuario Argentino,AA Estudiantes de Río Cuarto,Asian Handicap,AA Estudiantes de Río Cuarto -0.75,,,,,,,,,,,,,,,,,20250222504BBFDF
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,Club Agropecuario Argentino,AA Estudiantes de Río Cuarto,Moneyline,AA Estudiantes de Río Cuarto,,,,,,,,,,,,,,,,,20250222504BBFDF
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,Club Agropecuario Argentino,AA Estudiantes de Río Cuarto,Goal Spread,AA Estudiantes de Río Cuarto -0.5,,,,,,,,,,,,,,,,,20250222504BBFDF
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,Club Agropecuario Argentino,AA Estudiantes de Río Cuarto,Asian Handicap,AA Estudiantes de Río Cuarto -0.5,,,,,,,,,,,,,,,,,20250222504BBFDF
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,Club Agropecuario Argentino,AA Estudiantes de Río Cuarto,Asian Handicap,AA Estudiantes de Río Cuarto -0.25,,,,,,,,,,,,,,,,,20250222504BBFDF
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,Club Agropecuario Argentino,AA Estudiantes de Río Cuarto,Draw No Bet,AA Estudiantes de Río Cuarto,,,,,,,,,,,,,,,,,20250222504BBFDF
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,Club Agropecuario Argentino,AA Estudiantes de Río Cuarto,Goal Spread,AA Estudiantes de Río Cuarto +0,,,,,,,,,,,,,,,,,20250222504BBFDF
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,Club Agropecuario Argentino,AA Estudiantes de Río Cuarto,Asian Handicap,AA Estudiantes de Río Cuarto +0,,,,,,,,,,,,,,,,,20250222504BBFDF
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,Club Agropecuario Argentino,AA Estudiantes de Río Cuarto,Asian Handicap,AA Estudiantes de Río Cuarto +0.25,,,,,,,,,,,,,,,,,20250222504BBFDF
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,Club Agropecuario Argentino,AA Estudiantes de Río Cuarto,Double Chance,AA Estudiantes de Río Cuarto or Draw,,,,,,,,,,,,,,,,,20250222504BBFDF
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,Club Agropecuario Argentino,AA Estudiantes de Río Cuarto,Goal Spread,AA Estudiantes de Río Cuarto +0.5,,,,,,,,,,,,,,,,,20250222504BBFDF
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,Club Agropecuario Argentino,AA Estudiantes de Río Cuarto,Asian Handicap,AA Estudiantes de Río Cuarto +0.5,,,,,,,,,,,,,,,,,20250222504BBFDF
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,Club Agropecuario Argentino,AA Estudiantes de Río Cuarto,Asian Handicap,none available,,,,,,,,,,,,,,,,,20250222504BBFDF
-Delta-0,2/19/25,2/22/25,Soccer,Spain - La Liga,Deportivo Alavés,Reial Club Deportiu Espanyol,1st Half Total Goals,Under 0.5,143,,130,138,130,,130,,142,135,135,130,130,136,131,"$1,250 ",20250222550AA9DA
-Delta-0,2/19/25,2/22/25,Soccer,Spain - La Liga,Deportivo Alavés,Reial Club Deportiu Espanyol,1st Half Asian Total Goals,Under 0.5,141,,138,,130,150,,,,,,,,,135,,20250222550AA9DA
-A,2/17/25,2/22/25,Soccer,Romania - Liga I,SCS CFR 1907 Cluj,ACS Petrolul 52 Ploieşti,Total Goals,Under 2.25,,,,,,,,,,,,,,,,,20250222605010AC
-A,2/17/25,2/22/25,Soccer,Romania - Liga I,SCS CFR 1907 Cluj,ACS Petrolul 52 Ploieşti,Asian Total Goals,Under 2.25,-129,-131,-143,,-135,,,,,,,,-138,-132,-125,$250 ,20250222605010AC
-A,2/17/25,2/22/25,Soccer,Romania - Liga I,SCS CFR 1907 Cluj,ACS Petrolul 52 Ploieşti,Total Goals,Under 2.5,-170,-172,-195,-152,-180,-155,-185,,,-170,,,-175,-172,-161,$250 ,20250222605010AC
-A,2/17/25,2/22/25,Soccer,Romania - Liga I,SCS CFR 1907 Cluj,ACS Petrolul 52 Ploieşti,Asian Total Goals,Under 2.5,,,-190,,,,,,,,,,-182,,-161,,20250222605010AC
-A,2/17/25,2/22/25,Soccer,Romania - Liga I,SCS CFR 1907 Cluj,ACS Petrolul 52 Ploieşti,Total Goals,Under 1.5,184,181,170,198,175,180,,,,170,,,162,171,177,$250 ,20250222605010AC
-A,2/17/25,2/22/25,Soccer,Romania - Liga I,SCS CFR 1907 Cluj,ACS Petrolul 52 Ploieşti,Asian Total Goals,Under 1.5,,,165,,,,,,,,,,167,,181,,20250222605010AC
-A,2/17/25,2/22/25,Soccer,Romania - Liga I,SCS CFR 1907 Cluj,ACS Petrolul 52 Ploieşti,Total Goals,Under 2,110,108,,,,,,112,,,,,,105,,$250 ,20250222605010AC
-A,2/17/25,2/22/25,Soccer,Romania - Liga I,SCS CFR 1907 Cluj,ACS Petrolul 52 Ploieşti,Asian Total Goals,Under 2,,,-103,,105,,,,,,,,105,,112,,20250222605010AC
-A,2/17/25,2/22/25,Soccer,Romania - Liga I,SCS CFR 1907 Cluj,ACS Petrolul 52 Ploieşti,1st Half Total Goals,Under 0.75,,,,,,,,,,,,,,,,,20250222605010AC
-A,2/17/25,2/22/25,Soccer,Romania - Liga I,SCS CFR 1907 Cluj,ACS Petrolul 52 Ploieşti,1st Half Asian Total Goals,Under 0.75,112,,102,,110,,,,,,,,102,113,118,$150 ,20250222605010AC
-A,2/17/25,2/22/25,Soccer,Romania - Liga I,SCS CFR 1907 Cluj,ACS Petrolul 52 Ploieşti,1st Half Total Goals,Under 0.5,159,,140,,155,,,,,145,,,138,147,156,$150 ,20250222605010AC
-A,2/17/25,2/22/25,Soccer,Romania - Liga I,SCS CFR 1907 Cluj,ACS Petrolul 52 Ploieşti,1st Half Asian Total Goals,Under 0.5,158,,145,,155,,,,,,,,,,162,,20250222605010AC
-A,2/17/25,2/22/25,Soccer,Romania - Liga I,SCS CFR 1907 Cluj,ACS Petrolul 52 Ploieşti,1st Half Total Goals,Under 1,-157,,,,,,,,,,,,-174,-150,,$150 ,20250222605010AC
-Delta-35,2/18/25,2/21/25,Soccer,Costa Rica - Primera Division,AD Guanacasteca,Municipal Santa Ana,Moneyline,Municipal Santa Ana,291,,300,310,260,280,,,,,,,250,250,,$400 ,20250222613BE07A
-Delta-35,2/18/25,2/21/25,Soccer,Costa Rica - Primera Division,AD Guanacasteca,Municipal Santa Ana,Goal Spread,Municipal Santa Ana -0.5,267,,,,240,,,,,,,,,,,$400 ,20250222613BE07A
-Delta-35,2/18/25,2/21/25,Soccer,Costa Rica - Primera Division,AD Guanacasteca,Municipal Santa Ana,Asian Handicap,Municipal Santa Ana -0.5,,,,,,,,,,,,,245,,,,20250222613BE07A
-Delta-35,2/18/25,2/21/25,Soccer,Costa Rica - Primera Division,AD Guanacasteca,Municipal Santa Ana,Asian Handicap,Municipal Santa Ana -0.25,218,,,,,,,,,,,,200,,,$400 ,20250222613BE07A
-Delta-35,2/18/25,2/21/25,Soccer,Costa Rica - Primera Division,AD Guanacasteca,Municipal Santa Ana,Draw No Bet,Municipal Santa Ana,164,,200,,145,200,,,,,,,150,155,,,20250222613BE07A
-Delta-35,2/18/25,2/21/25,Soccer,Costa Rica - Primera Division,AD Guanacasteca,Municipal Santa Ana,Goal Spread,Municipal Santa Ana +0,167,,,,,,,,,,,,,155,,$400 ,20250222613BE07A
-Delta-35,2/18/25,2/21/25,Soccer,Costa Rica - Primera Division,AD Guanacasteca,Municipal Santa Ana,Asian Handicap,Municipal Santa Ana +0,,,,,,,,,,,,,150,,,,20250222613BE07A
-Delta-35,2/18/25,2/21/25,Soccer,Costa Rica - Primera Division,AD Guanacasteca,Municipal Santa Ana,Asian Handicap,Municipal Santa Ana +0.25,107,,,,,,,,,,,,102,102,,$400 ,20250222613BE07A
-Delta-35,2/18/25,2/21/25,Soccer,Costa Rica - Primera Division,AD Guanacasteca,Municipal Santa Ana,Double Chance,Municipal Santa Ana or Draw,-133,,,-120,-135,-110,,,,,,,-138,,,,20250222613BE07A
-Delta-35,2/18/25,2/21/25,Soccer,Costa Rica - Primera Division,AD Guanacasteca,Municipal Santa Ana,Goal Spread,Municipal Santa Ana +0.5,-130,,-113,,-135,-120,,,,,,,,-140,,$400 ,20250222613BE07A
-Delta-35,2/18/25,2/21/25,Soccer,Costa Rica - Primera Division,AD Guanacasteca,Municipal Santa Ana,Asian Handicap,Municipal Santa Ana +0.5,,,-110,,-135,,,,,,,,-133,,,,20250222613BE07A
-Delta-35,2/18/25,2/21/25,Soccer,Costa Rica - Primera Division,AD Guanacasteca,Municipal Santa Ana,Asian Handicap,Municipal Santa Ana +0.75,-179,,-150,,,,,,,,,,-182,-180,,$400 ,20250222613BE07A
-Delta-35,2/18/25,2/21/25,Soccer,Costa Rica - Primera Division,AD Guanacasteca,Municipal Santa Ana,Goal Spread,Municipal Santa Ana +1,-284,,,,,,,,,,,,,-270,,$400 ,20250222613BE07A
-Delta-35,2/18/25,2/21/25,Soccer,Costa Rica - Primera Division,AD Guanacasteca,Municipal Santa Ana,Asian Handicap,Municipal Santa Ana +1,,,,,,,,,,,,,-286,,,,20250222613BE07A
-A,2/18/25,2/22/25,Soccer,Turkey - Super Lig,Samsunspor Kulübü,Çaykur Rize Spor Kulübü,Moneyline,Çaykur Rize Spor Kulübü,267,,230,250,260,255,250,220,,,,,260,245,250,"$1,200 ",20250222668D723C
-A,2/18/25,2/22/25,Soccer,Turkey - Super Lig,Samsunspor Kulübü,Çaykur Rize Spor Kulübü,Goal Spread,Çaykur Rize Spor Kulübü -0.5,261,,,,235,,,,,,,,,,250,"$1,200 ",20250222668D723C
-A,2/18/25,2/22/25,Soccer,Turkey - Super Lig,Samsunspor Kulübü,Çaykur Rize Spor Kulübü,Asian Handicap,Çaykur Rize Spor Kulübü -0.5,,,,,,,,,,,,,245,,,,20250222668D723C
-A,2/18/25,2/22/25,Soccer,Turkey - Super Lig,Samsunspor Kulübü,Çaykur Rize Spor Kulübü,Draw No Bet,Çaykur Rize Spor Kulübü,165,,148,170,165,160,155,,,,,,150,163,150,,20250222668D723C
-A,2/18/25,2/22/25,Soccer,Turkey - Super Lig,Samsunspor Kulübü,Çaykur Rize Spor Kulübü,Goal Spread,Çaykur Rize Spor Kulübü +0,166,,,,,,,,,,,,,160,160,"$1,200 ",20250222668D723C
-A,2/18/25,2/22/25,Soccer,Turkey - Super Lig,Samsunspor Kulübü,Çaykur Rize Spor Kulübü,Asian Handicap,Çaykur Rize Spor Kulübü +0,,,,,,,,,,,,,150,,,,20250222668D723C
-A,2/18/25,2/22/25,Soccer,Turkey - Super Lig,Samsunspor Kulübü,Çaykur Rize Spor Kulübü,Double Chance,Çaykur Rize Spor Kulübü or Draw,-128,,-132,-135,-135,-129,-130,,,,,,-138,,-128,,20250222668D723C
-A,2/18/25,2/22/25,Soccer,Turkey - Super Lig,Samsunspor Kulübü,Çaykur Rize Spor Kulübü,Goal Spread,Çaykur Rize Spor Kulübü +0.5,-124,,,,-135,-125,-130,-122,,,,,,-128,-125,"$1,200 ",20250222668D723C
-A,2/18/25,2/22/25,Soccer,Turkey - Super Lig,Samsunspor Kulübü,Çaykur Rize Spor Kulübü,Asian Handicap,Çaykur Rize Spor Kulübü +0.5,,,,,-135,,,,,,,,-133,,,,20250222668D723C
-A,2/18/25,2/22/25,Soccer,Turkey - Super Lig,Samsunspor Kulübü,Çaykur Rize Spor Kulübü,1st Half Moneyline,Çaykur Rize Spor Kulübü,325,,,,295,280,290,285,,,,,300,310,300,$200 ,20250222668D723C
-A,2/18/25,2/22/25,Soccer,Turkey - Super Lig,Samsunspor Kulübü,Çaykur Rize Spor Kulübü,1st Half Goal Spread,Çaykur Rize Spor Kulübü -0.5,,,,,,,,,,,,,,,295,,20250222668D723C
-A,2/18/25,2/22/25,Soccer,Turkey - Super Lig,Samsunspor Kulübü,Çaykur Rize Spor Kulübü,1st Half Asian Handicap,Çaykur Rize Spor Kulübü -0.5,,,,,,,,,,,,,280,,,,20250222668D723C
-A,2/18/25,2/22/25,Soccer,Turkey - Super Lig,Samsunspor Kulübü,Çaykur Rize Spor Kulübü,1st Half Goal Spread,Çaykur Rize Spor Kulübü +0,149,,,,,,,,,,,,,143,137,$200 ,20250222668D723C
-A,2/18/25,2/22/25,Soccer,Turkey - Super Lig,Samsunspor Kulübü,Çaykur Rize Spor Kulübü,1st Half Asian Handicap,Çaykur Rize Spor Kulübü +0,,,,,135,,,,,,,,130,,,,20250222668D723C
-A,2/18/25,2/22/25,Soccer,Turkey - Super Lig,Samsunspor Kulübü,Çaykur Rize Spor Kulübü,1st Half Goal Spread,Çaykur Rize Spor Kulübü +0.5,-204,,,,,-200,,,,,,,,-206,-222,$200 ,20250222668D723C
-A,2/18/25,2/22/25,Soccer,Turkey - Super Lig,Samsunspor Kulübü,Çaykur Rize Spor Kulübü,1st Half Asian Handicap,Çaykur Rize Spor Kulübü +0.5,,,,,-215,,,,,,,,-222,,,,20250222668D723C
-A,2/18/25,2/22/25,Soccer,Turkey - Super Lig,Samsunspor Kulübü,Çaykur Rize Spor Kulübü,Asian Handicap,Çaykur Rize Spor Kulübü +0.25,108,,,,100,,,,,,,,105,108,106,"$1,200 ",20250222668D723C
-A,2/18/25,2/22/25,Soccer,Turkey - Super Lig,Samsunspor Kulübü,Çaykur Rize Spor Kulübü,Asian Handicap,Çaykur Rize Spor Kulübü -0.25,213,,,,,,,,,,,,200,,204,"$1,200 ",20250222668D723C
-A,2/18/25,2/22/25,Soccer,Romania - Liga I,FC Botoșani,Universitatea Craiova 1948 Club Sportiv,Moneyline,Universitatea Craiova 1948 Club Sportiv,106,108,-103,,110,,100,,,,,,,110,102,$500 ,2025022272EE36A6
-A,2/18/25,2/22/25,Soccer,Romania - Liga I,FC Botoșani,Universitatea Craiova 1948 Club Sportiv,Goal Spread,Universitatea Craiova 1948 Club Sportiv -0.5,105,108,,,100,,,,,,,,,110,104,$500 ,2025022272EE36A6
-A,2/18/25,2/22/25,Soccer,Romania - Liga I,FC Botoșani,Universitatea Craiova 1948 Club Sportiv,Asian Handicap,Universitatea Craiova 1948 Club Sportiv -0.5,,,-103,,100,,,,,,,,,,,,2025022272EE36A6
-A,2/18/25,2/22/25,Soccer,Romania - Liga I,FC Botoșani,Universitatea Craiova 1948 Club Sportiv,Draw No Bet,Universitatea Craiova 1948 Club Sportiv,-194,,-230,,-195,,,,,,,,,-190,-200,,2025022272EE36A6
-A,2/18/25,2/22/25,Soccer,Romania - Liga I,FC Botoșani,Universitatea Craiova 1948 Club Sportiv,Goal Spread,Universitatea Craiova 1948 Club Sportiv +0,-195,-200,,,,,,,,,,,,-195,-188,$500 ,2025022272EE36A6
-A,2/18/25,2/22/25,Soccer,Romania - Liga I,FC Botoșani,Universitatea Craiova 1948 Club Sportiv,Asian Handicap,Universitatea Craiova 1948 Club Sportiv +0,,,,,,,,,,,,,,,,,2025022272EE36A6
-A,2/18/25,2/22/25,Soccer,Romania - Liga I,FC Botoșani,Universitatea Craiova 1948 Club Sportiv,Asian Handicap,Universitatea Craiova 1948 Club Sportiv -0.25,-125,-126,-141,,-135,,,,,,,,,-125,-125,$500 ,2025022272EE36A6
-A,2/18/25,2/22/25,Soccer,Romania - Liga I,FC Botoșani,Universitatea Craiova 1948 Club Sportiv,1st Half Moneyline,Universitatea Craiova 1948 Club Sportiv,170,144,155,,165,,,,,,,,,175,172,$150 ,2025022272EE36A6
-A,2/18/25,2/22/25,Soccer,Romania - Liga I,FC Botoșani,Universitatea Craiova 1948 Club Sportiv,1st Half Goal Spread,Universitatea Craiova 1948 Club Sportiv -0.5,167,,,,,,,,,,,,,175,172,$150 ,2025022272EE36A6
-A,2/18/25,2/22/25,Soccer,Romania - Liga I,FC Botoșani,Universitatea Craiova 1948 Club Sportiv,1st Half Asian Handicap,Universitatea Craiova 1948 Club Sportiv -0.5,,,155,,160,,,,,,,,,,,,2025022272EE36A6
-A*,2/17/25,2/22/25,Soccer,Ukraine - Premier League,FK Kryvbas Kryvyi Rih,NK Veres Rivne,Moneyline,NK Veres Rivne,268,260,,280,,265,275,205,,,,,,240,,$300 ,202502227AD63792
-A*,2/17/25,2/22/25,Soccer,Ukraine - Premier League,FK Kryvbas Kryvyi Rih,NK Veres Rivne,Goal Spread,NK Veres Rivne -0.5,259,260,,,,,,,,,,,,,,$300 ,202502227AD63792
-A*,2/17/25,2/22/25,Soccer,Ukraine - Premier League,FK Kryvbas Kryvyi Rih,NK Veres Rivne,Asian Handicap,NK Veres Rivne -0.5,,,,,,,,,,,,,,,,,202502227AD63792
-A*,2/17/25,2/22/25,Soccer,Ukraine - Premier League,FK Kryvbas Kryvyi Rih,NK Veres Rivne,Draw No Bet,NK Veres Rivne,152,140,,,,165,160,,,,,,,138,,,202502227AD63792
-A*,2/17/25,2/22/25,Soccer,Ukraine - Premier League,FK Kryvbas Kryvyi Rih,NK Veres Rivne,Goal Spread,NK Veres Rivne +0,153,141,,,,,,,,,,,,138,,$300 ,202502227AD63792
-A*,2/17/25,2/22/25,Soccer,Ukraine - Premier League,FK Kryvbas Kryvyi Rih,NK Veres Rivne,Asian Handicap,NK Veres Rivne +0,,,,,,,,,,,,,,,,,202502227AD63792
-A*,2/17/25,2/22/25,Soccer,Ukraine - Premier League,FK Kryvbas Kryvyi Rih,NK Veres Rivne,Double Chance,NK Veres Rivne or Draw,-154,-158,,-140,,-140,-135,,,,,,,,,,202502227AD63792
-A*,2/17/25,2/22/25,Soccer,Ukraine - Premier League,FK Kryvbas Kryvyi Rih,NK Veres Rivne,Goal Spread,NK Veres Rivne +0.5,-153,-158,,,,-135,,,,,,-160,,-160,,$300 ,202502227AD63792
-A*,2/17/25,2/22/25,Soccer,Ukraine - Premier League,FK Kryvbas Kryvyi Rih,NK Veres Rivne,Asian Handicap,NK Veres Rivne +0.5,,,,,,,,,,,,,,,,,202502227AD63792
-A*,2/17/25,2/22/25,Soccer,Ukraine - Premier League,FK Kryvbas Kryvyi Rih,NK Veres Rivne,1st Half Moneyline,NK Veres Rivne,324,280,,400,,,,,,,,,,320,,$100 ,202502227AD63792
-A*,2/17/25,2/22/25,Soccer,Ukraine - Premier League,FK Kryvbas Kryvyi Rih,NK Veres Rivne,1st Half Goal Spread,NK Veres Rivne -0.5,,,,,,,,,,,,,,,,,202502227AD63792
-A*,2/17/25,2/22/25,Soccer,Ukraine - Premier League,FK Kryvbas Kryvyi Rih,NK Veres Rivne,1st Half Asian Handicap,NK Veres Rivne -0.5,,,,,,,,,,,,,,,,,202502227AD63792
-A*,2/17/25,2/22/25,Soccer,Ukraine - Premier League,FK Kryvbas Kryvyi Rih,NK Veres Rivne,1st Half Goal Spread,NK Veres Rivne +0,135,,,,,,,,,,,,,128,,$100 ,202502227AD63792
-A*,2/17/25,2/22/25,Soccer,Ukraine - Premier League,FK Kryvbas Kryvyi Rih,NK Veres Rivne,1st Half Asian Handicap,NK Veres Rivne +0,,,,,,,,,,,,,,,,,202502227AD63792
-A*,2/17/25,2/22/25,Soccer,Ukraine - Premier League,FK Kryvbas Kryvyi Rih,NK Veres Rivne,1st Half Goal Spread,NK Veres Rivne +0.5,-248,,,,,,,,,,,,,-265,,$100 ,202502227AD63792
-A*,2/17/25,2/22/25,Soccer,Ukraine - Premier League,FK Kryvbas Kryvyi Rih,NK Veres Rivne,1st Half Asian Handicap,NK Veres Rivne +0.25,-155,,,,,,,-147,,,,,,-165,,$100 ,202502227AD63792
-Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Moneyline,Kecskeméti TE,500,,500,490,450,500,475,440,,,,,600,460,490,$400 ,202502227DD3D630
-Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Goal Spread,Kecskeméti TE -0.5,,,,,400,,,,,,,,,,,,202502227DD3D630
-Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Asian Handicap,Kecskeméti TE -0.5,,,,,,,,,,,,,500,,,,202502227DD3D630
-Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Asian Handicap,Kecskeméti TE -0.25,,,,,,,,,,,,,450,,,,202502227DD3D630
-Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Draw No Bet,Kecskeméti TE,352,,340,,350,340,340,,,,,,350,325,315,,202502227DD3D630
-Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Goal Spread,Kecskeméti TE +0,354,,,,,,,,,,,,,,,$400 ,202502227DD3D630
-Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Asian Handicap,Kecskeméti TE +0,,,,,,,,,,,,,350,,,,202502227DD3D630
-Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Asian Handicap,Kecskeméti TE +0.25,196,,,,,,,,,,,,200,,,$400 ,202502227DD3D630
-Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Double Chance,Kecskeméti TE or Draw,134,,140,,135,150,140,,,,,,138,,137,,202502227DD3D630
-Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Goal Spread,Kecskeméti TE +0.5,135,,,,130,145,,,,,,,,132,135,$400 ,202502227DD3D630
-Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Asian Handicap,Kecskeméti TE +0.5,,,,,,,,,,,,,138,,,,202502227DD3D630
-Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Asian Handicap,Kecskeméti TE +0.75,107,,110,,105,,,,,,,,110,108,104,$400 ,202502227DD3D630
-Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Goal Spread,Kecskeméti TE +1,-126,,,,,,,-118,,,,,,-125,-133,$400 ,202502227DD3D630
-Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Asian Handicap,Kecskeméti TE +1,,,-124,,-130,,,,,,,,-118,,,,202502227DD3D630
-Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Asian Handicap,Kecskeméti TE +1.25,-169,,-167,,,,,,,,,,-160,-165,-175,$400 ,202502227DD3D630
-Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Goal Spread,Kecskeméti TE +1.5,-212,,,,-225,,-200,,,,,,,-210,-222,$400 ,202502227DD3D630
-Delta-1,2/20/25,2/22/25,Soccer,Hungary - NB I,Puskás Akadémia FC,Kecskeméti TE,Asian Handicap,Kecskeméti TE +1.5,,,-210,,,,,,,,,,-200,,,,202502227DD3D630
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Moneyline,Coleraine FC,386,,350,430,360,400,380,,,,,,450,390,409,$400 ,2.03E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Goal Spread,Coleraine FC -0.5,,,,,320,,,,,,,,,,,,2.03E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC -0.5,,,,,,,,,,,,,450,,,,2.03E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Draw No Bet,Coleraine FC,281,,265,,230,280,280,,,,,,333,270,265,,2.03E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Goal Spread,Coleraine FC +0,280,,285,,,,,,,,,,,,,$400 ,2.03E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +0,,,,,,,,,,,,,310,,,,2.03E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +0.25,181,,,,,,,,,,,,185,171,,$400 ,2.03E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Double Chance,Coleraine FC or Draw,131,,123,130,125,128,125,,,,,,115,,135,,2.03E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Goal Spread,Coleraine FC +0.5,132,,,,120,127,,,,,,,,120,129,$400 ,2.03E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +0.5,,,,,,,,,,,,,130,,,,2.03E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +0.75,105,,-103,,-105,,,,,,,,105,100,104,$400 ,2.03E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Goal Spread,Coleraine FC +1,-137,,-141,,,,,,,,,,,-135,-128,$400 ,2.03E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +1,,,,,-145,,,,,,,,-129,,,,2.03E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +1.25,-184,,-177,,,,,,,,,,-167,-180,-166,$400 ,2.03E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Goal Spread,Coleraine FC +1.5,-235,,-225,,-235,,,,,,,,,,-212,$400 ,2.03E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +1.5,,,,,,,,,,,,,-211,,,,2.03E+15
-Delta-35,2/16/25,2/22/25,Soccer,Northern Ireland - Premiership,Linfield FC,Coleraine FC,Asian Handicap,Coleraine FC +1.75,-332,,,,,,,,,,,,-286,,,$400 ,2.03E+15
-A,2/18/25,2/22/25,Soccer,Turkey - 1. Lig,Şanlıurfa Spor Kulübü,Kocaelispor Kulübü,Moneyline,Kocaelispor Kulübü,-123,-126,,-115,,,-130,,,,,,-133,-120,-125,$400 ,202502228EA44B1E
-A,2/18/25,2/22/25,Soccer,Turkey - 1. Lig,Şanlıurfa Spor Kulübü,Kocaelispor Kulübü,Goal Spread,Kocaelispor Kulübü -0.5,-122,-126,,,,,,,,,,,,-118,-128,$400 ,202502228EA44B1E
-A,2/18/25,2/22/25,Soccer,Turkey - 1. Lig,Şanlıurfa Spor Kulübü,Kocaelispor Kulübü,Asian Handicap,Kocaelispor Kulübü -0.5,,,,,,,,,,,,,-129,,,,202502228EA44B1E
-A,2/18/25,2/22/25,Soccer,Turkey - 1. Lig,Şanlıurfa Spor Kulübü,Kocaelispor Kulübü,Draw No Bet,Kocaelispor Kulübü,-307,-303,,,,,-300,,,,,,-300,-270,-303,,202502228EA44B1E
-A,2/18/25,2/22/25,Soccer,Turkey - 1. Lig,Şanlıurfa Spor Kulübü,Kocaelispor Kulübü,Goal Spread,Kocaelispor Kulübü +0,-300,-303,,,,,,,,,,,,-270,,$400 ,202502228EA44B1E
-A,2/18/25,2/22/25,Soccer,Turkey - 1. Lig,Şanlıurfa Spor Kulübü,Kocaelispor Kulübü,Asian Handicap,Kocaelispor Kulübü +0,,,,,,,,,,,,,-308,,,,202502228EA44B1E
-A,2/18/25,2/22/25,Soccer,Turkey - 1. Lig,Şanlıurfa Spor Kulübü,Kocaelispor Kulübü,Asian Handicap,Kocaelispor Kulübü -0.25,-175,-178,,,,,,,,,,,-182,-165,-175,$400 ,202502228EA44B1E
-A,2/18/25,2/22/25,Soccer,Turkey - 1. Lig,Şanlıurfa Spor Kulübü,Kocaelispor Kulübü,1st Half Moneyline,Kocaelispor Kulübü,142,122,,160,,,140,,,,,,150,160,135,$100 ,202502228EA44B1E
-A,2/18/25,2/22/25,Soccer,Turkey - 1. Lig,Şanlıurfa Spor Kulübü,Kocaelispor Kulübü,1st Half Goal Spread,Kocaelispor Kulübü -0.5,141,,,,,,,,,,,,,150,135,$100 ,202502228EA44B1E
-A,2/18/25,2/22/25,Soccer,Turkey - 1. Lig,Şanlıurfa Spor Kulübü,Kocaelispor Kulübü,1st Half Asian Handicap,Kocaelispor Kulübü -0.5,,,,,,,,,,,,,142,,,,202502228EA44B1E
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Real Sporting de Gijón,UD Almería,Total Goals,Over 2.5,117,,110,118,110,125,115,,116,115,,,110,118,114,$600 ,2025022293ED8E63
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Real Sporting de Gijón,UD Almería,Asian Total Goals,Over 2.5,,,112,,110,,,,,,,,110,,118,,2025022293ED8E63
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Real Sporting de Gijón,UD Almería,Total Goals,Over 2.25,,,,,,,,,,,,,,,,,2025022293ED8E63
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Real Sporting de Gijón,UD Almería,Asian Total Goals,Over 2.25,-111,,-118,,-120,,,-109,-112,,,,-111,-110,-109,$600 ,2025022293ED8E63
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Real Sporting de Gijón,UD Almería,Total Goals,Over 1.5,-277,,-315,,-280,,-275,,-281,-275,,,-275,-260,-256,$600 ,2025022293ED8E63
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Real Sporting de Gijón,UD Almería,Asian Total Goals,Over 1.5,,,,,,,,,,,,,-267,,-250,,2025022293ED8E63
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Real Sporting de Gijón,UD Almería,1st Half Total Goals,Over 0.5,-227,,-235,,-235,,-220,,-231,-230,,,-211,-195,-227,$200 ,2025022293ED8E63
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Real Sporting de Gijón,UD Almería,1st Half Asian Total Goals,Over 0.5,-231,,-225,,,,,,,,,,,,-227,,2025022293ED8E63
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Real Sporting de Gijón,UD Almería,1st Half Total Goals,Over 1.5,220,,205,,200,,210,,218,190,,,240,220,179,$200 ,2025022293ED8E63
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Real Sporting de Gijón,UD Almería,1st Half Asian Total Goals,Over 1.5,,,210,,,,,,,,,,,,181,,2025022293ED8E63
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Real Sporting de Gijón,UD Almería,1st Half Total Goals,Over 1,106,,,,,,,110,104,,,,,110,,$200 ,2025022293ED8E63
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Real Sporting de Gijón,UD Almería,1st Half Asian Total Goals,Over 1,,,105,,100,,,,,,,,110,,-109,,2025022293ED8E63
-Delta-35,2/21/25,2/22/25,Soccer,Peru - Primera Division,Sport Boys,Ayacucho,Moneyline,Ayacucho,,,,,,,,,,,,,,475,,,20250222A4D5DDBC
-Delta-35,2/21/25,2/22/25,Soccer,Peru - Primera Division,Sport Boys,Ayacucho,Goal Spread,Ayacucho -0.5,,,,,,,,,,,,,,,,,20250222A4D5DDBC
-Delta-35,2/21/25,2/22/25,Soccer,Peru - Primera Division,Sport Boys,Ayacucho,Asian Handicap,Ayacucho -0.5,,,,,,,,,,,,,,,,,20250222A4D5DDBC
-Delta-35,2/21/25,2/22/25,Soccer,Peru - Primera Division,Sport Boys,Ayacucho,Draw No Bet,Ayacucho,,,,,,,,,,,,,,350,,,20250222A4D5DDBC
-Delta-35,2/21/25,2/22/25,Soccer,Peru - Primera Division,Sport Boys,Ayacucho,Goal Spread,Ayacucho +0,,,,,,,,,,,,,,,,,20250222A4D5DDBC
-Delta-35,2/21/25,2/22/25,Soccer,Peru - Primera Division,Sport Boys,Ayacucho,Asian Handicap,Ayacucho +0,,,,,,,,,,,,,,,,,20250222A4D5DDBC
-Delta-35,2/21/25,2/22/25,Soccer,Peru - Primera Division,Sport Boys,Ayacucho,Asian Handicap,Ayacucho +0.25,,,,,,,,,,,,,,,,,20250222A4D5DDBC
-Delta-35,2/21/25,2/22/25,Soccer,Peru - Primera Division,Sport Boys,Ayacucho,Double Chance,Ayacucho or Draw,,,,,,,,,,,,,,,,,20250222A4D5DDBC
-Delta-35,2/21/25,2/22/25,Soccer,Peru - Primera Division,Sport Boys,Ayacucho,Goal Spread,Ayacucho +0.5,,,,,,,,,,,,,,143,,,20250222A4D5DDBC
-Delta-35,2/21/25,2/22/25,Soccer,Peru - Primera Division,Sport Boys,Ayacucho,Asian Handicap,Ayacucho +0.5,,,,,,,,,,,,,,,,,20250222A4D5DDBC
-Delta-35,2/21/25,2/22/25,Soccer,Peru - Primera Division,Sport Boys,Ayacucho,Asian Handicap,Ayacucho +0.75,,,,,,,,,,,,,,118,,,20250222A4D5DDBC
-Delta-35,2/21/25,2/22/25,Soccer,Peru - Primera Division,Sport Boys,Ayacucho,Goal Spread,Ayacucho +1,,,,,,,,,,,,,,-112,,,20250222A4D5DDBC
-Delta-35,2/21/25,2/22/25,Soccer,Peru - Primera Division,Sport Boys,Ayacucho,Asian Handicap,Ayacucho +1,,,,,,,,,,,,,,,,,20250222A4D5DDBC
-Delta-35,2/21/25,2/22/25,Soccer,Peru - Primera Division,Sport Boys,Ayacucho,Asian Handicap,Ayacucho +1.25,,,,,,,,,,,,,,-148,,,20250222A4D5DDBC
-Delta-35,2/21/25,2/22/25,Soccer,Peru - Primera Division,Sport Boys,Ayacucho,Goal Spread,Ayacucho +1.5,,,,,,,,,,,,,,-185,,,20250222A4D5DDBC
-Delta-35,2/21/25,2/22/25,Soccer,Peru - Primera Division,Sport Boys,Ayacucho,Asian Handicap,Ayacucho +1.5,,,,,,,,,,,,,,,,,20250222A4D5DDBC
-Delta-35,2/21/25,2/22/25,Soccer,Peru - Primera Division,Sport Boys,Ayacucho,Asian Handicap,Ayacucho +1.75,,,,,,,,,,,,,,,,,20250222A4D5DDBC
-Delta-35,2/17/25,2/22/25,Soccer,Scotland - League One,Stenhousemuir,Arbroath FC,Goal Spread,Arbroath FC -1,260,,,,,,,,,,,,,,,$150 ,20250222A64CFD00
-Delta-35,2/17/25,2/22/25,Soccer,Scotland - League One,Stenhousemuir,Arbroath FC,Asian Handicap,Arbroath FC -1,,,,,,,,,,,,,255,,,,20250222A64CFD00
-Delta-35,2/17/25,2/22/25,Soccer,Scotland - League One,Stenhousemuir,Arbroath FC,Asian Handicap,Arbroath FC -0.75,172,,,,,,,,,,,,167,175,177,$150 ,20250222A64CFD00
-Delta-35,2/17/25,2/22/25,Soccer,Scotland - League One,Stenhousemuir,Arbroath FC,Moneyline,Arbroath FC,132,,,,130,,130,,,,,,130,135,131,$150 ,20250222A64CFD00
-Delta-35,2/17/25,2/22/25,Soccer,Scotland - League One,Stenhousemuir,Arbroath FC,Goal Spread,Arbroath FC -0.5,131,,,,120,,,,,,,,,135,129,$150 ,20250222A64CFD00
-Delta-35,2/17/25,2/22/25,Soccer,Scotland - League One,Stenhousemuir,Arbroath FC,Asian Handicap,Arbroath FC -0.5,,,,,,,,,,,,,130,,,,20250222A64CFD00
-Delta-35,2/17/25,2/22/25,Soccer,Scotland - League One,Stenhousemuir,Arbroath FC,Asian Handicap,Arbroath FC -0.25,101,,,,-110,,,,,,,,102,102,100,$150 ,20250222A64CFD00
-Delta-35,2/17/25,2/22/25,Soccer,Scotland - League One,Stenhousemuir,Arbroath FC,Draw No Bet,Arbroath FC,,,,,-150,,,,,,,,-150,-145,-142,,20250222A64CFD00
-Delta-35,2/17/25,2/22/25,Soccer,Scotland - League One,Stenhousemuir,Arbroath FC,Goal Spread,Arbroath FC +0,-147,,,,,,,,,,,,,-145,-142,$150 ,20250222A64CFD00
-Delta-35,2/17/25,2/22/25,Soccer,Scotland - League One,Stenhousemuir,Arbroath FC,Asian Handicap,Arbroath FC +0,,,,,,,,,,,,,-148,,,,20250222A64CFD00
-Delta-35,2/17/25,2/22/25,Soccer,Scotland - League One,Stenhousemuir,Arbroath FC,Asian Handicap,Arbroath FC +0.25,-205,,,,,,,,,,,,-200,-195,-200,$150 ,20250222A64CFD00
-Delta-35,2/17/25,2/22/25,Soccer,Scotland - League One,Stenhousemuir,Arbroath FC,Double Chance,Arbroath FC or Draw,,,,,-285,,,,,,,,-250,,-250,,20250222A64CFD00
-Delta-35,2/17/25,2/22/25,Soccer,Scotland - League One,Stenhousemuir,Arbroath FC,Goal Spread,Arbroath FC +0.5,-262,,,,-275,,,,,,,,,,,$150 ,20250222A64CFD00
-Delta-35,2/17/25,2/22/25,Soccer,Scotland - League One,Stenhousemuir,Arbroath FC,Asian Handicap,Arbroath FC +0.5,,,,,,,,,,,,,-250,,,,20250222A64CFD00
-Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Goal Spread,CA Güemes -1,580,,,,,,,,,,,,,,,$400 ,20250222B05061AD
-Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Asian Handicap,CA Güemes -1,,,,,,,,,,,,,,,,,20250222B05061AD
-Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Asian Handicap,CA Güemes -0.75,315,,,,,,,,,,,,,,,$400 ,20250222B05061AD
-Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Moneyline,CA Güemes,218,,,,190,205,,,,,,,,205,,$400 ,20250222B05061AD
-Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Goal Spread,CA Güemes -0.5,217,,,,175,,,,,,,,,200,,$400 ,20250222B05061AD
-Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Asian Handicap,CA Güemes -0.5,,,,,,,,,,,,,,,,,20250222B05061AD
-Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Asian Handicap,CA Güemes -0.75,315,,,,,,,,,,,,,,,$400 ,20250222B05061AD
-Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Draw No Bet,CA Güemes,,,,,-125,-105,,,,,,,,-105,,,20250222B05061AD
-Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Goal Spread,CA Güemes +0,-102,,,,,,,,,,,,,-105,,$400 ,20250222B05061AD
-Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Asian Handicap,CA Güemes +0,,,,,-115,,,,,,,,,,,,20250222B05061AD
-Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Asian Handicap,CA Güemes +0.25,-179,,,,-185,,,,,,,,,-165,,$400 ,20250222B05061AD
-Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Double Chance,CA Güemes or Draw,,,,,-265,-240,,,,,,,,,,,20250222B05061AD
-Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Goal Spread,CA Güemes +0.5,-259,,,,-255,-220,,,,,,,,-240,,$400 ,20250222B05061AD
-Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Asian Handicap,CA Güemes +0.5,,,,,,,,,,,,,,,,,20250222B05061AD
-Delta-35,2/21/25,2/22/25,Soccer,Argentina - Primera Nacional,CA Los Andes,CA Güemes,Asian Handicap,CA Güemes +0.75,-401,,,,,,,,,,,,,,,$400 ,20250222B05061AD
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Burgos CF,Real Oviedo,Moneyline,Real Oviedo,188,,170,180,175,175,165,168,187,165,,,170,175,187,"$1,200 ",20250222C03C7D67
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Burgos CF,Real Oviedo,Goal Spread,Real Oviedo -0.5,185,,,,160,170,160,,184,165,,,,183,181,"$1,200 ",20250222C03C7D67
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Burgos CF,Real Oviedo,Asian Handicap,Real Oviedo -0.5,,,165,,,,,,,,,,167,,,,20250222C03C7D67
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Burgos CF,Real Oviedo,Draw No Bet,Real Oviedo,-115,,-117,-115,-120,-115,-125,,,-135,,,-125,-118,-120,,20250222C03C7D67
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Burgos CF,Real Oviedo,Goal Spread,Real Oviedo +0,-112,,,,,,,-125,-112,,,,,-115,-113,"$1,200 ",20250222C03C7D67
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Burgos CF,Real Oviedo,Asian Handicap,Real Oviedo +0,,,,,-125,,,,,,,,-118,,,,20250222C03C7D67
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Burgos CF,Real Oviedo,Double Chance,Real Oviedo or Draw,-243,,-240,-240,-260,-250,-250,,,-325,,,-275,,-238,,20250222C03C7D67
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Burgos CF,Real Oviedo,Goal Spread,Real Oviedo +0.5,-241,,,,-250,-220,,,-245,-250,,,,-245,-227,"$1,200 ",20250222C03C7D67
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Burgos CF,Real Oviedo,Asian Handicap,Real Oviedo +0.5,,,-235,,,,,,,,,,-250,,,,20250222C03C7D67
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Burgos CF,Real Oviedo,1st Half Moneyline,Real Oviedo,283,,255,,260,,250,275,,250,,,260,265,265,$200 ,20250222C03C7D67
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Burgos CF,Real Oviedo,1st Half Goal Spread,Real Oviedo -0.5,277,,,,,,,,275,240,,,,280,265,$200 ,20250222C03C7D67
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Burgos CF,Real Oviedo,1st Half Asian Handicap,Real Oviedo -0.5,,,255,,,,,,,,,,255,,,,20250222C03C7D67
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Burgos CF,Real Oviedo,1st Half Goal Spread,Real Oviedo +0,-112,,,,,,,-111,-112,,,,,-115,-114,$200 ,20250222C03C7D67
-A,2/18/25,2/22/25,Soccer,Spain - La Liga 2,Burgos CF,Real Oviedo,1st Half Asian Handicap,Real Oviedo +0,,,,,-125,,,,,,,,-118,,,,20250222C03C7D67
-A,2/20/25,2/22/25,Soccer,Costa Rica - Primera Division,Puntarenas FC,Municipal Liberia,Moneyline,Puntarenas FC,112,,112,110,105,110,,,,,,,105,110,,$400 ,20250222C3E324C4
-A,2/20/25,2/22/25,Soccer,Costa Rica - Primera Division,Puntarenas FC,Municipal Liberia,Goal Spread,Puntarenas FC -0.5,112,,112,,100,110,,,,,,,,113,,$400 ,20250222C3E324C4
-A,2/20/25,2/22/25,Soccer,Costa Rica - Primera Division,Puntarenas FC,Municipal Liberia,Asian Handicap,Puntarenas FC -0.5,,,,,,,,,,,,,108,,,,20250222C3E324C4
-A,2/20/25,2/22/25,Soccer,Costa Rica - Primera Division,Puntarenas FC,Municipal Liberia,Asian Handicap,Puntarenas FC -0.25,-120,,-121,,-135,,,,,,,,-125,-122,,$400 ,20250222C3E324C4
-A,2/20/25,2/22/25,Soccer,Costa Rica - Primera Division,Puntarenas FC,Municipal Liberia,Draw No Bet,Puntarenas FC,-194,,,,-235,-190,,,,,,,-200,-190,,,20250222C3E324C4
-A,2/20/25,2/22/25,Soccer,Costa Rica - Primera Division,Puntarenas FC,Municipal Liberia,Goal Spread,Puntarenas FC +0,-189,,-200,,,,,,,,,,,-190,,$400 ,20250222C3E324C4
-A,2/20/25,2/22/25,Soccer,Costa Rica - Primera Division,Puntarenas FC,Municipal Liberia,Asian Handicap,Puntarenas FC +0,,,,,,,,,,,,,-190,,,,20250222C3E324C4
-A,2/20/25,2/22/25,Soccer,Costa Rica - Primera Division,Puntarenas FC,Municipal Liberia,Asian Handicap,Puntarenas FC +0.25,-256,,,,,,,,,,,,-267,-250,,$400 ,20250222C3E324C4
-A,2/20/25,2/22/25,Soccer,Costa Rica - Primera Division,Puntarenas FC,Municipal Liberia,Double Chance,Puntarenas FC or Draw,-331,,,,-340,,,,,,,,-333,,,,20250222C3E324C4
-A,2/20/25,2/22/25,Soccer,Costa Rica - Primera Division,Puntarenas FC,Municipal Liberia,Goal Spread,Puntarenas FC +0.5,-328,,-360,,-350,,,,,,,,,,,$400 ,20250222C3E324C4
-A,2/20/25,2/22/25,Soccer,Costa Rica - Primera Division,Puntarenas FC,Municipal Liberia,Asian Handicap,Puntarenas FC +0.5,,,,,,,,,,,,,-333,,,,20250222C3E324C4
-A,2/20/25,2/22/25,Soccer,Costa Rica - Primera Division,Puntarenas FC,Municipal Liberia,Asian Handicap,Puntarenas FC -0.75,151,,,,,,,,,,,,138,145,,$400 ,20250222C3E324C4
-A,2/20/25,2/22/25,Soccer,Costa Rica - Primera Division,Puntarenas FC,Municipal Liberia,1st Half Moneyline,Puntarenas FC,169,,175,,155,,,,,,,,175,165,,$100 ,20250222C3E324C4
-A,2/20/25,2/22/25,Soccer,Costa Rica - Primera Division,Puntarenas FC,Municipal Liberia,1st Half Goal Spread,Puntarenas FC -0.5,169,,,,,,,,,,,,,171,,$100 ,20250222C3E324C4
-A,2/20/25,2/22/25,Soccer,Costa Rica - Primera Division,Puntarenas FC,Municipal Liberia,1st Half Asian Handicap,Puntarenas FC -0.5,,,,,155,,,,,,,,175,,,,20250222C3E324C4
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,CA San Telmo,CA Defensores de Belgrano,Moneyline,CA Defensores de Belgrano,258,,,,250,265,230,,,,,,,250,,,20250222D71EEEEB
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,CA San Telmo,CA Defensores de Belgrano,Goal Spread,CA Defensores de Belgrano -0.5,255,,,,225,,,,,,,,,,,,20250222D71EEEEB
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,CA San Telmo,CA Defensores de Belgrano,Asian Handicap,CA Defensores de Belgrano -0.5,,,,,,,,,,,,,,,,,20250222D71EEEEB
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,CA San Telmo,CA Defensores de Belgrano,Asian Handicap,CA Defensores de Belgrano -0.25,199,,,,,,,,,,,,,188,,,20250222D71EEEEB
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,CA San Telmo,CA Defensores de Belgrano,Draw No Bet,CA Defensores de Belgrano,,,,,120,140,125,,,,,,,135,,,20250222D71EEEEB
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,CA San Telmo,CA Defensores de Belgrano,Goal Spread,CA Defensores de Belgrano +0,140,,,,,,,,,,,,,135,,,20250222D71EEEEB
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,CA San Telmo,CA Defensores de Belgrano,Asian Handicap,CA Defensores de Belgrano +0,,,,,,,,,,,,,,,,,20250222D71EEEEB
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,CA San Telmo,CA Defensores de Belgrano,Asian Handicap,CA Defensores de Belgrano +0.25,-120,,,,-130,,,,,,,,,-122,,,20250222D71EEEEB
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,CA San Telmo,CA Defensores de Belgrano,Double Chance,CA Defensores de Belgrano or Draw,,,,,-185,-175,-185,,,,,,,,,,20250222D71EEEEB
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,CA San Telmo,CA Defensores de Belgrano,Goal Spread,CA Defensores de Belgrano +0.5,-173,,,,-180,-170,,,,,,,,-175,,,20250222D71EEEEB
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,CA San Telmo,CA Defensores de Belgrano,Asian Handicap,CA Defensores de Belgrano +0.5,,,,,-180,,,,,,,,,,,,20250222D71EEEEB
-Delta-35,2/21/25,2/23/25,Soccer,Argentina - Primera Nacional,CA San Telmo,CA Defensores de Belgrano,Asian Handicap,CA Defensores de Belgrano +0.75,-255,,,,,,,,,,,,,-245,,,20250222D71EEEEB
-Delta-1,2/17/25,2/22/25,Soccer,Northern Ireland - Premiership,Glenavon,Crusaders FC,Goal Spread,Glenavon -1.5,285,,,,255,,,,,,,,,,,$400 ,20250222D8440A41
-Delta-1,2/17/25,2/22/25,Soccer,Northern Ireland - Premiership,Glenavon,Crusaders FC,Asian Handicap,Glenavon -1.5,,,,,,,,,,,,,290,,,,20250222D8440A41
-Delta-1,2/17/25,2/22/25,Soccer,Northern Ireland - Premiership,Glenavon,Crusaders FC,Asian Handicap,Glenavon -1.25,244,,,,,,,,,,,,255,,,$400 ,20250222D8440A41
-Delta-1,2/17/25,2/22/25,Soccer,Northern Ireland - Premiership,Glenavon,Crusaders FC,Goal Spread,Glenavon -1,203,,,,,,,,,,,,,,,$400 ,20250222D8440A41
-Delta-1,2/17/25,2/22/25,Soccer,Northern Ireland - Premiership,Glenavon,Crusaders FC,Asian Handicap,Glenavon -1,,,,,,,,,,,,,210,,,,20250222D8440A41
-Delta-1,2/17/25,2/22/25,Soccer,Northern Ireland - Premiership,Glenavon,Crusaders FC,Asian Handicap,Glenavon -0.75,138,,,,,,,,,,,,142,145,135,$400 ,20250222D8440A41
-Delta-1,2/17/25,2/22/25,Soccer,Northern Ireland - Premiership,Glenavon,Crusaders FC,Moneyline,Glenavon,104,,105,115,100,116,110,,,,,,105,110,106,$400 ,20250222D8440A41
-Delta-1,2/17/25,2/22/25,Soccer,Northern Ireland - Premiership,Glenavon,Crusaders FC,Goal Spread,Glenavon -0.5,105,,,,-105,122,,,,,,,,110,104,$400 ,20250222D8440A41
-Delta-1,2/17/25,2/22/25,Soccer,Northern Ireland - Premiership,Glenavon,Crusaders FC,Asian Handicap,Glenavon -0.5,,,,,-105,,,,,,,,108,,,,20250222D8440A41
-Delta-1,2/17/25,2/22/25,Soccer,Northern Ireland - Premiership,Glenavon,Crusaders FC,Asian Handicap,Glenavon -0.25,-130,,,,-140,,,,,,,,-118,-122,-128,$400 ,20250222D8440A41
-Delta-1,2/17/25,2/22/25,Soccer,Northern Ireland - Premiership,Glenavon,Crusaders FC,Draw No Bet,Glenavon,-198,,,,-235,,-185,,,,,,-175,-180,-188,,20250222D8440A41
-Delta-1,2/17/25,2/22/25,Soccer,Northern Ireland - Premiership,Glenavon,Crusaders FC,Goal Spread,Glenavon +0,-197,,,,,,,,,,,,,-180,-181,$400 ,20250222D8440A41
-Delta-1,2/17/25,2/22/25,Soccer,Northern Ireland - Premiership,Glenavon,Crusaders FC,Asian Handicap,Glenavon +0,,,,,,,,,,,,,-167,,,,20250222D8440A41
-Delta-1,2/17/25,2/22/25,Soccer,Northern Ireland - Premiership,Glenavon,Crusaders FC,Asian Handicap,Glenavon +0.25,-259,,,,,,,,,,,,-211,-235,-238,$400 ,20250222D8440A41
-A,2/19/25,2/22/25,Soccer,Turkey - 1. Lig,Çorum FK,Adanaspor AŞ,Total Goals,Under 2.5,-111,-113,,-116,,,-115,,,,,,-118,-115,-117,$200 ,20250222EECFEEAE
-A,2/19/25,2/22/25,Soccer,Turkey - 1. Lig,Çorum FK,Adanaspor AŞ,Asian Total Goals,Under 2.5,,,,,,,,,,,,,-114,,-114,,20250222EECFEEAE
-A,2/19/25,2/22/25,Soccer,Turkey - 1. Lig,Çorum FK,Adanaspor AŞ,Total Goals,Under 2.75,,,,,,,,,,,,,,,,,20250222EECFEEAE
-A,2/19/25,2/22/25,Soccer,Turkey - 1. Lig,Çorum FK,Adanaspor AŞ,Asian Total Goals,Under 2.75,-145,-172,,,,,,,,,,,-148,-148,-142,$200 ,20250222EECFEEAE
-A,2/19/25,2/22/25,Soccer,Turkey - 1. Lig,Çorum FK,Adanaspor AŞ,Total Goals,Under 3.5,-305,-322,,-290,,,-295,,,,,,-333,-300,-303,$200 ,20250222EECFEEAE
-A,2/19/25,2/22/25,Soccer,Turkey - 1. Lig,Çorum FK,Adanaspor AŞ,Asian Total Goals,Under 3.5,,,,,,,,,,,,,-308,,,,20250222EECFEEAE
-A,2/19/25,2/22/25,Soccer,Turkey - 1. Lig,Çorum FK,Adanaspor AŞ,Total Goals,Under 1.5,253,227,,,,,240,,,,,,250,250,229,$200 ,20250222EECFEEAE
-A,2/19/25,2/22/25,Soccer,Turkey - 1. Lig,Çorum FK,Adanaspor AŞ,Asian Total Goals,Under 1.5,,,,,,,,,,,,,245,,,,20250222EECFEEAE
-A,2/19/25,2/22/25,Soccer,Turkey - 1. Lig,Çorum FK,Adanaspor AŞ,1st Half Total Goals,Under 1.5,-244,,,,,,-250,,,,,,-250,-230,-256,$100 ,20250222EECFEEAE
-A,2/19/25,2/22/25,Soccer,Turkey - 1. Lig,Çorum FK,Adanaspor AŞ,1st Half Asian Total Goals,Under 1.5,,,,,,,,,,,,,,,,,20250222EECFEEAE
-A,2/19/25,2/22/25,Soccer,Turkey - 1. Lig,Çorum FK,Adanaspor AŞ,1st Half Total Goals,Under 0.5,205,,,,,,185,,,,,,200,195,167,$100 ,20250222EECFEEAE
-A,2/19/25,2/22/25,Soccer,Turkey - 1. Lig,Çorum FK,Adanaspor AŞ,1st Half Asian Total Goals,Under 0.5,204,,,,,,,,,,,,,,,,20250222EECFEEAE
-A,2/19/25,2/22/25,Soccer,Turkey - 1. Lig,Çorum FK,Adanaspor AŞ,1st Half Total Goals,Under 1,-104,,,,,,,,,,,,,-102,,$100 ,20250222EECFEEAE
-A,2/19/25,2/22/25,Soccer,Turkey - 1. Lig,Çorum FK,Adanaspor AŞ,1st Half Asian Total Goals,Under 1,,,,,,,,,,,,,-111,,-117,,20250222EECFEEAE
-A,2/17/25,2/22/25,Soccer,Turkey - 1. Lig,Ankara Keçiörengücü,Gençlerbirliği Spor Kulübü,Moneyline,Gençlerbirliği Spor Kulübü,175,168,188,,,,180,,,,,,190,190,167,$400 ,20250222F94D5ACA
-A,2/17/25,2/22/25,Soccer,Turkey - 1. Lig,Ankara Keçiörengücü,Gençlerbirliği Spor Kulübü,Goal Spread,Gençlerbirliği Spor Kulübü -0.5,174,168,,,,,,,,,,,,,,$400 ,20250222F94D5ACA
-A,2/17/25,2/22/25,Soccer,Turkey - 1. Lig,Ankara Keçiörengücü,Gençlerbirliği Spor Kulübü,Asian Handicap,Gençlerbirliği Spor Kulübü -0.5,,,,,,,,,,,,,175,,,,20250222F94D5ACA
-A,2/17/25,2/22/25,Soccer,Turkey - 1. Lig,Ankara Keçiörengücü,Gençlerbirliği Spor Kulübü,Draw No Bet,Gençlerbirliği Spor Kulübü,-100,102,108,,,,110,,,,,,110,108,-107,,20250222F94D5ACA
-A,2/17/25,2/22/25,Soccer,Turkey - 1. Lig,Ankara Keçiörengücü,Gençlerbirliği Spor Kulübü,Goal Spread,Gençlerbirliği Spor Kulübü +0,102,102,,,,,,,,,,,,110,-105,$400 ,20250222F94D5ACA
-A,2/17/25,2/22/25,Soccer,Turkey - 1. Lig,Ankara Keçiörengücü,Gençlerbirliği Spor Kulübü,Asian Handicap,Gençlerbirliği Spor Kulübü +0,,,,,,,,,,,,,108,,,,20250222F94D5ACA
-A,2/17/25,2/22/25,Soccer,Turkey - 1. Lig,Ankara Keçiörengücü,Gençlerbirliği Spor Kulübü,Double Chance,Gençlerbirliği Spor Kulübü or Draw,-186,-175,-190,,,,-175,,,,,,-175,,-181,,20250222F94D5ACA
-A,2/17/25,2/22/25,Soccer,Turkey - 1. Lig,Ankara Keçiörengücü,Gençlerbirliği Spor Kulübü,Goal Spread,Gençlerbirliği Spor Kulübü +0.5,-183,-175,,,,,,,,,,,,-180,,$400 ,20250222F94D5ACA
-A,2/17/25,2/22/25,Soccer,Turkey - 1. Lig,Ankara Keçiörengücü,Gençlerbirliği Spor Kulübü,Asian Handicap,Gençlerbirliği Spor Kulübü +0.5,,,,,,,,,,,,,-174,,,,20250222F94D5ACA
-A,2/17/25,2/22/25,Soccer,Turkey - 1. Lig,Ankara Keçiörengücü,Gençlerbirliği Spor Kulübü,1st Half Moneyline,Gençlerbirliği Spor Kulübü,242,-1666,250,,,,240,,,,,,250,260,229,$100 ,20250222F94D5ACA
-A,2/17/25,2/22/25,Soccer,Turkey - 1. Lig,Ankara Keçiörengücü,Gençlerbirliği Spor Kulübü,1st Half Goal Spread,Gençlerbirliği Spor Kulübü -0.5,239,,,,,,,,,,,,,,,$100 ,20250222F94D5ACA
-A,2/17/25,2/22/25,Soccer,Turkey - 1. Lig,Ankara Keçiörengücü,Gençlerbirliği Spor Kulübü,1st Half Asian Handicap,Gençlerbirliği Spor Kulübü -0.5,,,,,,,,,,,,,245,,,,20250222F94D5ACA
-A,2/17/25,2/22/25,Soccer,Turkey - 1. Lig,Ankara Keçiörengücü,Gençlerbirliği Spor Kulübü,1st Half Goal Spread,Gençlerbirliği Spor Kulübü +0,-101,,,,,,,,,,,,,105,-105,$100 ,20250222F94D5ACA
-A,2/17/25,2/22/25,Soccer,Turkey - 1. Lig,Ankara Keçiörengücü,Gençlerbirliği Spor Kulübü,1st Half Asian Handicap,Gençlerbirliği Spor Kulübü +0,,,,,,,,,,,,,102,,,,20250222F94D5ACA
-A,2/17/25,2/23/25,Soccer,Qatar - Stars League,Al-Shahaniya,Umm-Salal SC,Moneyline,Al-Shahaniya,144,,,,135,,,,,,,,,140,,$300 ,202502233F686DC0
-A,2/17/25,2/23/25,Soccer,Qatar - Stars League,Al-Shahaniya,Umm-Salal SC,Goal Spread,Al-Shahaniya -0.5,143,,,,125,,,,,,,,,,,$300 ,202502233F686DC0
-A,2/17/25,2/23/25,Soccer,Qatar - Stars League,Al-Shahaniya,Umm-Salal SC,Asian Handicap,Al-Shahaniya -0.5,,,,,,,,,,,,,,,,,202502233F686DC0
-A,2/17/25,2/23/25,Soccer,Qatar - Stars League,Al-Shahaniya,Umm-Salal SC,Draw No Bet,Al-Shahaniya,-122,,,,-145,,,,,,,,,-125,,,202502233F686DC0
-A,2/17/25,2/23/25,Soccer,Qatar - Stars League,Al-Shahaniya,Umm-Salal SC,Goal Spread,Al-Shahaniya +0,-119,,,,,,,,,,,,,,,$300 ,202502233F686DC0
-A,2/17/25,2/23/25,Soccer,Qatar - Stars League,Al-Shahaniya,Umm-Salal SC,Asian Handicap,Al-Shahaniya +0,,,,,-130,,,,,,,,,,,,202502233F686DC0
-A,2/17/25,2/23/25,Soccer,Qatar - Stars League,Al-Shahaniya,Umm-Salal SC,1st Half Moneyline,Al-Shahaniya,201,,,,175,,,,,,,,,190,,$100 ,202502233F686DC0
-A,2/17/25,2/23/25,Soccer,Qatar - Stars League,Al-Shahaniya,Umm-Salal SC,1st Half Goal Spread,Al-Shahaniya -0.5,198,,,,,,,,,,,,,,,$100 ,202502233F686DC0
-A,2/17/25,2/23/25,Soccer,Qatar - Stars League,Al-Shahaniya,Umm-Salal SC,1st Half Asian Handicap,Al-Shahaniya -0.5,,,,,,,,,,,,,,,,,202502233F686DC0
-A,2/17/25,2/23/25,Soccer,Qatar - Stars League,Al-Shahaniya,Umm-Salal SC,1st Half Goal Spread,Al-Shahaniya +0,-120,,,,,,,,,,,,,,,$100 ,202502233F686DC0
-A,2/17/25,2/23/25,Soccer,Qatar - Stars League,Al-Shahaniya,Umm-Salal SC,1st Half Asian Handicap,Al-Shahaniya +0,,,,,-125,,,,,,,,,,,,202502233F686DC0
-A,2/18/25,2/22/25,Soccer,Peru - Primera Division,Club Cienciano,Club Deportivo Garcilaso,Moneyline,Club Deportivo Garcilaso,263,,220,230,,235,,,,,,,,230,,,202502236C9B2CE7
-A,2/18/25,2/22/25,Soccer,Peru - Primera Division,Club Cienciano,Club Deportivo Garcilaso,Goal Spread,Club Deportivo Garcilaso -0.5,,,,,,,,,,,,,,,,,202502236C9B2CE7
-A,2/18/25,2/22/25,Soccer,Peru - Primera Division,Club Cienciano,Club Deportivo Garcilaso,Asian Handicap,Club Deportivo Garcilaso -0.5,,,,,,,,,,,,,,,,,202502236C9B2CE7
-A,2/18/25,2/22/25,Soccer,Peru - Primera Division,Club Cienciano,Club Deportivo Garcilaso,Draw No Bet,Club Deportivo Garcilaso,153,,123,,,145,,,,,,,,143,,,202502236C9B2CE7
-A,2/18/25,2/22/25,Soccer,Peru - Primera Division,Club Cienciano,Club Deportivo Garcilaso,Goal Spread,Club Deportivo Garcilaso +0,,,,,,,,,,,,,,140,,,202502236C9B2CE7
-A,2/18/25,2/22/25,Soccer,Peru - Primera Division,Club Cienciano,Club Deportivo Garcilaso,Asian Handicap,Club Deportivo Garcilaso +0,,,,,,,,,,,,,,,,,202502236C9B2CE7
-A,2/18/25,2/22/25,Soccer,Peru - Primera Division,Club Cienciano,Club Deportivo Garcilaso,Double Chance,Club Deportivo Garcilaso or Draw,-151,,-177,-160,,-145,,,,,,,,,,,202502236C9B2CE7
-A,2/18/25,2/22/25,Soccer,Peru - Primera Division,Club Cienciano,Club Deportivo Garcilaso,Goal Spread,Club Deportivo Garcilaso +0.5,,,,,,-140,,,,,,,,-148,,,202502236C9B2CE7
-A,2/18/25,2/22/25,Soccer,Peru - Primera Division,Club Cienciano,Club Deportivo Garcilaso,Asian Handicap,Club Deportivo Garcilaso +0.5,,,,,,,,,,,,,,,,,202502236C9B2CE7
-A,2/18/25,2/22/25,Soccer,Peru - Primera Division,Club Cienciano,Club Deportivo Garcilaso,1st Half Moneyline,Club Deportivo Garcilaso,315,,,,,,,,,,,,,290,,,202502236C9B2CE7
-A,2/18/25,2/22/25,Soccer,Peru - Primera Division,Club Cienciano,Club Deportivo Garcilaso,1st Half Goal Spread,Club Deportivo Garcilaso -0.5,,,,,,,,,,,,,,,,,202502236C9B2CE7
-A,2/18/25,2/22/25,Soccer,Peru - Primera Division,Club Cienciano,Club Deportivo Garcilaso,1st Half Asian Handicap,Club Deportivo Garcilaso -0.5,,,,,,,,,,,,,,,,,202502236C9B2CE7
-A,2/18/25,2/22/25,Soccer,Peru - Primera Division,Club Cienciano,Club Deportivo Garcilaso,1st Half Goal Spread,Club Deportivo Garcilaso +0,,,,,,,,,,,,,,130,,,202502236C9B2CE7
-A,2/18/25,2/22/25,Soccer,Peru - Primera Division,Club Cienciano,Club Deportivo Garcilaso,1st Half Asian Handicap,Club Deportivo Garcilaso +0,,,,,,,,,,,,,,,,,202502236C9B2CE7
-Delta-35,2/21/25,2/23/25,Soccer,Ecuador - Serie A,Orense SC,Manta FC,Goal Spread,Orense SC -1.5,,,,,200,,,,,,,,,,,,202502236F891096
-Delta-35,2/21/25,2/23/25,Soccer,Ecuador - Serie A,Orense SC,Manta FC,Asian Handicap,Orense SC -1.5,,,,,,,,,,,,,,,,,202502236F891096
-Delta-35,2/21/25,2/23/25,Soccer,Ecuador - Serie A,Orense SC,Manta FC,Asian Handicap,Orense SC -1.25,,,,,,,,,,,,,,,,,202502236F891096
-Delta-35,2/21/25,2/23/25,Soccer,Ecuador - Serie A,Orense SC,Manta FC,Goal Spread,Orense SC -1,,,,,,,,,,,,,,,,,202502236F891096
-Delta-35,2/21/25,2/23/25,Soccer,Ecuador - Serie A,Orense SC,Manta FC,Asian Handicap,Orense SC -1,,,,,,,,,,,,,,,,,202502236F891096
-Delta-35,2/21/25,2/23/25,Soccer,Ecuador - Serie A,Orense SC,Manta FC,Asian Handicap,Orense SC -0.75,,,,,-115,,,,,,,,,,,,202502236F891096
-Delta-35,2/21/25,2/23/25,Soccer,Ecuador - Serie A,Orense SC,Manta FC,Moneyline,Orense SC,,,,,-145,,,,,,,,,,,,202502236F891096
-Delta-35,2/21/25,2/23/25,Soccer,Ecuador - Serie A,Orense SC,Manta FC,Goal Spread,Orense SC -0.5,,,,,-155,,,,,,,,,,,,202502236F891096
-Delta-35,2/21/25,2/23/25,Soccer,Ecuador - Serie A,Orense SC,Manta FC,Asian Handicap,Orense SC -0.5,,,,,-155,,,,,,,,,,,,202502236F891096
-Delta-35,2/21/25,2/23/25,Soccer,Ecuador - Serie A,Orense SC,Manta FC,Asian Handicap,Orense SC -0.25,,,,,,,,,,,,,,,,,202502236F891096
-Delta-35,2/21/25,2/23/25,Soccer,Ecuador - Serie A,Orense SC,Manta FC,Draw No Bet,Orense SC,,,,,-380,,,,,,,,,,,,202502236F891096
-Delta-35,2/21/25,2/23/25,Soccer,Ecuador - Serie A,Orense SC,Manta FC,Goal Spread,Orense SC +0,,,,,,,,,,,,,,,,,202502236F891096
-Delta-35,2/21/25,2/23/25,Soccer,Ecuador - Serie A,Orense SC,Manta FC,Asian Handicap,Orense SC +0,,,,,,,,,,,,,,,,,202502236F891096
-Delta-35,2/17/25,2/22/25,Soccer,Denmark - 1st Division,Esbjerg,Kolding IF,Moneyline,Kolding IF,125,,117,115,125,,120,,,,,,120,,,,20250223984926B5
-Delta-35,2/17/25,2/22/25,Soccer,Denmark - 1st Division,Esbjerg,Kolding IF,Goal Spread,Kolding IF -0.5,,,,,115,,,,,,,,,,,,20250223984926B5
-Delta-35,2/17/25,2/22/25,Soccer,Denmark - 1st Division,Esbjerg,Kolding IF,Asian Handicap,Kolding IF -0.5,,,,,,,,,,,,,120,,,,20250223984926B5
-Delta-35,2/17/25,2/22/25,Soccer,Denmark - 1st Division,Esbjerg,Kolding IF,Asian Handicap,Kolding IF -0.25,,,-109,,-115,,,,,,,,-103,,,,20250223984926B5
-Delta-35,2/17/25,2/22/25,Soccer,Denmark - 1st Division,Esbjerg,Kolding IF,Draw No Bet,Kolding IF,,,-150,,-155,,,,,,,,-162,,,,20250223984926B5
-Delta-35,2/17/25,2/22/25,Soccer,Denmark - 1st Division,Esbjerg,Kolding IF,Goal Spread,Kolding IF +0,,,,,,,,,,,,,,,,,20250223984926B5
-Delta-35,2/17/25,2/22/25,Soccer,Denmark - 1st Division,Esbjerg,Kolding IF,Asian Handicap,Kolding IF +0,,,,,-160,,,,,,,,-154,,,,20250223984926B5
-Delta-35,2/17/25,2/22/25,Soccer,Denmark - 1st Division,Esbjerg,Kolding IF,Asian Handicap,Kolding IF +0.25,,,-205,,,,,,,,,,-211,,,,20250223984926B5
-Delta-35,2/17/25,2/22/25,Soccer,Denmark - 1st Division,Esbjerg,Kolding IF,Double Chance,Kolding IF or Draw,,,,-280,-275,,,,,,,,-275,,,,20250223984926B5
-Delta-35,2/17/25,2/22/25,Soccer,Denmark - 1st Division,Esbjerg,Kolding IF,Goal Spread,Kolding IF +0.5,,,,,-265,,,,,,,,,,,,20250223984926B5
-Delta-35,2/17/25,2/22/25,Soccer,Denmark - 1st Division,Esbjerg,Kolding IF,Asian Handicap,Kolding IF +0.5,,,,,,,,,,,,,-250,,,,20250223984926B5
-Delta-35,2/17/25,2/22/25,Soccer,Denmark - 1st Division,Esbjerg,Kolding IF,Asian Handicap,Kolding IF -1.5,,,320,,,,,,,,,,325,,,,20250223984926B5
-Delta-35,2/17/25,2/22/25,Soccer,Denmark - 1st Division,Esbjerg,Kolding IF,Goal Spread,Kolding IF -1.5,,,,,320,,,,,,,,,,,,20250223984926B5
-Delta-35,2/17/25,2/22/25,Soccer,Denmark - 1st Division,Esbjerg,Kolding IF,Asian Handicap,Kolding IF -1.25,,,,,,,,,,,,,280,,,,20250223984926B5
-Delta-35,2/17/25,2/22/25,Soccer,Denmark - 1st Division,Esbjerg,Kolding IF,Asian Handicap,Kolding IF -1,,,,,,,,,,,,,245,,,,20250223984926B5
-Delta-35,2/17/25,2/22/25,Soccer,Denmark - 1st Division,Esbjerg,Kolding IF,Goal Spread,Kolding IF -1,,,,,,,,,,,,,,,,,20250223984926B5
-Delta-35,2/17/25,2/22/25,Soccer,Denmark - 1st Division,Esbjerg,Kolding IF,Asian Handicap,Kolding IF -0.75,,,155,,,,,,,,,,160,,,,20250223984926B5
-A,2/20/25,2/23/25,Soccer,France - Ligue 1,FC Nantes,Racing Club de Lens,First Goal Scorer,M'Bala Nzola,,,600,480,550,500,525,500,,,450,500,500,575,,,20250223C591E275
-A,2/20/25,2/23/25,Soccer,France - Ligue 1,FC Nantes,Racing Club de Lens,Anytime Goal Scorer,M'Bala Nzola,,,310,,210,175,195,200,,220,175,210,200,,,,20250223C591E275
-A,2/18/25,2/23/25,Soccer,Belgium - Challenger Pro League,Patro Eisden Maasmechelen,RAAL La Louvière,Total Goals,Under 2.5,-102,,-103,,-110,-105,-110,,,,,,,-112,-107,$150 ,20250223E95AA916
-A,2/18/25,2/23/25,Soccer,Belgium - Challenger Pro League,Patro Eisden Maasmechelen,RAAL La Louvière,Asian Total Goals,Under 2.5,,,-103,,-110,,,,,,,,,,-105,,20250223E95AA916
-A,2/18/25,2/23/25,Soccer,Belgium - Challenger Pro League,Patro Eisden Maasmechelen,RAAL La Louvière,Total Goals,Under 1.5,278,,300,,270,,260,,,,,,,255,245,$150 ,20250223E95AA916
-A,2/18/25,2/23/25,Soccer,Belgium - Challenger Pro League,Patro Eisden Maasmechelen,RAAL La Louvière,Asian Total Goals,Under 1.5,,,,,,,,,,,,,,,,,20250223E95AA916
-A,2/18/25,2/23/25,Soccer,Belgium - Challenger Pro League,Patro Eisden Maasmechelen,RAAL La Louvière,Total Goals,Under 2,196,,,,,,,,,,,,,178,,$150 ,20250223E95AA916
-A,2/18/25,2/23/25,Soccer,Belgium - Challenger Pro League,Patro Eisden Maasmechelen,RAAL La Louvière,Asian Total Goals,Under 2.75,-131,,-130,,-140,,,,,,,,,-140,-133,$150 ,20250223E95AA916
-A,2/18/25,2/23/25,Soccer,Belgium - Challenger Pro League,Patro Eisden Maasmechelen,RAAL La Louvière,Total Goals,Under 3,-181,,,,,,,,,,,,,-195,,$150 ,20250223E95AA916
-A,2/18/25,2/23/25,Soccer,Belgium - Challenger Pro League,Patro Eisden Maasmechelen,RAAL La Louvière,Asian Total Goals,Under 2.25,130,,132,,,,,,,,,,,120,125,$150 ,20250223E95AA916
-A,2/18/25,2/23/25,Soccer,Belgium - Challenger Pro League,Patro Eisden Maasmechelen,RAAL La Louvière,1st Half Total Goals,Under 0.5,214,,,,215,,195,,,,,,,190,179,$100 ,20250223E95AA916
-A,2/18/25,2/23/25,Soccer,Belgium - Challenger Pro League,Patro Eisden Maasmechelen,RAAL La Louvière,1st Half Asian Total Goals,Under 0.5,,,,,,,,,,,,,,,185,,20250223E95AA916
-A,2/18/25,2/23/25,Soccer,Belgium - Challenger Pro League,Patro Eisden Maasmechelen,RAAL La Louvière,1st Half Total Goals,Under 1,105,,,,,,,,,,,,,-105,,$100 ,20250223E95AA916
-A,2/18/25,2/23/25,Soccer,Belgium - Challenger Pro League,Patro Eisden Maasmechelen,RAAL La Louvière,1st Half Asian Total Goals,Under 1,,,,,100,,,,,,,,,,-107,,20250223E95AA916
-Delta-35,2/21/25,2/22/25,Soccer,Costa Rica - Primera Division,Herediano,AD San Carlos,Asian Handicap,loading...,,,,,,,,,,,,,,,,,20250223F86A9D1A
-Delta-35,2/21/25,2/22/25,Soccer,Costa Rica - Primera Division,Herediano,AD San Carlos,Asian Handicap,loading...,,,,,,,,,,,,,,,,,20250223F86A9D1A
-Delta-35,2/21/25,2/22/25,Soccer,Costa Rica - Primera Division,Herediano,AD San Carlos,Goal Spread,loading...,,,,,,,,,,,,,,,,,20250223F86A9D1A
-Delta-35,2/21/25,2/22/25,Soccer,Costa Rica - Primera Division,Herediano,AD San Carlos,Asian Handicap,loading...,,,,,,,,,,,,,,,,,20250223F86A9D1A
-Delta-35,2/21/25,2/22/25,Soccer,Costa Rica - Primera Division,Herediano,AD San Carlos,Asian Handicap,loading...,,,,,,,,,,,,,,,,,20250223F86A9D1A
-Delta-35,2/21/25,2/22/25,Soccer,Costa Rica - Primera Division,Herediano,AD San Carlos,Moneyline,loading...,,,,,,,,,,,,,,,,,20250223F86A9D1A
-Delta-35,2/21/25,2/22/25,Soccer,Costa Rica - Primera Division,Herediano,AD San Carlos,Goal Spread,loading...,,,,,,,,,,,,,,,,,20250223F86A9D1A
-Delta-35,2/21/25,2/22/25,Soccer,Costa Rica - Primera Division,Herediano,AD San Carlos,Asian Handicap,loading...,,,,,,,,,,,,,,,,,20250223F86A9D1A
-Delta-35,2/21/25,2/22/25,Soccer,Costa Rica - Primera Division,Herediano,AD San Carlos,Asian Handicap,loading...,,,,,,,,,,,,,,,,,20250223F86A9D1A
-A,2/18/25,2/23/25,Soccer,Colombia - Primera A,Club Deportes Tolima SA,Sociedad Anónima Deportiva América SA,Moneyline,Sociedad Anónima Deportiva América SA,149,122,140,145,140,140,145,,,,,,145,145,150,$300 ,202502247B8C1747
-A,2/18/25,2/23/25,Soccer,Colombia - Primera A,Club Deportes Tolima SA,Sociedad Anónima Deportiva América SA,Goal Spread,Sociedad Anónima Deportiva América SA -0.5,149,,,,130,150,,,,,,,,147,145,$300 ,202502247B8C1747
-A,2/18/25,2/23/25,Soccer,Colombia - Primera A,Club Deportes Tolima SA,Sociedad Anónima Deportiva América SA,Asian Handicap,Sociedad Anónima Deportiva América SA -0.5,,,,,,,,,,,,,138,,,,202502247B8C1747
-A,2/18/25,2/23/25,Soccer,Colombia - Primera A,Club Deportes Tolima SA,Sociedad Anónima Deportiva América SA,Draw No Bet,Sociedad Anónima Deportiva América SA,,,-148,-140,-145,-140,-135,,,,,,-150,-136,-138,,202502247B8C1747
-A,2/18/25,2/23/25,Soccer,Colombia - Primera A,Club Deportes Tolima SA,Sociedad Anónima Deportiva América SA,Goal Spread,Sociedad Anónima Deportiva América SA +0,-135,,,,,,,,,,,,,-136,-133,$300 ,202502247B8C1747
-A,2/18/25,2/23/25,Soccer,Colombia - Primera A,Club Deportes Tolima SA,Sociedad Anónima Deportiva América SA,Asian Handicap,Sociedad Anónima Deportiva América SA +0,,,,,-145,,,,,,,,-148,,,,202502247B8C1747
-A,2/18/25,2/23/25,Soccer,Colombia - Primera A,Club Deportes Tolima SA,Sociedad Anónima Deportiva América SA,Double Chance,Sociedad Anónima Deportiva América SA or Draw,,,,-280,-290,-280,-250,,,,,,-275,,-250,,202502247B8C1747
-A,2/18/25,2/23/25,Soccer,Colombia - Primera A,Club Deportes Tolima SA,Sociedad Anónima Deportiva América SA,Goal Spread,Sociedad Anónima Deportiva América SA +0.5,-260,,-275,,-275,,,,,,,,,,-250,$300 ,202502247B8C1747
-A,2/18/25,2/23/25,Soccer,Colombia - Primera A,Club Deportes Tolima SA,Sociedad Anónima Deportiva América SA,Asian Handicap,Sociedad Anónima Deportiva América SA +0.5,,,,,,,,,,,,,-286,,,,202502247B8C1747
-A,2/18/25,2/23/25,Soccer,Colombia - Primera A,Club Deportes Tolima SA,Sociedad Anónima Deportiva América SA,1st Half Moneyline,Sociedad Anónima Deportiva América SA,,,230,,205,220,,,,,,,225,220,225,,202502247B8C1747
-A,2/18/25,2/23/25,Soccer,Colombia - Primera A,Club Deportes Tolima SA,Sociedad Anónima Deportiva América SA,1st Half Goal Spread,Sociedad Anónima Deportiva América SA -0.5,,,,,,225,,,,,,,,,225,,202502247B8C1747
-A,2/18/25,2/23/25,Soccer,Colombia - Primera A,Club Deportes Tolima SA,Sociedad Anónima Deportiva América SA,1st Half Asian Handicap,Sociedad Anónima Deportiva América SA -0.5,,,,,,,,,,,,,230,,,,202502247B8C1747
-A,2/18/25,2/23/25,Soccer,Colombia - Primera A,Club Deportes Tolima SA,Sociedad Anónima Deportiva América SA,1st Half Goal Spread,Sociedad Anónima Deportiva América SA +0,-140,,-141,,,,,,,,,,,-130,-128,$100 ,202502247B8C1747
-A,2/18/25,2/23/25,Soccer,Colombia - Primera A,Club Deportes Tolima SA,Sociedad Anónima Deportiva América SA,1st Half Asian Handicap,Sociedad Anónima Deportiva América SA +0,,,,,-140,,,,,,,,-133,,,,202502247B8C1747
-Delta-35,2/21/25,2/24/25,Soccer,Colombia - Primera B,CD Barranquilla FC,Leones FC,Goal Spread,CD Barranquilla FC -1.5,,,,,,,,,,,,,,,,,20250224EECB9E8D
-Delta-35,2/21/25,2/24/25,Soccer,Colombia - Primera B,CD Barranquilla FC,Leones FC,Asian Handicap,CD Barranquilla FC -1.5,,,,,,,,,,,,,,,,,20250224EECB9E8D
-Delta-35,2/21/25,2/24/25,Soccer,Colombia - Primera B,CD Barranquilla FC,Leones FC,Asian Handicap,CD Barranquilla FC -1.25,208,,,,,,,,,,,,,,,,20250224EECB9E8D
-Delta-35,2/21/25,2/24/25,Soccer,Colombia - Primera B,CD Barranquilla FC,Leones FC,Goal Spread,CD Barranquilla FC -1,169,,,,,,,,,,,,,171,,,20250224EECB9E8D
-Delta-35,2/21/25,2/24/25,Soccer,Colombia - Primera B,CD Barranquilla FC,Leones FC,Asian Handicap,CD Barranquilla FC -0.75,118,,,,,,,,,,,,,115,,,20250224EECB9E8D
-Delta-35,2/21/25,2/24/25,Soccer,Colombia - Primera B,CD Barranquilla FC,Leones FC,Moneyline,CD Barranquilla FC,-111,,,,,,,,,,,,,-110,-114,,20250224EECB9E8D
-Delta-35,2/21/25,2/24/25,Soccer,Colombia - Primera B,CD Barranquilla FC,Leones FC,Goal Spread,CD Barranquilla FC -0.5,-110,,,,,,,,,,,,,-110,-120,,20250224EECB9E8D
-Delta-35,2/21/25,2/24/25,Soccer,Colombia - Primera B,CD Barranquilla FC,Leones FC,Asian Handicap,CD Barranquilla FC -0.5,,,,,,,,,,,,,,,,,20250224EECB9E8D
-Delta-35,2/21/25,2/24/25,Soccer,Colombia - Primera B,CD Barranquilla FC,Leones FC,Asian Handicap,CD Barranquilla FC -0.25,-154,,,,,,,,,,,,,-160,,,20250224EECB9E8D
-Delta-35,2/21/25,2/24/25,Soccer,Colombia - Primera B,CD Barranquilla FC,Leones FC,Draw No Bet,CD Barranquilla FC,,,,,,,,,,,,,,-255,-277,,20250224EECB9E8D
-Delta-35,2/21/25,2/24/25,Soccer,Colombia - Primera B,CD Barranquilla FC,Leones FC,Goal Spread,CD Barranquilla FC +0,-252,,,,,,,,,,,,,-255,,,20250224EECB9E8D
-Delta-35,2/21/25,2/24/25,Soccer,Colombia - Primera B,CD Barranquilla FC,Leones FC,Asian Handicap,CD Barranquilla FC +0,,,,,,,,,,,,,,,,,20250224EECB9E8D
-A,2/20/25,2/25/25,Soccer,CONMEBOL - Copa Libertadores,Independiente Santa Fe SA,Deportes Iquique,Moneyline,Independiente Santa Fe SA,-145,,-155,,-145,,,,,-155,,,-125,-140,-142,$100 ,202502250DC8C5EB
-A,2/20/25,2/25/25,Soccer,CONMEBOL - Copa Libertadores,Independiente Santa Fe SA,Deportes Iquique,Goal Spread,Independiente Santa Fe SA -0.5,-145,,,,-160,,,,,-150,,,,-145,-142,$100 ,202502250DC8C5EB
-A,2/20/25,2/25/25,Soccer,CONMEBOL - Copa Libertadores,Independiente Santa Fe SA,Deportes Iquique,Asian Handicap,Independiente Santa Fe SA -0.5,,,-155,,-160,,,,,,,,-129,,,,202502250DC8C5EB
-A,2/20/25,2/25/25,Soccer,CONMEBOL - Copa Libertadores,Independiente Santa Fe SA,Deportes Iquique,Asian Handicap,Independiente Santa Fe SA -0.75,-108,,-117,,-120,,,,,,,,102,-115,-111,$100 ,202502250DC8C5EB
-A,2/20/25,2/25/25,Soccer,CONMEBOL - Copa Libertadores,Independiente Santa Fe SA,Deportes Iquique,Goal Spread,Independiente Santa Fe SA -1,135,,,,,,,,,,,,,123,127,$100 ,202502250DC8C5EB
-A,2/20/25,2/25/25,Soccer,CONMEBOL - Copa Libertadores,Independiente Santa Fe SA,Deportes Iquique,Asian Handicap,Independiente Santa Fe SA -1,,,125,,120,,,,,,,,142,,,,202502250DC8C5EB
-A,2/20/25,2/25/25,Soccer,CONMEBOL - Copa Libertadores,Independiente Santa Fe SA,Deportes Iquique,Asian Handicap,Independiente Santa Fe SA -1.25,175,,165,,,,,,,,,,185,160,165,$100 ,202502250DC8C5EB
-A,2/20/25,2/25/25,Soccer,CONMEBOL - Copa Libertadores,Independiente Santa Fe SA,Deportes Iquique,Goal Spread,Independiente Santa Fe SA -1.5,214,,,,185,,,,,,,,,,,$100 ,202502250DC8C5EB
-A,2/20/25,2/25/25,Soccer,CONMEBOL - Copa Libertadores,Independiente Santa Fe SA,Deportes Iquique,Asian Handicap,Independiente Santa Fe SA -1.5,,,205,,,,,,,,,,230,,,,202502250DC8C5EB
-A,2/20/25,2/25/25,Soccer,CONMEBOL - Copa Libertadores,Independiente Santa Fe SA,Deportes Iquique,1st Half Moneyline,Independiente Santa Fe SA,130,,128,,125,,,,,120,,,150,130,125,$100 ,202502250DC8C5EB
-A,2/20/25,2/25/25,Soccer,CONMEBOL - Copa Libertadores,Independiente Santa Fe SA,Deportes Iquique,1st Half Goal Spread,Independiente Santa Fe SA -0.5,129,,,,,,,,,115,,,,128,127,$100 ,202502250DC8C5EB
-A,2/20/25,2/25/25,Soccer,CONMEBOL - Copa Libertadores,Independiente Santa Fe SA,Deportes Iquique,1st Half Asian Handicap,Independiente Santa Fe SA -0.5,,,128,,120,,,,,,,,142,,,,202502250DC8C5EB
-A,2/21/25,2003-01-25,Soccer,Argentina - Primera Division,CA River Plate,Club Estudiantes de La Plata,Moneyline,CA River Plate,,,,105,,,,,,,,,,105,110,,202503012FFA9326
-A,2/21/25,2003-01-25,Soccer,Argentina - Primera Division,CA River Plate,Club Estudiantes de La Plata,Goal Spread,CA River Plate -0.5,,,,,,,,,,,,,,108,110,,202503012FFA9326
-A,2/21/25,2003-01-25,Soccer,Argentina - Primera Division,CA River Plate,Club Estudiantes de La Plata,Asian Handicap,CA River Plate -0.5,,,,,,,,,,,,,,,,,202503012FFA9326
-A,2/21/25,2003-01-25,Soccer,Argentina - Primera Division,CA River Plate,Club Estudiantes de La Plata,Goal Spread,CA River Plate -1.5,,,,330,,,,,,,,,,,,,202503012FFA9326
-A,2/21/25,2003-01-25,Soccer,Argentina - Primera Division,CA River Plate,Club Estudiantes de La Plata,Asian Handicap,CA River Plate -1.5,,,,,,,,,,,,,,,,,202503012FFA9326
-A,2/21/25,2003-01-25,Soccer,Argentina - Primera Division,CA River Plate,Club Estudiantes de La Plata,1st Half Moneyline,CA River Plate,,,,175,,,,,,,,,,165,177,,202503012FFA9326
-A,2/21/25,2003-01-25,Soccer,Argentina - Primera Division,CA River Plate,Club Estudiantes de La Plata,1st Half Goal Spread,CA River Plate -0.5,,,,,,,,,,,,,,173,177,,202503012FFA9326
-A,2/21/25,2003-01-25,Soccer,Argentina - Primera Division,CA River Plate,Club Estudiantes de La Plata,1st Half Asian Handicap,CA River Plate -0.5,,,,,,,,,,,,,,,,,202503012FFA9326
-A,2/19/25,2/28/25,Soccer,Australia - A-League,Auckland FC,Adelaide United FC,Moneyline,Auckland FC,,-2499,,100,,,,,,105,,,110,115,114,,australia_-_a-league:A02623A137B3
-A,2/19/25,2/28/25,Soccer,Australia - A-League,Auckland FC,Adelaide United FC,Goal Spread,Auckland FC -0.5,,,,,,,,,,110,,,,118,114,,australia_-_a-league:A02623A137B3
-A,2/19/25,2/28/25,Soccer,Australia - A-League,Auckland FC,Adelaide United FC,Asian Handicap,Auckland FC -0.5,,,,,,,,,,,,,110,,,,australia_-_a-league:A02623A137B3
-A,2/19/25,2/28/25,Soccer,Australia - A-League,Auckland FC,Adelaide United FC,Draw No Bet,Auckland FC,,,,-195,,,,,,-195,,,-175,-165,-175,,australia_-_a-league:A02623A137B3
-A,2/19/25,2/28/25,Soccer,Australia - A-League,Auckland FC,Adelaide United FC,Goal Spread,Auckland FC +0,,,,,,,,,,,,,,-165,-161,,australia_-_a-league:A02623A137B3
-A,2/19/25,2/28/25,Soccer,Australia - A-League,Auckland FC,Adelaide United FC,Asian Handicap,Auckland FC +0,,,,,,,,,,,,,-174,,,,australia_-_a-league:A02623A137B3
-A,2/19/25,2/28/25,Soccer,Australia - A-League,Auckland FC,Adelaide United FC,1st Half Moneyline,Auckland FC,,,,150,,,,,,155,,,175,170,170,,australia_-_a-league:A02623A137B3
-A,2/19/25,2/28/25,Soccer,Australia - A-League,Auckland FC,Adelaide United FC,1st Half Goal Spread,Auckland FC -0.5,,,,,,,,,,145,,,,170,172,,australia_-_a-league:A02623A137B3
-A,2/19/25,2/28/25,Soccer,Australia - A-League,Auckland FC,Adelaide United FC,1st Half Asian Handicap,Auckland FC -0.5,,,,,,,,,,,,,167,,,,australia_-_a-league:A02623A137B3
-A,2/19/25,2/28/25,Soccer,Australia - A-League,Auckland FC,Adelaide United FC,Total Goals,Over 2.5,,,,-158,,,,,,-150,,,-150,-145,-142,,australia_-_a-league:A02623A137B3
-A,2/19/25,2/28/25,Soccer,Australia - A-League,Auckland FC,Adelaide United FC,Asian Total Goals,Over 2.5,,,,,,,,,,,,,-148,,-142,,australia_-_a-league:A02623A137B3
-A,2/19/25,2/28/25,Soccer,Australia - A-League,Auckland FC,Adelaide United FC,Total Goals,Over 3.5,,,,142,,,,,,,,,162,165,162,,australia_-_a-league:A02623A137B3
-A,2/19/25,2/28/25,Soccer,Australia - A-League,Auckland FC,Adelaide United FC,Asian Total Goals,Over 3.5,,,,,,,,,,,,,160,,167,,australia_-_a-league:A02623A137B3
-A,2/19/25,2/28/25,Soccer,Australia - A-League,Auckland FC,Adelaide United FC,1st Half Total Goals,Over 0.5,,,,350,,,,,,,,,-300,,-285,,australia_-_a-league:A02623A137B3
-A,2/19/25,2/28/25,Soccer,Australia - A-League,Auckland FC,Adelaide United FC,1st Half Asian Total Goals,Over 0.5,,,,,,,,,,,,,,,-277,,australia_-_a-league:A02623A137B3
-A,2/19/25,2/28/25,Soccer,Australia - A-League,Auckland FC,Adelaide United FC,1st Half Total Goals,Over 1.5,,,,144,,,,,,125,,,150,147,150,,australia_-_a-league:A02623A137B3
-A,2/19/25,2/28/25,Soccer,Australia - A-League,Auckland FC,Adelaide United FC,1st Half Asian Total Goals,Over 1.5,,,,,,,,,,,,,,,154,,australia_-_a-league:A02623A137B3
-A,2/19/25,2/28/25,Soccer,Australia - A-League,Auckland FC,Adelaide United FC,Team Total,Auckland FC Over 1.5,,,,-122,,,,,,-115,,,-120,-108,-113,,australia_-_a-league:A02623A137B3
-A,2/19/25,2/28/25,Soccer,Australia - A-League,Auckland FC,Adelaide United FC,1st Half Team Total,Auckland FC Over 0.5,,,,-132,,,,,,-130,,,,-120,-120,,australia_-_a-league:A02623A137B3
-A*,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,Moneyline,Brisbane Roar FC,,125,,420,,,,,,375,,,375,420,400,,australia_-_a-league:DBA89925016A
-A*,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,Goal Spread,Brisbane Roar FC -0.5,,,,,,,,,,,,,,,,,australia_-_a-league:DBA89925016A
-A*,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,Asian Handicap,Brisbane Roar FC -0.5,,,,,,,,,,,,,350,,,,australia_-_a-league:DBA89925016A
-A*,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,Draw No Bet,Brisbane Roar FC,,,,310,,,,,,250,,,275,310,265,,australia_-_a-league:DBA89925016A
-A*,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,Goal Spread,Brisbane Roar FC +0,,,,,,,,,,,,,,,,,australia_-_a-league:DBA89925016A
-A*,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,Asian Handicap,Brisbane Roar FC +0,,,,,,,,,,,,,270,,,,australia_-_a-league:DBA89925016A
-A*,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,Double Chance,Brisbane Roar FC or Draw,,-9999,,140,,,,,,100,,,130,,145,,australia_-_a-league:DBA89925016A
-A*,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,Goal Spread,Brisbane Roar FC +0.5,,,,,,,,,,,,,,147,147,,australia_-_a-league:DBA89925016A
-A*,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,Asian Handicap,Brisbane Roar FC +0.5,,,,,,,,,,,,,138,,,,australia_-_a-league:DBA89925016A
-A*,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,1st Half Moneyline,Brisbane Roar FC,,,,380,,,,,,375,,,375,420,375,,australia_-_a-league:DBA89925016A
-A*,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,1st Half Goal Spread,Brisbane Roar FC -0.5,,,,,,,,,,,,,,,,,australia_-_a-league:DBA89925016A
-A*,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,1st Half Asian Handicap,Brisbane Roar FC -0.5,,,,,,,,,,,,,350,,,,australia_-_a-league:DBA89925016A
-A*,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,1st Half Goal Spread,Brisbane Roar FC +0,,,,,,,,,,,,,,,215,,australia_-_a-league:DBA89925016A
-A*,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,1st Half Asian Handicap,Brisbane Roar FC +0,,,,,,,,,,,,,210,,,,australia_-_a-league:DBA89925016A
-A*,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,1st Half Goal Spread,Brisbane Roar FC +0.5,,,,,,,,,,-140,,,,-122,-128,,australia_-_a-league:DBA89925016A
-A*,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,1st Half Asian Handicap,Brisbane Roar FC +0.5,,,,,,,,,,,,,-133,,,,australia_-_a-league:DBA89925016A
-A,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,Total Goals,Under 3.5,,,,-132,,,,,,-135,,,-138,-134,-133,,australia_-_a-league:DBA89925016A
-A,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,Asian Total Goals,Under 3.5,,,,,,,,,,,,,-143,,-133,,australia_-_a-league:DBA89925016A
-A,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,Total Goals,Under 2.5,,,,166,,,,,,,,,175,183,177,,australia_-_a-league:DBA89925016A
-A,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,Asian Total Goals,Under 2.5,,,,,,,,,,,,,167,,181,,australia_-_a-league:DBA89925016A
-A,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,1st Half Total Goals,Under 0.5,,,,300,,,,,,,,,280,,275,,australia_-_a-league:DBA89925016A
-A,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,1st Half Asian Total Goals,Under 0.5,,,,,,,,,,,,,,,285,,australia_-_a-league:DBA89925016A
-A,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,1st Half Total Goals,Under 1.5,,,,-142,,,,,,-150,,,-148,-130,-142,,australia_-_a-league:DBA89925016A
-A,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,1st Half Asian Total Goals,Under 1.5,,,,,,,,,,,,,,,-142,,australia_-_a-league:DBA89925016A
-A,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,Team Total,Melbourne Victory FC Under 1.5,,,,172,,,,,,,,,162,180,165,,australia_-_a-league:DBA89925016A
-A,2/19/25,2003-01-25,Soccer,Australia - A-League,Brisbane Roar FC,Melbourne Victory FC,1st Half Team Total,Melbourne Victory FC Under 0.5,,,,152,,,,,,150,,,,165,140,,australia_-_a-league:DBA89925016A
-A,2/17/25,2/22/25,Soccer,Croatia - 1. HNL,HNK Rijeka,GNK Dinamo Zagreb,Total Goals,Under 2.25,,,,,,,,,,,,,,,,,croatia_-_1_hnl:E746D65CC86C
-A,2/17/25,2/22/25,Soccer,Croatia - 1. HNL,HNK Rijeka,GNK Dinamo Zagreb,Asian Total Goals,Under 2.25,-113,,,,-125,,,-120,,,,,-118,-122,-113,$200 ,croatia_-_1_hnl:E746D65CC86C
-A,2/17/25,2/22/25,Soccer,Croatia - 1. HNL,HNK Rijeka,GNK Dinamo Zagreb,Total Goals,Under 2.5,-151,,-175,-152,-155,-150,-165,,,,,,-162,-160,-153,$200 ,croatia_-_1_hnl:E746D65CC86C
-A,2/17/25,2/22/25,Soccer,Croatia - 1. HNL,HNK Rijeka,GNK Dinamo Zagreb,Asian Total Goals,Under 2.5,,,,,-160,,,,,,,,-160,,-142,,croatia_-_1_hnl:E746D65CC86C
-A,2/17/25,2/22/25,Soccer,Croatia - 1. HNL,HNK Rijeka,GNK Dinamo Zagreb,Total Goals,Under 1.5,201,,,,195,,,,,,,,200,188,187,$200 ,croatia_-_1_hnl:E746D65CC86C
-A,2/17/25,2/22/25,Soccer,Croatia - 1. HNL,HNK Rijeka,GNK Dinamo Zagreb,Asian Total Goals,Under 1.5,,,,,,,,,,,,,185,,,,croatia_-_1_hnl:E746D65CC86C
-A,2/17/25,2/22/25,Soccer,Croatia - 1. HNL,HNK Rijeka,GNK Dinamo Zagreb,Total Goals,Under 2,127,,,,,,,,,,,,,118,,$200 ,croatia_-_1_hnl:E746D65CC86C
-A,2/17/25,2/22/25,Soccer,Croatia - 1. HNL,HNK Rijeka,GNK Dinamo Zagreb,Asian Total Goals,Under 2,,,,,,,,,,,,,120,,125,,croatia_-_1_hnl:E746D65CC86C
-A,2/17/25,2/22/25,Soccer,Croatia - 1. HNL,HNK Rijeka,GNK Dinamo Zagreb,1st Half Total Goals,Under 0.75,,,,,,,,,,,,,,,,,croatia_-_1_hnl:E746D65CC86C
-A,2/17/25,2/22/25,Soccer,Croatia - 1. HNL,HNK Rijeka,GNK Dinamo Zagreb,1st Half Asian Total Goals,Under 0.75,122,,,,115,,,,,,,,108,113,131,$100 ,croatia_-_1_hnl:E746D65CC86C
-A,2/17/25,2/22/25,Soccer,Croatia - 1. HNL,HNK Rijeka,GNK Dinamo Zagreb,1st Half Total Goals,Under 0.5,171,,,,170,,,,,,,,162,147,167,$100 ,croatia_-_1_hnl:E746D65CC86C
-A,2/17/25,2/22/25,Soccer,Croatia - 1. HNL,HNK Rijeka,GNK Dinamo Zagreb,1st Half Asian Total Goals,Under 0.5,169,,,,,,,,,,,,,,175,,croatia_-_1_hnl:E746D65CC86C
-A,2/17/25,2/22/25,Soccer,Croatia - 1. HNL,HNK Rijeka,GNK Dinamo Zagreb,1st Half Total Goals,Under 1,-136,,,,,,,,,,,,-154,-148,,$100 ,croatia_-_1_hnl:E746D65CC86C
-A,2/19/25,2/22/25,Soccer,Egypt - Premier League,Al-Masry,Ismaily,Total Goals,Under 2.25,,,,,,,,,,,,,,,,,egypt_-_premier_league:64E95334D682
-A,2/19/25,2/22/25,Soccer,Egypt - Premier League,Al-Masry,Ismaily,Asian Total Goals,Under 2.25,-167,-232,,,,,,,,,,,,-175,-166,$250 ,egypt_-_premier_league:64E95334D682
-A,2/19/25,2/22/25,Soccer,Egypt - Premier League,Al-Masry,Ismaily,Total Goals,Under 2.5,-214,-232,-235,,-225,,-200,,,,,,,-225,-222,$250 ,egypt_-_premier_league:64E95334D682
-A,2/19/25,2/22/25,Soccer,Egypt - Premier League,Al-Masry,Ismaily,Asian Total Goals,Under 2.5,,,,,,,,,,,,,,,-212,,egypt_-_premier_league:64E95334D682
-A,2/19/25,2/22/25,Soccer,Egypt - Premier League,Al-Masry,Ismaily,Total Goals,Under 1.5,147,127,133,,140,,,,,,,,,138,135,$250 ,egypt_-_premier_league:64E95334D682
-A,2/19/25,2/22/25,Soccer,Egypt - Premier League,Al-Masry,Ismaily,Asian Total Goals,Under 1.5,,,,,,,,,,,,,,,137,,egypt_-_premier_league:64E95334D682
-A,2/19/25,2/22/25,Soccer,Egypt - Premier League,Al-Masry,Ismaily,Total Goals,Under 2,-121,-232,,,,,,-130,,,,,,-128,,$250 ,egypt_-_premier_league:64E95334D682
-A,2/19/25,2/22/25,Soccer,Egypt - Premier League,Al-Masry,Ismaily,Asian Total Goals,Under 2,,,,,-130,,,,,,,,,,-128,,egypt_-_premier_league:64E95334D682
-A,2/19/25,2/22/25,Soccer,Egypt - Premier League,Al-Masry,Ismaily,1st Half Total Goals,Under 0.5,137,,,,135,,,,,,,,,128,129,$150 ,egypt_-_premier_league:64E95334D682
-A,2/19/25,2/22/25,Soccer,Egypt - Premier League,Al-Masry,Ismaily,1st Half Asian Total Goals,Under 0.5,137,,,,130,,,,,,,,,,131,,egypt_-_premier_league:64E95334D682
-A,2/19/25,2/22/25,Soccer,Egypt - Premier League,Al-Masry,Ismaily,1st Half Total Goals,Under 0.75,,,,,,,,,,,,,,,,,egypt_-_premier_league:64E95334D682
-A,2/19/25,2/22/25,Soccer,Egypt - Premier League,Al-Masry,Ismaily,1st Half Asian Total Goals,Under 0.75,-106,,,,-115,,,-104,,,,,,-115,-105,$150 ,egypt_-_premier_league:64E95334D682
-A,2/19/25,2/22/25,Soccer,Egypt - Premier League,Al-Masry,Ismaily,Total Goals,Under 0.5,549,500,,,600,,,,,,,,,,430,$250 ,egypt_-_premier_league:64E95334D682
-A,2/19/25,2/22/25,Soccer,Egypt - Premier League,Al-Masry,Ismaily,Asian Total Goals,Under 0.5,599,,,,,,,,,,,,,,,,egypt_-_premier_league:64E95334D682
-Delta-35,2/20/25,2/22/25,Soccer,England - League 1,Charlton Athletic FC,Exeter City FC,Goal Spread,Charlton Athletic FC -1.5,143,116,,158,135,135,135,,143,140,,,,140,135,$600 ,england_-_league_1:31283C5156E1
-Delta-35,2/20/25,2/22/25,Soccer,England - League 1,Charlton Athletic FC,Exeter City FC,Asian Handicap,Charlton Athletic FC -1.5,,,145,,,,,,,,,,135,,,,england_-_league_1:31283C5156E1
-Delta-35,2/20/25,2/22/25,Soccer,England - League 1,Charlton Athletic FC,Exeter City FC,Asian Handicap,Charlton Athletic FC -1.25,111,-106,115,,105,,,,110,,,,108,113,104,$600 ,england_-_league_1:31283C5156E1
-Delta-35,2/20/25,2/22/25,Soccer,England - League 1,Charlton Athletic FC,Exeter City FC,Goal Spread,Charlton Athletic FC -1,-125,-131,,,,,,-125,-123,,,,,-122,-128,$600 ,england_-_league_1:31283C5156E1
-Delta-35,2/20/25,2/22/25,Soccer,England - League 1,Charlton Athletic FC,Exeter City FC,Asian Handicap,Charlton Athletic FC -1,,,-120,,-135,,,,,,,,-125,,,,england_-_league_1:31283C5156E1
-Delta-35,2/20/25,2/22/25,Soccer,England - League 1,Charlton Athletic FC,Exeter City FC,Asian Handicap,Charlton Athletic FC -0.75,-171,-172,-159,,-185,,,,-172,,,,-174,-163,-166,$600 ,england_-_league_1:31283C5156E1
-Delta-35,2/20/25,2/22/25,Soccer,England - League 1,Charlton Athletic FC,Exeter City FC,Moneyline,Charlton Athletic FC,-217,-212,-215,-210,-210,-230,-200,-225,-217,-210,,-220,-222,-200,-212,$600 ,england_-_league_1:31283C5156E1
-Delta-35,2/20/25,2/22/25,Soccer,England - League 1,Charlton Athletic FC,Exeter City FC,Goal Spread,Charlton Athletic FC -0.5,-219,-212,,,-225,,,,-220,-200,,,,-200,-212,$600 ,england_-_league_1:31283C5156E1
-Delta-35,2/20/25,2/22/25,Soccer,England - League 1,Charlton Athletic FC,Exeter City FC,Asian Handicap,Charlton Athletic FC -0.5,,,-205,,,,,,,,,,-222,,,,england_-_league_1:31283C5156E1
-Delta-35,2/20/25,2/22/25,Soccer,England - League 1,Charlton Athletic FC,Exeter City FC,Asian Handicap,Charlton Athletic FC -0.25,-328,-312,-295,,,,,,-333,,,,-308,,,$600 ,england_-_league_1:31283C5156E1
-Delta-35,2/20/25,2/22/25,Soccer,England - League 1,Charlton Athletic FC,Exeter City FC,Draw No Bet,Charlton Athletic FC,-626,,-625,,-650,-600,-625,,,-650,,-600,-600,-550,-588,,england_-_league_1:31283C5156E1
-Delta-35,2/20/25,2/22/25,Soccer,England - League 1,Charlton Athletic FC,Exeter City FC,Goal Spread,Charlton Athletic FC +0,-620,-625,,,,,,,,,,,,,,$600 ,england_-_league_1:31283C5156E1
-Delta-35,2/20/25,2/22/25,Soccer,England - League 1,Charlton Athletic FC,Exeter City FC,Asian Handicap,Charlton Athletic FC +0,,,,,,,,,,,,,-588,,,,england_-_league_1:31283C5156E1
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Crewe Alexandra FC,Barrow AFC,Moneyline,Barrow AFC,216,245,220,230,225,220,220,200,215,220,,225,210,225,210,$500 ,england_-_league_2:532717C7DA53
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Crewe Alexandra FC,Barrow AFC,Goal Spread,Barrow AFC -0.5,215,246,,,200,,,,214,210,,,,,,$500 ,england_-_league_2:532717C7DA53
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Crewe Alexandra FC,Barrow AFC,Asian Handicap,Barrow AFC -0.5,,,205,,,,,,,,,,,,,,england_-_league_2:532717C7DA53
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Crewe Alexandra FC,Barrow AFC,Asian Handicap,Barrow AFC -0.25,172,194,165,,,,,,172,,,,,171,162,$500 ,england_-_league_2:532717C7DA53
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Crewe Alexandra FC,Barrow AFC,Draw No Bet,Barrow AFC,124,142,123,130,125,125,125,,,115,,130,120,130,114,,england_-_league_2:532717C7DA53
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Crewe Alexandra FC,Barrow AFC,Goal Spread,Barrow AFC +0,126,143,,,,,,,125,,,,,128,120,$500 ,england_-_league_2:532717C7DA53
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Crewe Alexandra FC,Barrow AFC,Asian Handicap,Barrow AFC +0,,,,,120,,,,,,,,125,,,,england_-_league_2:532717C7DA53
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Crewe Alexandra FC,Barrow AFC,Asian Handicap,Barrow AFC +0.25,-118,-106,-120,,-125,,,-111,-117,,,,-114,-118,-121,$500 ,england_-_league_2:532717C7DA53
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Crewe Alexandra FC,Barrow AFC,Double Chance,Barrow AFC or Draw,-163,-144,-180,-170,-170,-175,-165,,,-210,,-165,-162,,-161,,england_-_league_2:532717C7DA53
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Crewe Alexandra FC,Barrow AFC,Goal Spread,Barrow AFC +0.5,-161,-144,,,-165,-170,-165,,-161,-160,,,,-165,-161,$500 ,england_-_league_2:532717C7DA53
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Crewe Alexandra FC,Barrow AFC,Asian Handicap,Barrow AFC +0.5,,,-157,,-165,,,,,,,,-160,,,,england_-_league_2:532717C7DA53
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Crewe Alexandra FC,Barrow AFC,Asian Handicap,Barrow AFC +0.75,-230,-208,-225,,,,,,-232,,,,-222,-225,-227,$500 ,england_-_league_2:532717C7DA53
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Crewe Alexandra FC,Barrow AFC,Goal Spread,Barrow AFC +1,-398,-370,,,,,,,-402,,,,,,,$500 ,england_-_league_2:532717C7DA53
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Crewe Alexandra FC,Barrow AFC,Asian Handicap,Barrow AFC +1,,,,,,,,,,,,,,,,,england_-_league_2:532717C7DA53
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Colchester United FC,AFC Wimbledon,Moneyline,Colchester United FC,156,156,155,165,160,155,155,148,156,155,,155,155,160,154,$500 ,england_-_league_2:996B98BD2C04
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Colchester United FC,AFC Wimbledon,Goal Spread,Colchester United FC -0.5,156,156,,,150,160,145,,156,155,,,,160,147,$500 ,england_-_league_2:996B98BD2C04
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Colchester United FC,AFC Wimbledon,Asian Handicap,Colchester United FC -0.5,,,148,,,,,,,,,,142,,,,england_-_league_2:996B98BD2C04
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Colchester United FC,AFC Wimbledon,Asian Handicap,Colchester United FC -0.25,115,117,112,,110,,,,114,,,,110,118,110,$500 ,england_-_league_2:996B98BD2C04
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Colchester United FC,AFC Wimbledon,Draw No Bet,Colchester United FC,-138,-128,-136,-120,-130,-125,-135,,,-140,,-130,-125,-125,-138,,england_-_league_2:996B98BD2C04
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Colchester United FC,AFC Wimbledon,Goal Spread,Colchester United FC +0,-134,-128,,,,,,-127,,,,,,-125,-138,$500 ,england_-_league_2:996B98BD2C04
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Colchester United FC,AFC Wimbledon,Asian Handicap,Colchester United FC +0,,,,,-135,,,,,,,,-125,,,,england_-_league_2:996B98BD2C04
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Colchester United FC,AFC Wimbledon,Asian Handicap,Colchester United FC +0.25,-200,-178,-186,,-195,,,,-201,,,,-182,-180,-200,$500 ,england_-_league_2:996B98BD2C04
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Colchester United FC,AFC Wimbledon,Double Chance,Colchester United FC or Draw,-268,-227,-275,-250,-270,-255,-250,,,-300,,-250,-250,,-256,,england_-_league_2:996B98BD2C04
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Colchester United FC,AFC Wimbledon,Goal Spread,Colchester United FC +0.5,-268,-227,,,-260,,,,-270,-240,,,,-245,-263,$500 ,england_-_league_2:996B98BD2C04
-Delta-35,2/19/25,2/22/25,Soccer,England - League 2,Colchester United FC,AFC Wimbledon,Asian Handicap,Colchester United FC +0.5,,,-230,,,,,,,,,,-235,,,,england_-_league_2:996B98BD2C04
-B,2/20/25,2/23/25,Soccer,Germany - Bundesliga,TSG 1899 Hoffenheim,VfB Stuttgart 1893,Anytime Goal Scorer,Nick Woltemade,,,235,,200,200,210,200,,220,190,190,225,,,,germany_-_bundesliga:D18BEF41E05A
-A,2/17/25,2/22/25,Soccer,India - Super League,Punjab FC,East Bengal FC,Total Goals,Over 2.5,-135,-147,-114,,-145,-120,-130,-135,,,,,-133,-135,-142,$200 ,india_-_super_league:A5CBB79CD8FF
-A,2/17/25,2/22/25,Soccer,India - Super League,Punjab FC,East Bengal FC,Asian Total Goals,Over 2.5,,,,,-150,,,,,,,,-133,,-138,,india_-_super_league:A5CBB79CD8FF
-A,2/17/25,2/22/25,Soccer,India - Super League,Punjab FC,East Bengal FC,Total Goals,Over 3.5,179,152,215,,170,200,190,,,,,,175,185,165,$200 ,india_-_super_league:A5CBB79CD8FF
-A,2/17/25,2/22/25,Soccer,India - Super League,Punjab FC,East Bengal FC,Asian Total Goals,Over 3.5,,,,,,,,,,,,,185,,,,india_-_super_league:A5CBB79CD8FF
-A,2/17/25,2/22/25,Soccer,India - Super League,Punjab FC,East Bengal FC,Total Goals,Over 3,124,106,,,,,,,,,,,,128,,$200 ,india_-_super_league:A5CBB79CD8FF
-A,2/17/25,2/22/25,Soccer,India - Super League,Punjab FC,East Bengal FC,Asian Total Goals,Over 3,,,,100,,,,,,,,,130,,114,,india_-_super_league:A5CBB79CD8FF
-A,2/17/25,2/22/25,Soccer,India - Super League,Punjab FC,East Bengal FC,1st Half Total Goals,Over 1,-150,,,,,,,-136,,,,,,-130,,$100 ,india_-_super_league:A5CBB79CD8FF
-A,2/17/25,2/22/25,Soccer,India - Super League,Punjab FC,East Bengal FC,1st Half Asian Total Goals,Over 1,,,,,-160,,,,,,,,-129,,-138,,india_-_super_league:A5CBB79CD8FF
-A,2/17/25,2/22/25,Soccer,India - Super League,Punjab FC,East Bengal FC,1st Half Total Goals,Over 1.5,159,,180,,,,,,,,,,167,168,150,$100 ,india_-_super_league:A5CBB79CD8FF
-A,2/17/25,2/22/25,Soccer,India - Super League,Punjab FC,East Bengal FC,1st Half Asian Total Goals,Over 1.5,,,,168,145,,,,,,,,,,,,india_-_super_league:A5CBB79CD8FF
-A,2/19/25,2/22/25,Soccer,Mexico - Liga MX,Pumas de la Universidad Nacional Autonoma de Mexico,Club de Fútbol América,Draw No Bet,Club de Fútbol América,-184,-166,-210,,-180,-160,-175,,,,-180,-180,-175,-160,-175,,mexico_-_liga_mx:77418C696C1C
-A,2/19/25,2/22/25,Soccer,Mexico - Liga MX,Pumas de la Universidad Nacional Autonoma de Mexico,Club de Fútbol América,Asian Handicap,Club de Fútbol América +0,,,,,,,,,,,,,-182,,,,mexico_-_liga_mx:77418C696C1C
-A,2/19/25,2/22/25,Soccer,Mexico - Liga MX,Pumas de la Universidad Nacional Autonoma de Mexico,Club de Fútbol América,Goal Spread,Club de Fútbol América +0,-182,-166,,,,,,,-184,,,,,-162,-161,"$1,200 ",mexico_-_liga_mx:77418C696C1C
-A,2/19/25,2/22/25,Soccer,Mexico - Liga MX,Pumas de la Universidad Nacional Autonoma de Mexico,Club de Fútbol América,Moneyline,Club de Fútbol América,114,118,110,110,115,125,120,113,112,,120,115,115,120,120,"$1,200 ",mexico_-_liga_mx:77418C696C1C
-A,2/19/25,2/22/25,Soccer,Mexico - Liga MX,Pumas de la Universidad Nacional Autonoma de Mexico,Club de Fútbol América,Asian Handicap,Club de Fútbol América -0.5,,,108,,105,,,,,,,,108,,,,mexico_-_liga_mx:77418C696C1C
-A,2/19/25,2/22/25,Soccer,Mexico - Liga MX,Pumas de la Universidad Nacional Autonoma de Mexico,Club de Fútbol América,Goal Spread,Club de Fútbol América -0.5,114,118,,,105,120,110,,112,,110,105,,125,120,"$1,200 ",mexico_-_liga_mx:77418C696C1C
-A,2/19/25,2/22/25,Soccer,Mexico - Liga MX,Pumas de la Universidad Nacional Autonoma de Mexico,Club de Fútbol América,,,,,,,,,,,,,,,,,,,mexico_-_liga_mx:77418C696C1C
-A,2/20/25,2/22/25,Soccer,Netherlands - Eredivisie,Feyenoord Rotterdam,Almere City FC,First Goal Scorer,Dávid Hancko,,,1300,,,1200,1200,1200,,,,,1200,1500,,,netherlands_-_eredivisie:060735E23871
-A,2/20/25,2/22/25,Soccer,Netherlands - Eredivisie,Feyenoord Rotterdam,Almere City FC,Anytime Goal Scorer,Dávid Hancko,,,480,,,380,550,450,,,,,375,,,,netherlands_-_eredivisie:060735E23871
-Delta-35,2/20/25,2/22/25,Soccer,Scotland - Championship,Raith Rovers FC,Hamilton Academical FC,Goal Spread,Raith Rovers FC -1.5,178,173,,180,165,,,,,170,,,,,,$400 ,scotland_-_championship:2AC27D1BE236
-Delta-35,2/20/25,2/22/25,Soccer,Scotland - Championship,Raith Rovers FC,Hamilton Academical FC,Asian Handicap,Raith Rovers FC -1.5,,,,,,,,,,,,,160,,,,scotland_-_championship:2AC27D1BE236
-Delta-35,2/20/25,2/22/25,Soccer,Scotland - Championship,Raith Rovers FC,Hamilton Academical FC,Asian Handicap,Raith Rovers FC -1.25,145,141,163,,,,,,,,,,135,138,140,$400 ,scotland_-_championship:2AC27D1BE236
-Delta-35,2/20/25,2/22/25,Soccer,Scotland - Championship,Raith Rovers FC,Hamilton Academical FC,Goal Spread,Raith Rovers FC -1,112,108,,,,,,,,,,,,110,110,$400 ,scotland_-_championship:2AC27D1BE236
-Delta-35,2/20/25,2/22/25,Soccer,Scotland - Championship,Raith Rovers FC,Hamilton Academical FC,Asian Handicap,Raith Rovers FC -1,,,128,,100,,,,,,,,105,,,,scotland_-_championship:2AC27D1BE236
-Delta-35,2/20/25,2/22/25,Soccer,Scotland - Championship,Raith Rovers FC,Hamilton Academical FC,Asian Handicap,Raith Rovers FC -0.75,-122,-125,-112,,-130,,,-130,,,,,-125,-122,-125,$400 ,scotland_-_championship:2AC27D1BE236
-Delta-35,2/20/25,2/22/25,Soccer,Scotland - Championship,Raith Rovers FC,Hamilton Academical FC,Moneyline,Raith Rovers FC,-158,-158,-152,-170,-155,,-175,-179,,-160,,,-162,-155,-161,$400 ,scotland_-_championship:2AC27D1BE236
-Delta-35,2/20/25,2/22/25,Soccer,Scotland - Championship,Raith Rovers FC,Hamilton Academical FC,Goal Spread,Raith Rovers FC -0.5,-160,-158,,,-165,,-175,,,-150,,,,-150,-153,$400 ,scotland_-_championship:2AC27D1BE236
-Delta-35,2/20/25,2/22/25,Soccer,Scotland - Championship,Raith Rovers FC,Hamilton Academical FC,Asian Handicap,Raith Rovers FC -0.5,,,-143,,,,,,,,,,-160,,,,scotland_-_championship:2AC27D1BE236
-Delta-35,2/20/25,2/22/25,Soccer,Scotland - Championship,Raith Rovers FC,Hamilton Academical FC,Asian Handicap,Raith Rovers FC -0.25,-228,-222,-200,,,,,,,,,,-222,-215,-222,$400 ,scotland_-_championship:2AC27D1BE236
-Delta-35,2/20/25,2/22/25,Soccer,Scotland - Championship,Raith Rovers FC,Hamilton Academical FC,Draw No Bet,Raith Rovers FC,-389,-370,-335,-320,-380,,-400,,,-425,,,-350,-360,-370,,scotland_-_championship:2AC27D1BE236
-Delta-35,2/20/25,2/22/25,Soccer,Scotland - Championship,Raith Rovers FC,Hamilton Academical FC,Goal Spread,Raith Rovers FC +0,-393,-370,,,,,,,,,,,,,,$400 ,scotland_-_championship:2AC27D1BE236
-Delta-35,2/20/25,2/22/25,Soccer,Scotland - Championship,Raith Rovers FC,Hamilton Academical FC,Asian Handicap,Raith Rovers FC +0,,,,,,,,,,,,,-385,,,,scotland_-_championship:2AC27D1BE236
-Delta-35,2/17/25,2/23/25,Soccer,Switzerland - Challenge League,FC Vaduz,FC Aarau,Goal Spread,FC Aarau -1.5,262,,,,250,,,,,,,,,,,$500 ,switzerland_-_challenge_league:6BDE16198C69
-Delta-35,2/17/25,2/23/25,Soccer,Switzerland - Challenge League,FC Vaduz,FC Aarau,Asian Handicap,FC Aarau -1.5,,,,,,,,,,,,,270,,,,switzerland_-_challenge_league:6BDE16198C69
-Delta-35,2/17/25,2/23/25,Soccer,Switzerland - Challenge League,FC Vaduz,FC Aarau,Asian Handicap,FC Aarau -1.25,226,,,,,,,,,,,,245,,,$500 ,switzerland_-_challenge_league:6BDE16198C69
-Delta-35,2/17/25,2/23/25,Soccer,Switzerland - Challenge League,FC Vaduz,FC Aarau,Goal Spread,FC Aarau -1,190,,,,,,,,,,,,,,179,$500 ,switzerland_-_challenge_league:6BDE16198C69
-Delta-35,2/17/25,2/23/25,Soccer,Switzerland - Challenge League,FC Vaduz,FC Aarau,Asian Handicap,FC Aarau -1,,,,,,,,,,,,,200,,,,switzerland_-_challenge_league:6BDE16198C69
-Delta-35,2/17/25,2/23/25,Soccer,Switzerland - Challenge League,FC Vaduz,FC Aarau,Asian Handicap,FC Aarau -0.75,133,,,,,,,,,,,,138,135,125,$500 ,switzerland_-_challenge_league:6BDE16198C69
-Delta-35,2/17/25,2/23/25,Soccer,Switzerland - Challenge League,FC Vaduz,FC Aarau,Moneyline,FC Aarau,102,,,105,100,110,,,,,,,110,105,100,$500 ,switzerland_-_challenge_league:6BDE16198C69
-Delta-35,2/17/25,2/23/25,Soccer,Switzerland - Challenge League,FC Vaduz,FC Aarau,Goal Spread,FC Aarau -0.5,102,,,,-105,115,,,,,,,,108,-102,$500 ,switzerland_-_challenge_league:6BDE16198C69
-Delta-35,2/17/25,2/23/25,Soccer,Switzerland - Challenge League,FC Vaduz,FC Aarau,Asian Handicap,FC Aarau -0.5,,,,,,,,,,,,,108,,,,switzerland_-_challenge_league:6BDE16198C69
-Delta-35,2/17/25,2/23/25,Soccer,Switzerland - Challenge League,FC Vaduz,FC Aarau,Asian Handicap,FC Aarau -0.25,-132,,,,-135,,,,,,,,-121,-125,-133,$500 ,switzerland_-_challenge_league:6BDE16198C69
-Delta-35,2/17/25,2/23/25,Soccer,Switzerland - Challenge League,FC Vaduz,FC Aarau,Draw No Bet,FC Aarau,,,,,-190,-165,,,,,,,-188,-183,-200,,switzerland_-_challenge_league:6BDE16198C69
-Delta-35,2/17/25,2/23/25,Soccer,Switzerland - Challenge League,FC Vaduz,FC Aarau,Goal Spread,FC Aarau +0,-199,,,,,,,,,,,,,-183,-192,$500 ,switzerland_-_challenge_league:6BDE16198C69
-Delta-35,2/17/25,2/23/25,Soccer,Switzerland - Challenge League,FC Vaduz,FC Aarau,Asian Handicap,FC Aarau +0,,,,,,,,,,,,,-182,,,,switzerland_-_challenge_league:6BDE16198C69
-Delta-35,2/17/25,2/23/25,Soccer,Switzerland - Challenge League,FC Vaduz,FC Aarau,Asian Handicap,FC Aarau +0.25,-262,,,,,,,,,,,,-235,-235,,$500 ,switzerland_-_challenge_league:6BDE16198C69
-Delta-35,2/17/25,2/23/25,Soccer,Switzerland - Challenge League,FC Vaduz,FC Aarau,Double Chance,FC Aarau or Draw,,,,-300,-320,-290,,,,,,,-300,,-303,,switzerland_-_challenge_league:6BDE16198C69
-Delta-35,2/17/25,2/23/25,Soccer,Switzerland - Challenge League,FC Vaduz,FC Aarau,Goal Spread,FC Aarau +0.5,-324,,,,-320,,,,,,,,,,,$500 ,switzerland_-_challenge_league:6BDE16198C69
-Delta-35,2/17/25,2/23/25,Soccer,Switzerland - Challenge League,FC Vaduz,FC Aarau,Asian Handicap,FC Aarau +0.5,,,,,,,,,,,,,-308,,,,switzerland_-_challenge_league:6BDE16198C69
-A,2/17/25,2/22/25,Soccer,Switzerland - Super League,FC St.Gallen 1879,FC Basel 1893,Moneyline,FC Basel 1893,144,138,135,130,140,130,138,125,,,,,130,140,142,$600 ,switzerland_-_super_league:3D21EF13A436
-A,2/17/25,2/22/25,Soccer,Switzerland - Super League,FC St.Gallen 1879,FC Basel 1893,Goal Spread,FC Basel 1893 -0.5,145,138,,,125,130,130,,,,,,,143,137,$600 ,switzerland_-_super_league:3D21EF13A436
-A,2/17/25,2/22/25,Soccer,Switzerland - Super League,FC St.Gallen 1879,FC Basel 1893,Asian Handicap,FC Basel 1893 -0.5,,,,,,,,,,,,,130,,,,switzerland_-_super_league:3D21EF13A436
-A,2/17/25,2/22/25,Soccer,Switzerland - Super League,FC St.Gallen 1879,FC Basel 1893,Draw No Bet,FC Basel 1893,-128,,-132,-130,-130,-130,-135,,,,,,-138,-125,-133,,switzerland_-_super_league:3D21EF13A436
-A,2/17/25,2/22/25,Soccer,Switzerland - Super League,FC St.Gallen 1879,FC Basel 1893,Goal Spread,FC Basel 1893 +0,-125,-121,,,,,,-135,,,,,,-125,-128,$600 ,switzerland_-_super_league:3D21EF13A436
-A,2/17/25,2/22/25,Soccer,Switzerland - Super League,FC St.Gallen 1879,FC Basel 1893,Asian Handicap,FC Basel 1893 +0,,,,,-135,,,,,,,,-138,,,,switzerland_-_super_league:3D21EF13A436
-A,2/17/25,2/22/25,Soccer,Switzerland - Super League,FC St.Gallen 1879,FC Basel 1893,Double Chance,FC Basel 1893 or Draw,-227,,-230,-240,-245,-220,-235,,,,,,-250,,-212,,switzerland_-_super_league:3D21EF13A436
-A,2/17/25,2/22/25,Soccer,Switzerland - Super League,FC St.Gallen 1879,FC Basel 1893,Goal Spread,FC Basel 1893 +0.5,-222,-208,,,-235,,,,,,,,,-220,-222,$600 ,switzerland_-_super_league:3D21EF13A436
-A,2/17/25,2/22/25,Soccer,Switzerland - Super League,FC St.Gallen 1879,FC Basel 1893,Asian Handicap,FC Basel 1893 +0.5,,,,,,,,,,,,,-235,,,,switzerland_-_super_league:3D21EF13A436
-A,2/17/25,2/22/25,Soccer,Switzerland - Super League,FC St.Gallen 1879,FC Basel 1893,1st Half Moneyline,FC Basel 1893,193,164,,,185,170,185,189,,,,,188,185,190,$200 ,switzerland_-_super_league:3D21EF13A436
-A,2/17/25,2/22/25,Soccer,Switzerland - Super League,FC St.Gallen 1879,FC Basel 1893,1st Half Goal Spread,FC Basel 1893 -0.5,193,,,,,175,,,,,,,,,190,$200 ,switzerland_-_super_league:3D21EF13A436
-A,2/17/25,2/22/25,Soccer,Switzerland - Super League,FC St.Gallen 1879,FC Basel 1893,1st Half Asian Handicap,FC Basel 1893 -0.5,,,,,,,,,,,,,185,,,,switzerland_-_super_league:3D21EF13A436
-A,2/17/25,2/22/25,Soccer,Switzerland - Super League,FC St.Gallen 1879,FC Basel 1893,1st Half Goal Spread,FC Basel 1893 +0,-124,,,,,,,-120,,,,,,-122,-128,$200 ,switzerland_-_super_league:3D21EF13A436
-A,2/17/25,2/22/25,Soccer,Switzerland - Super League,FC St.Gallen 1879,FC Basel 1893,1st Half Asian Handicap,FC Basel 1893 +0,,,,,-130,,,,,,,,-129,,,,switzerland_-_super_league:3D21EF13A436
-A,2/20/25,2/22/25,Soccer,USA - Major League Soccer,Atlanta United FC,Club de Foot Montréal,First Goal Scorer,Miguel Almirón,,,,,600,550,,500,,,475,650,550,625,,,usa_-_major_league_soccer:2F9572000AC6
+﻿Grade,Selection Date,Match Date,Sport,League,Home Team,Away Team,Market,Selection,Orginator Price,Current Price,Min Price,Pinnacle,Betfair Exchange,Betrivers,FanDuel,Draftkings,Caesars,BetMGM,Betonline,bet105,Hard Rock,ESPN BET,Fanatics,Bet365,Bovada,Betano,Pinn Limit,updated_at,game_id
+A*,2025-02-28,2025-03-02,Soccer,Germany - Bundesliga 2,SC Paderborn 07,Hamburger SV,Anytime Goal Scorer,Davie Selke,,3,200,,,,,,,170,,,180,,,225,,,,5 min. ago,germany_-_bundesliga_2:A575EF33BF77
+Rago,2025-02-24,2025-03-07,Soccer,Netherlands - Eredivisie,NAC Breda,Sparta Rotterdam,Moneyline,Sparta Rotterdam,3.55,3.55,255,,192,,,,,,,,,,,190,190,195,,5 min. ago,netherlands_-_eredivisie:7CB01E64DEC7
+Rago,2025-02-24,2025-03-07,Soccer,Netherlands - Eredivisie,NAC Breda,Sparta Rotterdam,Goal Spread,Sparta Rotterdam -0.5,3.55,3.55,255,,,,,,,,,,,,,,,190,,5 min. ago,netherlands_-_eredivisie:7CB01E64DEC7
+Rago,2025-02-24,2025-03-07,Soccer,Netherlands - Eredivisie,NAC Breda,Sparta Rotterdam,Asian Handicap,Sparta Rotterdam -0.5,3.55,3.55,255,,,,,,,,,,,,,185,,,,5 min. ago,netherlands_-_eredivisie:7CB01E64DEC7
+Rago,2025-02-24,2025-03-07,Soccer,Netherlands - Eredivisie,NAC Breda,Sparta Rotterdam,Draw No Bet,Sparta Rotterdam,2.5,2.5,150,,,,,,,,,,,,,110,115,106,,5 min. ago,netherlands_-_eredivisie:7CB01E64DEC7
+Rago,2025-02-24,2025-03-07,Soccer,Netherlands - Eredivisie,NAC Breda,Sparta Rotterdam,Goal Spread,Sparta Rotterdam +0,2.5,2.5,150,,,,,,,,,,,,,,113,114,,5 min. ago,netherlands_-_eredivisie:7CB01E64DEC7
+Rago,2025-02-24,2025-03-07,Soccer,Netherlands - Eredivisie,NAC Breda,Sparta Rotterdam,Asian Handicap,Sparta Rotterdam +0,2.5,2.5,150,,,,,,,,,,,,,115,,,,5 min. ago,netherlands_-_eredivisie:7CB01E64DEC7
+Rago,2025-02-24,2025-03-07,Soccer,Netherlands - Eredivisie,NAC Breda,Sparta Rotterdam,Double Chance,Sparta Rotterdam or Draw,1.7,1.7,-143,,,,,,,,,,,,,-175,,-166,,5 min. ago,netherlands_-_eredivisie:7CB01E64DEC7
+Rago,2025-02-24,2025-03-07,Soccer,Netherlands - Eredivisie,NAC Breda,Sparta Rotterdam,Goal Spread,Sparta Rotterdam +0.5,1.7,1.7,-143,,,,,,,,,,,,,,-170,-161,,5 min. ago,netherlands_-_eredivisie:7CB01E64DEC7
+Rago,2025-02-24,2025-03-07,Soccer,Netherlands - Eredivisie,NAC Breda,Sparta Rotterdam,Asian Handicap,Sparta Rotterdam +0.5,1.7,1.7,-143,,,,,,,,,,,,,-167,,,,5 min. ago,netherlands_-_eredivisie:7CB01E64DEC7
+Rago,2025-02-24,2025-03-07,Soccer,Netherlands - Eredivisie,NAC Breda,Sparta Rotterdam,1st Half Moneyline,Sparta Rotterdam,,4.1,310,,,,,,,,,,,,,240,250,254,,5 min. ago,netherlands_-_eredivisie:7CB01E64DEC7
+Rago,2025-02-24,2025-03-07,Soccer,Netherlands - Eredivisie,NAC Breda,Sparta Rotterdam,Goal Spread,Sparta Rotterdam +1.5,,1.3,-333,,,,,,,,,,,,,,,,,5 min. ago,netherlands_-_eredivisie:7CB01E64DEC7
+A,2025-03-01,2025-03-08,Soccer,Argentina - Primera Division,CA San Lorenzo de Almagro,CA Independiente,Total Goals,Under 2.5,1.42,1.42,-238,,,,-220,,,-235,,,,,,,-217,-222,,5 min. ago,20250308F94F207C
+A,2025-03-01,2025-03-08,Soccer,Argentina - Primera Division,CA San Lorenzo de Almagro,CA Independiente,Asian Total Goals,Under 2.5,1.42,1.42,-238,,,,,,,,,,,,,,,-212,,5 min. ago,20250308F94F207C
+A,2025-03-01,2025-03-08,Soccer,Argentina - Primera Division,CA San Lorenzo de Almagro,CA Independiente,Total Goals,Under 1.5,,,,,,,136,,,125,,,,,,,140,137,,5 min. ago,20250308F94F207C
+A,2025-03-01,2025-03-08,Soccer,Argentina - Primera Division,CA San Lorenzo de Almagro,CA Independiente,Asian Total Goals,Under 1.5,,,,,,,,,,,,,,,,,,140,,5 min. ago,20250308F94F207C
+A,2025-03-01,2025-03-08,Soccer,Argentina - Primera Division,CA San Lorenzo de Almagro,CA Independiente,1st Half Total Goals,Under 0.5,,,,,,,134,,,120,,,,,,,122,122,,5 min. ago,20250308F94F207C
+A,2025-03-01,2025-03-08,Soccer,Argentina - Primera Division,CA San Lorenzo de Almagro,CA Independiente,1st Half Asian Total Goals,Under 0.5,,,,,,,,,,,,,,,,,,125,,5 min. ago,20250308F94F207C
+A,2025-03-01,2025-03-08,Soccer,Argentina - Primera Division,CA San Lorenzo de Almagro,CA Independiente,1st Half Total Goals,Under 1.5,,,,,,,-430,,,-450,,,,,,,-380,-400,,5 min. ago,20250308F94F207C
+A,2025-03-01,2025-03-08,Soccer,Argentina - Primera Division,CA San Lorenzo de Almagro,CA Independiente,1st Half Asian Total Goals,Under 1.5,,,,,,,,,,,,,,,,,,-400,,5 min. ago,20250308F94F207C
+A,2025-03-01,2025-03-08,Soccer,Argentina - Primera Division,CA San Lorenzo de Almagro,CA Independiente,Draw No Bet,CA Independiente,1.95,1.95,-105,,,,105,,,100,,,,,,,111,106,,5 min. ago,20250308F94F207C
+A,2025-03-01,2025-03-08,Soccer,Argentina - Primera Division,CA San Lorenzo de Almagro,CA Independiente,Asian Handicap,CA Independiente +0,1.95,1.95,-105,,,,,,,,,,,,,,,,,5 min. ago,20250308F94F207C
+A,2025-03-01,2025-03-08,Soccer,Argentina - Primera Division,CA San Lorenzo de Almagro,CA Independiente,Goal Spread,CA Independiente +0,1.95,1.95,-105,,,,,,,,,,,,,,113,112,,5 min. ago,20250308F94F207C
+A,2025-03-01,2025-03-08,Soccer,Argentina - Primera Division,CA San Lorenzo de Almagro,CA Independiente,Double Chance,CA Independiente or Draw,1.47,1.47,-213,,,,,,,-200,,,,,,,,-181,,5 min. ago,20250308F94F207C
+A,2025-03-01,2025-03-08,Soccer,Argentina - Primera Division,CA San Lorenzo de Almagro,CA Independiente,Asian Handicap,CA Independiente +0.5,1.47,1.47,-213,,,,,,,,,,,,,,,,,5 min. ago,20250308F94F207C
+A,2025-03-01,2025-03-08,Soccer,Argentina - Primera Division,CA San Lorenzo de Almagro,CA Independiente,Goal Spread,CA Independiente +0.5,1.47,1.47,-213,,,,,,,-200,,,,,,,-185,-175,,5 min. ago,20250308F94F207C
+Rago,2025-02-24,2025-03-03,Soccer,Spain - La Liga 2,CD Mirandés,CD Tenerife,Moneyline,CD Tenerife,4.7,4.8,380,388,430,330,350,380,,360,355,386,350,,,375,370,384,$900 ,5 min. ago,202503036DDAD2BA
+Rago,2025-02-24,2025-03-03,Soccer,Spain - La Liga 2,CD Mirandés,CD Tenerife,Goal Spread,CD Tenerife -0.5,4.7,4.8,380,382,430,,,320,,,,380,350,,,,380,,$900 ,5 min. ago,202503036DDAD2BA
+Rago,2025-02-24,2025-03-03,Soccer,Spain - La Liga 2,CD Mirandés,CD Tenerife,Asian Handicap,CD Tenerife -0.5,4.7,4.8,380,,,,,,,,,,,,,350,,,,5 min. ago,202503036DDAD2BA
+Rago,2025-02-24,2025-03-03,Soccer,Spain - La Liga 2,CD Mirandés,CD Tenerife,Draw No Bet,CD Tenerife,3.5,3.5,250,242,270,205,220,240,,220,,,195,,,225,240,215,,5 min. ago,202503036DDAD2BA
+Rago,2025-02-24,2025-03-03,Soccer,Spain - La Liga 2,CD Mirandés,CD Tenerife,Goal Spread,CD Tenerife +0,3.5,3.5,250,247,271,,,,,,,245,,,,,250,235,$900 ,5 min. ago,202503036DDAD2BA
+Rago,2025-02-24,2025-03-03,Soccer,Spain - La Liga 2,CD Mirandés,CD Tenerife,Asian Handicap,CD Tenerife +0,3.5,3.5,250,,,,,,,,,,,,,230,,,,5 min. ago,202503036DDAD2BA
+Rago,2025-02-24,2025-03-03,Soccer,Spain - La Liga 2,CD Mirandés,CD Tenerife,Double Chance,CD Tenerife or Draw,1.9,1.95,-105,-107,100,-113,-125,-110,,-115,,,-150,,,-110,,-107,,5 min. ago,202503036DDAD2BA
+Rago,2025-02-24,2025-03-03,Soccer,Spain - La Liga 2,CD Mirandés,CD Tenerife,Goal Spread,CD Tenerife +0.5,1.9,1.95,-105,-104,100,,,-110,,-115,-108,-104,-105,,,,-105,-105,$900 ,5 min. ago,202503036DDAD2BA
+Rago,2025-02-24,2025-03-03,Soccer,Spain - La Liga 2,CD Mirandés,CD Tenerife,Asian Handicap,CD Tenerife +0.5,1.9,1.95,-105,,,-113,,-110,,,,,,,,-105,,,,5 min. ago,202503036DDAD2BA
+Rago,2025-02-24,2025-03-07,Soccer,Argentina - Primera Division,CA Central Córdoba de Santiago del Estero,CA Boca Juniors,Moneyline,CA Central Córdoba de Santiago del Estero,3.7,3.7,270,225,-2499,,,220,,220,,,,,,,215,229,$450 ,5 min. ago,2025030849A3991A
+Rago,2025-02-24,2025-03-07,Soccer,Argentina - Primera Division,CA Central Córdoba de Santiago del Estero,CA Boca Juniors,Goal Spread,CA Central Córdoba de Santiago del Estero -0.5,3.7,3.7,270,223,,,,195,,,,,,,,,,220,$450 ,5 min. ago,2025030849A3991A
+Rago,2025-02-24,2025-03-07,Soccer,Argentina - Primera Division,CA Central Córdoba de Santiago del Estero,CA Boca Juniors,Asian Handicap,CA Central Córdoba de Santiago del Estero -0.5,3.7,3.7,270,,,,,,,,,,,,,,,,,5 min. ago,2025030849A3991A
+Rago,2025-02-24,2025-03-07,Soccer,Argentina - Primera Division,CA Central Córdoba de Santiago del Estero,CA Boca Juniors,Draw No Bet,CA Central Córdoba de Santiago del Estero,2.8,2.8,180,,,,,115,,115,,,,,,,122,114,,5 min. ago,2025030849A3991A
+Rago,2025-02-24,2025-03-07,Soccer,Argentina - Primera Division,CA Central Córdoba de Santiago del Estero,CA Boca Juniors,Goal Spread,CA Central Córdoba de Santiago del Estero +0,2.8,2.8,180,122,,,,,,,,,,,,,122,122,$450 ,5 min. ago,2025030849A3991A
+Rago,2025-02-24,2025-03-07,Soccer,Argentina - Primera Division,CA Central Córdoba de Santiago del Estero,CA Boca Juniors,Asian Handicap,CA Central Córdoba de Santiago del Estero +0,2.8,2.8,180,,,,,,,,,,,,,,,,,5 min. ago,2025030849A3991A
+Rago,2025-02-24,2025-03-07,Soccer,Argentina - Primera Division,CA Central Córdoba de Santiago del Estero,CA Boca Juniors,Double Chance,CA Central Córdoba de Santiago del Estero or Draw,1.8,1.8,-125,,,,,-195,,-185,,,,,,,,-175,,5 min. ago,2025030849A3991A
+Rago,2025-02-24,2025-03-07,Soccer,Argentina - Primera Division,CA Central Córdoba de Santiago del Estero,CA Boca Juniors,Goal Spread,CA Central Córdoba de Santiago del Estero +0.5,1.8,1.8,-125,-179,,,,-195,,-185,,,,,,,-175,-175,$450 ,5 min. ago,2025030849A3991A
+Rago,2025-02-24,2025-03-07,Soccer,Argentina - Primera Division,CA Central Córdoba de Santiago del Estero,CA Boca Juniors,Asian Handicap,CA Central Córdoba de Santiago del Estero +0.5,1.8,1.8,-125,,,,,,,,,,,,,,,,,5 min. ago,2025030849A3991A
+Israel,2025-02-28,2025-03-02,Soccer,Denmark - Superliga,Aalborg BK,FC København,Total Goals,Under 3,1.76,1.76,-132,-130,,,,,,,-135,,,,,,-136,,$600 ,5 min. ago,denmark_-_superliga:8FE8208ACF16
+Israel,2025-02-28,2025-03-02,Soccer,Denmark - Superliga,Aalborg BK,FC København,Asian Total Goals,Under 3,1.76,1.76,-132,,,,,-140,,,,,,,,-133,,-133,,5 min. ago,denmark_-_superliga:8FE8208ACF16
+Israel,2025-02-28,2025-03-02,Soccer,Denmark - Superliga,Aalborg BK,FC København,Total Goals,Under 2.5,,2.25,125,126,,,,115,,,,,,,,120,122,125,$600 ,5 min. ago,denmark_-_superliga:8FE8208ACF16
+Israel,2025-02-28,2025-03-02,Soccer,Denmark - Superliga,Aalborg BK,FC København,Asian Total Goals,Under 2.5,,2.25,125,,,,,115,,,,,,,,120,,122,,5 min. ago,denmark_-_superliga:8FE8208ACF16
+Israel,2025-02-28,2025-03-02,Soccer,Denmark - Superliga,Aalborg BK,FC København,Total Goals,Under 3.5,,1.5,-200,-204,,,,-215,,,,,,,,-225,-210,-200,$600 ,5 min. ago,denmark_-_superliga:8FE8208ACF16
+Israel,2025-02-28,2025-03-02,Soccer,Denmark - Superliga,Aalborg BK,FC København,Asian Total Goals,Under 3.5,,1.5,-200,,,,,,,,,,,,,-211,,-200,,5 min. ago,denmark_-_superliga:8FE8208ACF16
+A,2025-03-01,2025-03-02,Soccer,Saudi Arabia - Saudi League,Al Raed FC,Al Ettifaq Club,Moneyline,Al Ettifaq Club,,2.35,135,138,,,125,130,,,130,,,,,,131,137,$600 ,5 min. ago,20250302FD707198
+A,2025-03-01,2025-03-02,Soccer,Saudi Arabia - Saudi League,Al Raed FC,Al Ettifaq Club,Goal Spread,Al Ettifaq Club -0.5,,2.35,135,138,,,,120,,,,,,,,,128,131,$600 ,5 min. ago,20250302FD707198
+A,2025-03-01,2025-03-02,Soccer,Saudi Arabia - Saudi League,Al Raed FC,Al Ettifaq Club,Asian Handicap,Al Ettifaq Club -0.5,,2.35,135,,,,,,,,,,,,,,,,,5 min. ago,20250302FD707198
+A,2025-03-01,2025-03-02,Soccer,Saudi Arabia - Saudi League,Al Raed FC,Al Ettifaq Club,Draw No Bet,Al Ettifaq Club,,1.75,-133,-148,,,-145,-170,,,,,,,,,-140,-138,,5 min. ago,20250302FD707198
+A,2025-03-01,2025-03-02,Soccer,Saudi Arabia - Saudi League,Al Raed FC,Al Ettifaq Club,Goal Spread,Al Ettifaq Club +0,,1.75,-133,-136,,,,,,,-140,,,,,,-140,-133,$600 ,5 min. ago,20250302FD707198
+A,2025-03-01,2025-03-02,Soccer,Saudi Arabia - Saudi League,Al Raed FC,Al Ettifaq Club,Asian Handicap,Al Ettifaq Club +0,,1.75,-133,,,,,,,,,,,,,,,,,5 min. ago,20250302FD707198
+A,2025-03-01,2025-03-04,Soccer,Northern Ireland - Premiership,Loughgall,Glenavon,Moneyline,Glenavon,,2.1,110,117,,,,110,,,,,,,,100,120,118,$300 ,5 min. ago,202503045D1969D6
+A,2025-03-01,2025-03-04,Soccer,Northern Ireland - Premiership,Loughgall,Glenavon,Goal Spread,Glenavon -0.5,,2.1,110,117,,,,105,,,,,,,,,118,114,$300 ,5 min. ago,202503045D1969D6
+A,2025-03-01,2025-03-04,Soccer,Northern Ireland - Premiership,Loughgall,Glenavon,Asian Handicap,Glenavon -0.5,,2.1,110,,,,,105,,,,,,,,115,,,,5 min. ago,202503045D1969D6
+,1899-12-30,2025-03-02,Basketball,NBA,Cleveland Cavaliers,Portland Trail Blazers,,,,,,,,,,,,,,,,,,,,,,,nba:114B3721EB2C
+,1899-12-30,2025-03-02,Soccer,Test league,,,,,,,,,,,,,,,,,,,,,,,,,
+A,2025-02-28,2025-03-03,Soccer,Ecuador - Serie A,Manta FC,Delfín SC,Moneyline,Delfín SC,2.5,2.5,150,151,,140,,,155,145,,,,,,,160,,$300 ,5 min. ago,20250302B166D4EC
+A,2025-02-28,2025-03-03,Soccer,Ecuador - Serie A,Manta FC,Delfín SC,Goal Spread,Delfín SC -0.5,2.5,2.5,150,151,,,,,,,,,,,,,155,,$300 ,5 min. ago,20250302B166D4EC
+A,2025-02-28,2025-03-03,Soccer,Ecuador - Serie A,Manta FC,Delfín SC,Asian Handicap,Delfín SC -0.5,2.5,2.5,150,,,,,,,,,,,,,,,,,5 min. ago,20250302B166D4EC
+A,2025-02-28,2025-03-03,Soccer,Ecuador - Serie A,Manta FC,Delfín SC,Draw No Bet,Delfín SC,1.8,1.8,-125,,,,,,,,,,,,,,-122,,,5 min. ago,20250302B166D4EC
+A,2025-02-28,2025-03-03,Soccer,Ecuador - Serie A,Manta FC,Delfín SC,Goal Spread,Delfín SC +0,1.8,1.8,-125,-125,,,,,,,,,,,,,-122,,$300 ,5 min. ago,20250302B166D4EC
+A,2025-02-28,2025-03-03,Soccer,Ecuador - Serie A,Manta FC,Delfín SC,Asian Handicap,Delfín SC +0,1.8,1.8,-125,,,,,,,,,,,,,,,,,5 min. ago,20250302B166D4EC
+A,2025-02-28,2025-03-03,Soccer,Ecuador - Serie A,Manta FC,Delfín SC,Double Chance,Delfín SC or Draw,1.4,1.4,-250,,,,,,,,,,,,,,,,,5 min. ago,20250302B166D4EC
+A,2025-02-28,2025-03-03,Soccer,Ecuador - Serie A,Manta FC,Delfín SC,Goal Spread,Delfín SC +0.5,1.4,1.4,-250,-236,,,,,,,,,,,,,-230,,$300 ,5 min. ago,20250302B166D4EC
+A,2025-02-28,2025-03-03,Soccer,Ecuador - Serie A,Manta FC,Delfín SC,Asian Handicap,Delfín SC +0.5,1.4,1.4,-250,,,,,,,,,,,,,,,,,5 min. ago,20250302B166D4EC
+Delta-1,2025-02-24,2025-03-04,Soccer,Northern Ireland - Premiership,Glentoran FC,Ballymena United,Goal Spread,Glentoran FC -2.5,5.05,5.05,405,,,,,,,,,,,,,,,,,5 min. ago,202503049D714144
+Delta-1,2025-02-24,2025-03-04,Soccer,Northern Ireland - Premiership,Glentoran FC,Ballymena United,Asian Handicap,Glentoran FC -2.5,5.05,5.05,405,,,,,,,,,,,,,350,,,,5 min. ago,202503049D714144
+Delta-1,2025-02-24,2025-03-04,Soccer,Northern Ireland - Premiership,Glentoran FC,Ballymena United,Asian Handicap,Glentoran FC -2.25,4.52,4.52,352,,,,,,,,,,,,,315,,,,5 min. ago,202503049D714144
+Delta-1,2025-02-24,2025-03-04,Soccer,Northern Ireland - Premiership,Glentoran FC,Ballymena United,Goal Spread,Glentoran FC -2,3.99,3.99,299,293,,,,,,,,,,,,,,,$100 ,5 min. ago,202503049D714144
+Delta-1,2025-02-24,2025-03-04,Soccer,Northern Ireland - Premiership,Glentoran FC,Ballymena United,Asian Handicap,Glentoran FC -2,3.99,3.99,299,,,,,,,,,,,,,280,,,,5 min. ago,202503049D714144
+Delta-1,2025-02-24,2025-03-04,Soccer,Northern Ireland - Premiership,Glentoran FC,Ballymena United,Asian Handicap,Glentoran FC -1.75,2.95,2.95,195,192,,,,,,,,,,,,185,,,$100 ,5 min. ago,202503049D714144
+Delta-1,2025-02-24,2025-03-04,Soccer,Northern Ireland - Premiership,Glentoran FC,Ballymena United,Goal Spread,Glentoran FC -1.5,2.45,2.45,145,143,,,,,,,,,,,,,145,140,$100 ,5 min. ago,202503049D714144
+Delta-1,2025-02-24,2025-03-04,Soccer,Northern Ireland - Premiership,Glentoran FC,Ballymena United,Asian Handicap,Glentoran FC -1.5,2.45,2.45,145,,,,,,,,,,,,,138,,,,5 min. ago,202503049D714144
+Delta-1,2025-02-24,2025-03-04,Soccer,Northern Ireland - Premiership,Glentoran FC,Ballymena United,Asian Handicap,Glentoran FC -1.25,2.13,2.13,113,114,,,,,,,,,,,,115,113,114,$100 ,5 min. ago,202503049D714144
+Delta-1,2025-02-24,2025-03-04,Soccer,Northern Ireland - Premiership,Glentoran FC,Ballymena United,Asian Handicap,Glentoran FC -1,1.81,1.81,-123,,,,,,,,,,,,,-118,,,,5 min. ago,202503049D714144
+Delta-1,2025-02-24,2025-03-04,Soccer,Northern Ireland - Premiership,Glentoran FC,Ballymena United,Goal Spread,Glentoran FC -1,1.81,1.81,-123,-116,,,,,,,,,,,,,-120,-120,$100 ,5 min. ago,202503049D714144
+Delta-1,2025-02-24,2025-03-04,Soccer,Northern Ireland - Premiership,Glentoran FC,Ballymena United,Asian Handicap,Glentoran FC -0.75,1.61,1.61,-163,-161,,,,,,,,,,,,-160,-160,-161,$100 ,5 min. ago,202503049D714144
+Delta-1,2025-02-24,2025-03-04,Soccer,Northern Ireland - Premiership,Glentoran FC,Ballymena United,Moneyline,Glentoran FC,1.49,1.49,-202,-199,,,-250,,,,,,,,,-208,-195,-192,$100 ,5 min. ago,202503049D714144
+Delta-1,2025-02-24,2025-03-04,Soccer,Northern Ireland - Premiership,Glentoran FC,Ballymena United,Goal Spread,Glentoran FC -0.5,1.49,1.49,-202,-205,,,,,,,,,,,,,-195,-200,$100 ,5 min. ago,202503049D714144
+Delta-1,2025-02-24,2025-03-04,Soccer,Northern Ireland - Premiership,Glentoran FC,Ballymena United,Asian Handicap,Glentoran FC -0.5,1.49,1.49,-202,,,,,,,,,,,,,-200,,,,4 min. ago,202503049D714144
+Delta-35,2025-02-26,2025-03-02,Soccer,Colombia - Primera A,Once Caldas SA,Alianza FC,Moneyline,Alianza FC,4.27,4.27,327,266,280,,,250,250,,220,,,,,,250,250,$400 ,4 min. ago,202503027A01219A
+Delta-35,2025-02-26,2025-03-02,Soccer,Colombia - Primera A,Once Caldas SA,Alianza FC,Goal Spread,Alianza FC -0.5,4.27,4.27,327,258,280,,,225,,,,,,,,,,,$400 ,4 min. ago,202503027A01219A
+Delta-35,2025-02-26,2025-03-02,Soccer,Colombia - Primera A,Once Caldas SA,Alianza FC,Asian Handicap,Alianza FC -0.5,4.27,4.27,327,,,,,,,,,,,,,,,,,4 min. ago,202503027A01219A
+Delta-35,2025-02-26,2025-03-02,Soccer,Colombia - Primera A,Once Caldas SA,Alianza FC,Asian Handicap,Alianza FC -0.25,3.58,3.58,258,208,220,,,,,,,,,,,,200,187,$400 ,4 min. ago,202503027A01219A
+Delta-35,2025-02-26,2025-03-02,Soccer,Colombia - Primera A,Once Caldas SA,Alianza FC,Draw No Bet,Alianza FC,2.7,2.7,170,155,160,,,150,145,,,,,,,,150,137,,4 min. ago,202503027A01219A
+Delta-35,2025-02-26,2025-03-02,Soccer,Colombia - Primera A,Once Caldas SA,Alianza FC,Goal Spread,Alianza FC +0,2.7,2.7,170,155,161,,,,,,,,,,,,150,140,$400 ,4 min. ago,202503027A01219A
+Delta-35,2025-02-26,2025-03-02,Soccer,Colombia - Primera A,Once Caldas SA,Alianza FC,Asian Handicap,Alianza FC +0,2.7,2.7,170,,,,,,,,,,,,,,,,,4 min. ago,202503027A01219A
+Delta-35,2025-02-26,2025-03-02,Soccer,Colombia - Primera A,Once Caldas SA,Alianza FC,Asian Handicap,Alianza FC +0.25,2.12,2.12,112,-101,100,,,-115,,,101,,,,,,-105,-111,$400 ,4 min. ago,202503027A01219A
+Delta-35,2025-02-26,2025-03-02,Soccer,Colombia - Primera A,Once Caldas SA,Alianza FC,Double Chance,Alianza FC or Draw,1.84,1.84,-119,-146,-136,,,-155,-160,,,,,,,,,-153,,4 min. ago,202503027A01219A
+Delta-35,2025-02-26,2025-03-02,Soccer,Colombia - Primera A,Once Caldas SA,Alianza FC,Goal Spread,Alianza FC +0.5,1.84,1.84,-119,-146,-136,,,-155,-145,,,,,,,,-148,-153,$400 ,4 min. ago,202503027A01219A
+Delta-35,2025-02-26,2025-03-02,Soccer,Colombia - Primera A,Once Caldas SA,Alianza FC,Asian Handicap,Alianza FC +0.5,1.84,1.84,-119,,,,,-155,,,,,,,,,,,,4 min. ago,202503027A01219A
+Delta-35,2025-02-26,2025-03-02,Soccer,Colombia - Primera A,Once Caldas SA,Alianza FC,Asian Handicap,Alianza FC +0.75,1.4,1.4,-250,-204,-196,,,,,,,,,,,,-195,-212,$400 ,4 min. ago,202503027A01219A
+Delta-35,2025-02-26,2025-03-02,Soccer,Colombia - Primera A,Once Caldas SA,Alianza FC,Goal Spread,Alianza FC +1,1.4,1.4,-250,-338,-344,,,,,,,,,,,,,,$400 ,4 min. ago,202503027A01219A
+Delta-35,2025-02-26,2025-03-02,Soccer,Colombia - Primera A,Once Caldas SA,Alianza FC,Asian Handicap,Alianza FC +1,1.4,1.4,-250,,,,,,,,,,,,,,,,,4 min. ago,202503027A01219A
+Delta-35,2025-02-27,2025-03-04,Soccer,Colombia - Primera A,Fortaleza CEIF FC,Club Atlético Nacional SA,Goal Spread,Club Atlético Nacional SA -1,3.74,3.74,274,320,,,,,,,,,,,,,,,$200 ,4 min. ago,20250301FCC3CE73
+Delta-35,2025-02-27,2025-03-04,Soccer,Colombia - Primera A,Fortaleza CEIF FC,Club Atlético Nacional SA,Asian Handicap,Club Atlético Nacional SA -1,3.74,3.74,274,,,,,,,,,,,,,,,,,4 min. ago,20250301FCC3CE73
+Delta-35,2025-02-27,2025-03-04,Soccer,Colombia - Primera A,Fortaleza CEIF FC,Club Atlético Nacional SA,Asian Handicap,Club Atlético Nacional SA -0.75,2.72,2.72,172,200,,,,,,,,,,,,,183,,$200 ,4 min. ago,20250301FCC3CE73
+Delta-35,2025-02-27,2025-03-04,Soccer,Colombia - Primera A,Fortaleza CEIF FC,Club Atlético Nacional SA,Moneyline,Club Atlético Nacional SA,2.26,2.26,126,127,-9999,,,135,124,,,,,,,,135,145,$200 ,4 min. ago,20250301FCC3CE73
+Delta-35,2025-02-27,2025-03-04,Soccer,Colombia - Primera A,Fortaleza CEIF FC,Club Atlético Nacional SA,Goal Spread,Club Atlético Nacional SA -0.5,2.26,2.26,126,145,,,,125,135,,,,,,,,138,140,$200 ,4 min. ago,20250301FCC3CE73
+Delta-35,2025-02-27,2025-03-04,Soccer,Colombia - Primera A,Fortaleza CEIF FC,Club Atlético Nacional SA,Asian Handicap,Club Atlético Nacional SA -0.5,2.26,2.26,126,,,,,,,,,,,,,,,,,4 min. ago,20250301FCC3CE73
+Delta-35,2025-02-27,2025-03-04,Soccer,Colombia - Primera A,Fortaleza CEIF FC,Club Atlético Nacional SA,Asian Handicap,Club Atlético Nacional SA -0.25,1.9,1.9,-111,110,,,,-105,,,,,,,,,100,104,$200 ,4 min. ago,20250301FCC3CE73
+Delta-35,2025-02-27,2025-03-04,Soccer,Colombia - Primera A,Fortaleza CEIF FC,Club Atlético Nacional SA,Draw No Bet,Club Atlético Nacional SA,1.58,1.58,-172,-141,,,,-145,-140,,,,,,,,-150,-138,,4 min. ago,20250301FCC3CE73
+Delta-35,2025-02-27,2025-03-04,Soccer,Colombia - Primera A,Fortaleza CEIF FC,Club Atlético Nacional SA,Goal Spread,Club Atlético Nacional SA +0,1.58,1.58,-172,-138,,,,,,,,,,,,,-150,-138,$200 ,4 min. ago,20250301FCC3CE73
+Delta-35,2025-02-27,2025-03-04,Soccer,Colombia - Primera A,Fortaleza CEIF FC,Club Atlético Nacional SA,Asian Handicap,Club Atlético Nacional SA +0,1.58,1.58,-172,,,,,-155,,,,,,,,,,,,4 min. ago,20250301FCC3CE73
+Delta-35,2025-02-27,2025-03-04,Soccer,Colombia - Primera A,Fortaleza CEIF FC,Club Atlético Nacional SA,Asian Handicap,Club Atlético Nacional SA +0.25,1.46,1.46,-217,-197,,,,,,,,,,,,,-212,-192,$200 ,4 min. ago,20250301FCC3CE73
+Delta-35,2025-02-27,2025-03-04,Soccer,Colombia - Primera A,Fortaleza CEIF FC,Club Atlético Nacional SA,Double Chance,Club Atlético Nacional SA or Draw,1.46,1.46,-217,-262,,,,-295,-290,,,,,,,,,-238,,4 min. ago,20250301FCC3CE73
+Delta-35,2025-02-27,2025-03-04,Soccer,Colombia - Primera A,Fortaleza CEIF FC,Club Atlético Nacional SA,Goal Spread,Club Atlético Nacional SA +0.5,1.46,1.46,-217,-260,,,,-280,,,,,,,,,,-250,$200 ,4 min. ago,20250301FCC3CE73
+Delta-35,2025-02-27,2025-03-04,Soccer,Colombia - Primera A,Fortaleza CEIF FC,Club Atlético Nacional SA,Asian Handicap,Club Atlético Nacional SA +0.5,1.4,1.46,-217,,,,,,,,,,,,,,,,,4 min. ago,20250301FCC3CE73
+Delta-35,2025-03-01,2025-03-05,Soccer,CONMEBOL - Copa Sudamericana,Club Deportivo Aurora,CD San Jose,Goal Spread,Club Deportivo Aurora -2,4.65,4.65,365,,,,,,,,,,,,,,,,,4 min. ago,2.02503E+15
+Delta-35,2025-03-01,2025-03-05,Soccer,CONMEBOL - Copa Sudamericana,Club Deportivo Aurora,CD San Jose,Asian Handicap,Club Deportivo Aurora -2,4.65,4.65,365,,,,,,,,,,,,,,,,,4 min. ago,2.02503E+15
+Delta-35,2025-03-01,2025-03-05,Soccer,CONMEBOL - Copa Sudamericana,Club Deportivo Aurora,CD San Jose,Asian Handicap,Club Deportivo Aurora -1.75,3.35,3.35,235,277,,,,,,,,,,,,,,,$100 ,4 min. ago,2.02503E+15
+Delta-35,2025-03-01,2025-03-05,Soccer,CONMEBOL - Copa Sudamericana,Club Deportivo Aurora,CD San Jose,Goal Spread,Club Deportivo Aurora -1.5,2.74,2.74,174,202,,,,,,,,,,,,,,,$100 ,4 min. ago,2.02503E+15
+Delta-35,2025-03-01,2025-03-05,Soccer,CONMEBOL - Copa Sudamericana,Club Deportivo Aurora,CD San Jose,Asian Handicap,Club Deportivo Aurora -1.5,2.74,2.74,174,,,,,,,,,,,,,,,,,4 min. ago,2.02503E+15
+Delta-35,2025-03-01,2025-03-05,Soccer,CONMEBOL - Copa Sudamericana,Club Deportivo Aurora,CD San Jose,Asian Handicap,Club Deportivo Aurora -1.25,2.36,2.36,136,167,,,,,,,,,,,,,165,150,$100 ,4 min. ago,2.02503E+15
+Delta-35,2025-03-01,2025-03-05,Soccer,CONMEBOL - Copa Sudamericana,Club Deportivo Aurora,CD San Jose,Asian Handicap,Club Deportivo Aurora -1,2,2,100,,,,,,,,,,,,,,,,,4 min. ago,2.02503E+15
+Delta-35,2025-03-01,2025-03-05,Soccer,CONMEBOL - Copa Sudamericana,Club Deportivo Aurora,CD San Jose,Goal Spread,Club Deportivo Aurora -1,2,2,100,130,,,,,,,,,,,,,132,120,$100 ,4 min. ago,2.02503E+15
+Delta-35,2025-03-01,2025-03-05,Soccer,CONMEBOL - Copa Sudamericana,Club Deportivo Aurora,CD San Jose,Asian Handicap,Club Deportivo Aurora -0.75,1.76,1.76,-132,-109,,-109,,,,,,,,,,,-105,-114,$100 ,4 min. ago,2.02503E+15
+Delta-35,2025-03-01,2025-03-05,Soccer,CONMEBOL - Copa Sudamericana,Club Deportivo Aurora,CD San Jose,Moneyline,Club Deportivo Aurora,1.62,1.62,-161,-145,,-143,,,,,,,-145,,,,-135,-142,$100 ,4 min. ago,2.02503E+15
+Delta-35,2025-03-01,2025-03-05,Soccer,CONMEBOL - Copa Sudamericana,Club Deportivo Aurora,CD San Jose,Goal Spread,Club Deportivo Aurora -0.5,1.62,1.62,-161,-145,,,,,,,,,-135,,,,-128,-142,$100 ,4 min. ago,2.02503E+15
+Delta-35,2025-03-01,2025-03-05,Soccer,CONMEBOL - Copa Sudamericana,Club Deportivo Aurora,CD San Jose,Asian Handicap,Club Deportivo Aurora -0.5,1.62,1.62,-161,,,-143,,,,,,,,,,,,,,4 min. ago,2.02503E+15
+Delta-35,2025-03-01,2025-03-05,Soccer,CONMEBOL - Copa Sudamericana,Club Deportivo Aurora,CD San Jose,Asian Handicap,Club Deportivo Aurora -0.25,1.44,1.44,-227,-206,,,,,,,,,,,,,-183,-200,$100 ,4 min. ago,2.02503E+15
+Delta-35,2025-03-01,2025-03-05,Soccer,CONMEBOL - Copa Sudamericana,Club Deportivo Aurora,CD San Jose,Draw No Bet,Club Deportivo Aurora,1.4,1.4,-250,,,-375,,,,,,,-375,,,,-300,-344,,4 min. ago,2.02503E+15
+Delta-35,2025-03-01,2025-03-05,Soccer,CONMEBOL - Copa Sudamericana,Club Deportivo Aurora,CD San Jose,Goal Spread,Club Deportivo Aurora +0,1.4,1.4,-250,-353,,,,,,,,,,,,,,,$100 ,4 min. ago,2.02503E+15
+Delta-35,2025-03-01,2025-03-05,Soccer,CONMEBOL - Copa Sudamericana,Club Deportivo Aurora,CD San Jose,Asian Handicap,Club Deportivo Aurora +0,1.4,1.4,-250,,,,,,,,,,,,,,,,,4 min. ago,2.02503E+15
+Delta-35,2025-03-01,2025-03-03,Soccer,Colombia - Primera A,Deportivo Independiente Medellín,AD Pasto,Goal Spread,Deportivo Independiente Medellín -2,4.47,4.47,347,405,370,,,,,,,,,,,,,,$300 ,4 min. ago,2025030433D54775
+Delta-35,2025-03-01,2025-03-03,Soccer,Colombia - Primera A,Deportivo Independiente Medellín,AD Pasto,Asian Handicap,Deportivo Independiente Medellín -2,4.47,4.47,347,,,,,,,,,,,,,380,,,,4 min. ago,2025030433D54775
+Delta-35,2025-03-01,2025-03-03,Soccer,Colombia - Primera A,Deportivo Independiente Medellín,AD Pasto,Asian Handicap,Deportivo Independiente Medellín -1.75,3.14,3.14,214,251,225,,,,,,,,,,,245,,,$300 ,4 min. ago,2025030433D54775
+Delta-35,2025-03-01,2025-03-03,Soccer,Colombia - Primera A,Deportivo Independiente Medellín,AD Pasto,Goal Spread,Deportivo Independiente Medellín -1.5,2.55,2.55,155,182,162,,,165,,,,,,,,,,167,$300 ,4 min. ago,2025030433D54775
+Delta-35,2025-03-01,2025-03-03,Soccer,Colombia - Primera A,Deportivo Independiente Medellín,AD Pasto,Asian Handicap,Deportivo Independiente Medellín -1.5,2.55,2.55,155,,,,,,,,,,,,,175,,,,4 min. ago,2025030433D54775
+Delta-35,2025-03-01,2025-03-03,Soccer,Colombia - Primera A,Deportivo Independiente Medellín,AD Pasto,Asian Handicap,Deportivo Independiente Medellín -1.25,2.18,2.18,118,144,129,,,,,,,,,,,138,145,135,$300 ,4 min. ago,2025030433D54775
+Delta-35,2025-03-01,2025-03-03,Soccer,Colombia - Primera A,Deportivo Independiente Medellín,AD Pasto,Asian Handicap,Deportivo Independiente Medellín -1,1.8,1.8,-125,,,,,-105,,,,,,,,108,,,,4 min. ago,2025030433D54775
+Delta-35,2025-03-01,2025-03-03,Soccer,Colombia - Primera A,Deportivo Independiente Medellín,AD Pasto,Goal Spread,Deportivo Independiente Medellín -1,1.8,1.8,-125,106,114,,,,,,108,,,,,,111,102,$300 ,4 min. ago,2025030433D54775
+Delta-35,2025-03-01,2025-03-03,Soccer,Colombia - Primera A,Deportivo Independiente Medellín,AD Pasto,Asian Handicap,Deportivo Independiente Medellín -0.75,1.61,1.61,-164,-137,-121,,,-150,,,,,,,,-125,-125,-133,$300 ,4 min. ago,2025030433D54775
+Delta-35,2025-03-01,2025-03-03,Soccer,Colombia - Primera A,Deportivo Independiente Medellín,AD Pasto,Moneyline,Deportivo Independiente Medellín,1.49,1.49,-204,-181,-158,,,-180,-175,,-192,,,,,-162,-165,-166,$300 ,4 min. ago,2025030433D54775
+Delta-35,2025-03-01,2025-03-03,Soccer,Colombia - Primera A,Deportivo Independiente Medellín,AD Pasto,Goal Spread,Deportivo Independiente Medellín -0.5,1.49,1.49,-204,-182,-158,,,-190,-160,,,,,,,,-157,-175,$300 ,4 min. ago,2025030433D54775
+Delta-35,2025-03-01,2025-03-03,Soccer,Colombia - Primera A,Deportivo Independiente Medellín,AD Pasto,Asian Handicap,Deportivo Independiente Medellín -0.5,1.49,1.49,-204,,,,,,,,,,,,,-167,,,,4 min. ago,2025030433D54775
+Delta-35,2025-03-01,2025-03-03,Soccer,Colombia - Primera A,Deportivo Independiente Medellín,AD Pasto,Asian Handicap,Deportivo Independiente Medellín -0.25,1.4,1.4,-250,-275,-238,,,,,,,,,,,-250,-240,,$300 ,4 min. ago,2025030433D54775

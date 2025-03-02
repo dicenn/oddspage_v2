@@ -4,7 +4,7 @@ import { Card } from './ui/card';
 import { Input } from './ui/input';
 
 export function MultiSelect({
-  options,
+  options = [], // Add default empty array
   selected,
   onChange,
   placeholder = "Filter",
@@ -16,7 +16,15 @@ export function MultiSelect({
   const [filteredOptions, setFilteredOptions] = useState(options);
 
   useEffect(() => {
+    // Add defensive checks
+    if (!Array.isArray(options)) {
+      console.warn('MultiSelect: options is not an array', options);
+      setFilteredOptions([]);
+      return;
+    }
+
     const filtered = options.filter(option =>
+      option && typeof option === 'string' && 
       option.toLowerCase().includes(searchQuery.toLowerCase())
     );
     setFilteredOptions(filtered);
@@ -35,7 +43,7 @@ export function MultiSelect({
 
   // Get display text based on selection and type
   const getDisplayText = () => {
-    if (selected.length === 0) {
+    if (!Array.isArray(selected) || selected.length === 0) {
       switch (type) {
         case "dates":
           return "No dates selected";
@@ -92,7 +100,7 @@ export function MultiSelect({
         onClick={() => setOpen(!open)}
       >
         <div className="flex items-center justify-between">
-          <span className={selected.length === 0 ? "text-muted-foreground" : ""}>
+          <span className={(!Array.isArray(selected) || selected.length === 0) ? "text-muted-foreground" : ""}>
             {getDisplayText()}
           </span>
           <ChevronsUpDown className="h-4 w-4 opacity-50" />
@@ -121,10 +129,10 @@ export function MultiSelect({
             >
               <Check
                 className={`mr-2 h-4 w-4 ${
-                  selected.length === options.length ? "opacity-100" : "opacity-0"
+                  Array.isArray(selected) && selected.length === options.length ? "opacity-100" : "opacity-0"
                 }`}
               />
-              <span>{selected.length === options.length ? "Deselect All" : "Select All"}</span>
+              <span>{Array.isArray(selected) && selected.length === options.length ? "Deselect All" : "Select All"}</span>
             </div>
             <div className="max-h-[200px] overflow-y-auto">
               {filteredOptions.map((option) => (
@@ -138,7 +146,7 @@ export function MultiSelect({
                 >
                   <Check
                     className={`mr-2 h-4 w-4 ${
-                      selected.includes(option) ? "opacity-100" : "opacity-0"
+                      Array.isArray(selected) && selected.includes(option) ? "opacity-100" : "opacity-0"
                     }`}
                   />
                   {option}

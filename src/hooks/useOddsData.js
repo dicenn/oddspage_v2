@@ -23,8 +23,27 @@ export const useOddsData = () => {
           header: true,
           skipEmptyLines: true,
           dynamicTyping: true,
+          // Add this transform function to convert spaces to underscores in column headers
+          transformHeader: header => header.replace(/\s+/g, '_'),
           complete: async (results) => {
             const allRows = results.data;
+            console.log("Parsed CSV data sample:", allRows[0]); // Log the first row to check structure
+            
+            // Add data validation to ensure required fields exist
+            if (!allRows.length || !allRows[0].hasOwnProperty('Match_Date')) {
+              setError('CSV data missing required fields. Check column names.');
+              setLoading(false);
+              return;
+            }
+
+            // Create a unique game_id if not present
+            allRows.forEach((row, index) => {
+              if (!row.game_id) {
+                // Create a unique ID based on teams and date
+                row.game_id = `game_${index}_${row.Home_Team}_${row.Away_Team}`.replace(/\s+/g, '_');
+              }
+            });
+            
             const allGameIds = _.uniq(allRows.map(row => row.game_id)).filter(Boolean);
             const gameBatches = _.chunk(allGameIds, 5);
 
@@ -61,16 +80,19 @@ export const useOddsData = () => {
               setBets(mergedData);
               setLoading(false);
             } catch (error) {
+              console.error('Error fetching odds data:', error);
               setError('Error fetching odds data');
               setLoading(false);
             }
           },
-          error: () => {
+          error: (parseError) => {
+            console.error('CSV parsing error:', parseError);
             setError('Error parsing CSV file');
             setLoading(false);
           }
         });
       } catch (error) {
+        console.error('CSV loading error:', error);
         setError('Error loading CSV file');
         setLoading(false);
       }
